@@ -19,7 +19,7 @@
 	int iLocal_17 = 0;
 	var uLocal_18 = 0;
 	var uLocal_19 = 0;
-	char* sLocal_20 = NULL;
+	char* sLocal_20 = 0;
 	float fLocal_21 = 0f;
 	var uLocal_22 = 0;
 	var uLocal_23 = 0;
@@ -46,7 +46,7 @@
 	var uLocal_44 = 0;
 #endregion
 
-void __EntryFunction__()
+void main() // Position - 0x0
 {
 	iLocal_2 = 1;
 	iLocal_3 = 134;
@@ -72,34 +72,40 @@ void __EntryFunction__()
 	iLocal_40 = 65;
 	iLocal_41 = 49;
 	iLocal_42 = 64;
-	if (unk_0x55EEDBBFDC6E810F(3))
-	{
-		unk_0x675D9C12C73D3DE7();
-	}
+
+	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(3))
+		SCRIPT::TERMINATE_THIS_THREAD();
+
 	while (true)
 	{
-		if (!unk_0x66599E73DBA5A850(unk_0xC1A5EC5C986B98AD()))
+		if (!PED::IS_PED_INJURED(PLAYER::PLAYER_PED_ID()))
 		{
-			Global_113648.f_19965++;
+			Global_113648.f_19965 = Global_113648.f_19965 + 1;
 			func_1();
-			unk_0x675D9C12C73D3DE7();
+			SCRIPT::TERMINATE_THIS_THREAD();
 		}
-		unk_0x4EDE34FBADD967A6(0);
+	
+		SYSTEM::WAIT(0);
 	}
+
+	return;
 }
 
-void func_1()
+void func_1() // Position - 0xAD
 {
 	func_2(&(Global_113648.f_19965.f_1), 2048);
+	return;
 }
 
-void func_2(var uParam0, int iParam1)
+void func_2(var uParam0, int iParam1) // Position - 0xC5
 {
 	func_3(uParam0, iParam1);
+	return;
 }
 
-void func_3(var uParam0, var uParam1)
+void func_3(var uParam0, int iParam1) // Position - 0xD5
 {
-	*uParam0 = (*uParam0 || uParam1);
+	*uParam0 = *uParam0 || iParam1;
+	return;
 }
 

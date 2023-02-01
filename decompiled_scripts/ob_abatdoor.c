@@ -2,95 +2,102 @@
 	var uLocal_0 = 0;
 	var uLocal_1 = 0;
 	int iLocal_2 = 0;
-	var uLocal_3 = 0;
-	struct<3> Local_4 = { 0, 0, 0 } ;
-	struct<3> Local_7 = { 0, 0, 0 } ;
-	var uScriptParam_0 = 0;
+	Object obLocal_3 = 0;
+	var uLocal_4 = 0;
+	var uLocal_5 = 0;
+	var uLocal_6 = 0;
+	var uLocal_7 = 0;
+	var uLocal_8 = 0;
+	var uLocal_9 = 0;
+	Object obScriptParam_0 = 0;
 #endregion
 
-void __EntryFunction__()
+void main() // Position - 0x0
 {
-	struct<3> Var0;
-	struct<3> Var3;
-	struct<3> Var6;
-	float fVar9;
-	
-	if (unk_0x55EEDBBFDC6E810F(2))
-	{
+	var unk;
+	var entityCoords;
+	var unk6;
+	float num;
+
+	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(2))
 		func_4();
-	}
-	if (unk_0x7DE17ACDD8BA2642(uScriptParam_0))
+
+	if (ENTITY::DOES_ENTITY_EXIST(obScriptParam_0))
 	{
-		unk_0x2718E9CC165A99F6(uScriptParam_0, 1);
-		Local_4 = { unk_0x30BE8A934C020461(uScriptParam_0, 1) };
-		Local_7 = { unk_0x000D018EA42688BA(uScriptParam_0, 2) };
+		ENTITY::FREEZE_ENTITY_POSITION(obScriptParam_0, true);
+		uLocal_4 = { ENTITY::GET_ENTITY_COORDS(obScriptParam_0, true) };
+		uLocal_7 = { ENTITY::GET_ENTITY_ROTATION(obScriptParam_0, 2) };
 	}
+
 	while (true)
 	{
-		unk_0x4EDE34FBADD967A6(0);
-		if (unk_0x7DE17ACDD8BA2642(uScriptParam_0))
+		SYSTEM::WAIT(0);
+	
+		if (ENTITY::DOES_ENTITY_EXIST(obScriptParam_0))
 		{
-			if (unk_0x4B85D97500605AE9(uScriptParam_0))
+			if (BRAIN::IS_OBJECT_WITHIN_BRAIN_ACTIVATION_RANGE(obScriptParam_0))
 			{
 				switch (iLocal_2)
 				{
 					case 0:
-						if (unk_0x28B891F3A70F9A2A(uScriptParam_0))
+						if (ENTITY::DOES_ENTITY_HAVE_DRAWABLE(obScriptParam_0))
 						{
-							unk_0x852EC2A7DE66202D(joaat("p_abat_roller_1_col"));
-							if (unk_0x0CBB7C273DED26E7(joaat("p_abat_roller_1_col")))
+							STREAMING::REQUEST_MODEL(joaat("p_abat_roller_1_col"));
+						
+							if (STREAMING::HAS_MODEL_LOADED(joaat("p_abat_roller_1_col")))
 							{
-								if (!func_3(Local_4, 0f, 0f, 0f, 0))
+								if (!func_3(uLocal_4, 0f, 0f, 0f, false))
 								{
-									uLocal_3 = unk_0xF19D6C0E8B56BE23(joaat("p_abat_roller_1_col"), Local_4, 1, 1, 0);
-									unk_0x464B5B0F22497FC5(uLocal_3, Local_7, 2, 1);
+									obLocal_3 = OBJECT::CREATE_OBJECT(joaat("p_abat_roller_1_col"), uLocal_4, true, true, false);
+									ENTITY::SET_ENTITY_ROTATION(obLocal_3, uLocal_7, 2, true);
 									iLocal_2 = 1;
 								}
 							}
 						}
 						break;
-					
+				
 					case 1:
-						if (unk_0x28B891F3A70F9A2A(uScriptParam_0))
+						if (ENTITY::DOES_ENTITY_HAVE_DRAWABLE(obScriptParam_0))
 						{
-							if (unk_0x24B651D85CCE5EB4(joaat("michael2")) > 0)
+							if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("michael2")) > 0)
 							{
-								unk_0x28818732C8F0F80E("map_objects");
-								if (unk_0x2BBF749E555360DC("map_objects"))
-								{
+								STREAMING::REQUEST_ANIM_DICT("map_objects");
+							
+								if (STREAMING::HAS_ANIM_DICT_LOADED("map_objects"))
 									iLocal_2 = 2;
-								}
 							}
 						}
 						break;
-					
+				
 					case 2:
-						if (unk_0x28B891F3A70F9A2A(uScriptParam_0))
+						if (ENTITY::DOES_ENTITY_HAVE_DRAWABLE(obScriptParam_0))
 						{
-							if (unk_0x24B651D85CCE5EB4(joaat("michael2")) > 0)
+							if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("michael2")) > 0)
 							{
 								if (Global_97112)
 								{
-									if (unk_0x2BBF749E555360DC("map_objects"))
+									if (STREAMING::HAS_ANIM_DICT_LOADED("map_objects"))
 									{
-										unk_0xB07A1B0E812C8E61(uScriptParam_0, "P_Abat_roller_1_open", "map_objects", 1f, 0, 1, 0, 0, 0);
+										ENTITY::PLAY_ENTITY_ANIM(obScriptParam_0, "P_Abat_roller_1_open", "map_objects", 1f, false, true, false, 0, 0);
 										iLocal_2 = 3;
 									}
 								}
 							}
 						}
 						break;
-					
+				
 					case 3:
-						fVar9 = 0.35f;
-						Var0 = { Local_4 + Vector(3.45f, 0f, 0f) };
-						if (unk_0x7DE17ACDD8BA2642(uLocal_3))
+						num = 0.35f;
+						unk = { uLocal_4 + { 3.45f, 0f, 0f } };
+					
+						if (ENTITY::DOES_ENTITY_EXIST(obLocal_3))
 						{
-							Var3 = { unk_0x30BE8A934C020461(uLocal_3, 1) };
-							if (!func_2(Var3, Var0, 0.1f, 0))
+							entityCoords = { ENTITY::GET_ENTITY_COORDS(obLocal_3, true) };
+						
+							if (!func_2(entityCoords, unk, 0.1f, false))
 							{
-								Var6 = { Var0 - Var3 };
-								unk_0xC2E3C377D893C17A(uLocal_3, Var3 + func_1(Var6) * FtoV(unk_0x290D4E218346D595()) * Vector(fVar9, fVar9, fVar9), 1, 0, 0, 1);
+								unk6 = { unk - entityCoords };
+								ENTITY::SET_ENTITY_COORDS(obLocal_3, entityCoords + (func_1(unk6) * F2V(MISC::GET_FRAME_TIME()) * { num, num, num }), true, false, false, true);
 							}
 							else
 							{
@@ -99,7 +106,7 @@ void __EntryFunction__()
 							}
 						}
 						break;
-					
+				
 					case 4:
 						break;
 				}
@@ -114,86 +121,77 @@ void __EntryFunction__()
 			func_4();
 		}
 	}
+
+	return;
 }
 
-Vector3 func_1(struct<3> Param0)
+Vector3 func_1(float fParam0, var uParam1, var uParam2) // Position - 0x1C6
 {
-	float fVar0;
-	float fVar1;
-	
-	fVar0 = unk_0x652D2EEEF1D3E62C(Param0);
-	if (fVar0 != 0f)
+	float num;
+	float num2;
+
+	num = SYSTEM::VMAG(fParam0);
+
+	if (num != 0f)
 	{
-		fVar1 = (1f / fVar0);
-		Param0 = { Param0 * Vector(fVar1, fVar1, fVar1) };
+		num2 = 1f / num;
+		fParam0 = { fParam0 * { num2, num2, num2 } };
 	}
 	else
 	{
-		Param0.f_0 = 0f;
-		Param0.f_1 = 0f;
-		Param0.f_2 = 0f;
+		fParam0 = 0f;
+		fParam0.f_1 = 0f;
+		fParam0.f_2 = 0f;
 	}
-	return Param0;
+
+	return fParam0;
 }
 
-int func_2(struct<3> Param0, struct<3> Param3, float fParam6, bool bParam7)
+BOOL func_2(float fParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, float fParam6, BOOL bParam7) // Position - 0x205
 {
 	if (fParam6 < 0f)
-	{
 		fParam6 = 0f;
-	}
+
 	if (!bParam7)
-	{
-		if (unk_0x2655A8EC638E4FD1((Param0.f_0 - Param3.f_0)) <= fParam6)
-		{
-			if (unk_0x2655A8EC638E4FD1((Param0.f_1 - Param3.f_1)) <= fParam6)
-			{
-				if (unk_0x2655A8EC638E4FD1((Param0.f_2 - Param3.f_2)) <= fParam6)
-				{
-					return 1;
-				}
-			}
-		}
-	}
-	else if (unk_0x2655A8EC638E4FD1((Param0.f_0 - Param3.f_0)) <= fParam6)
-	{
-		if (unk_0x2655A8EC638E4FD1((Param0.f_1 - Param3.f_1)) <= fParam6)
-		{
-			return 1;
-		}
-	}
-	return 0;
+		if (MISC::ABSF(fParam0 - uParam3) <= fParam6)
+			if (MISC::ABSF(fParam0.f_1 - uParam3.f_1) <= fParam6)
+				if (MISC::ABSF(fParam0.f_2 - uParam3.f_2) <= fParam6)
+					return true;
+	else if (MISC::ABSF(fParam0 - uParam3) <= fParam6)
+		if (MISC::ABSF(fParam0.f_1 - uParam3.f_1) <= fParam6)
+			return true;
+
+	return false;
 }
 
-bool func_3(struct<3> Param0, struct<3> Param3, bool bParam6)
+BOOL func_3(float fParam0, var uParam1, var uParam2, float fParam3, float fParam4, float fParam5, BOOL bParam6) // Position - 0x280
 {
 	if (bParam6)
-	{
-		return (Param0.f_0 == Param3.f_0 && Param0.f_1 == Param3.f_1);
-	}
-	return ((Param0.f_0 == Param3.f_0 && Param0.f_1 == Param3.f_1) && Param0.f_2 == Param3.f_2);
+		return fParam0 == fParam3 && fParam0.f_1 == fParam3.f_1;
+
+	return fParam0 == fParam3 && fParam0.f_1 == fParam3.f_1 && fParam0.f_2 == fParam3.f_2;
 }
 
-void func_4()
+void func_4() // Position - 0x2C7
 {
-	if (unk_0x7DE17ACDD8BA2642(uLocal_3))
-	{
-		unk_0xEF078F1FEE785D3E(&uLocal_3);
-	}
-	unk_0xE0A291F406691F03(joaat("p_abat_roller_1_col"));
-	func_5("ob_abatdoor Terminated >>>>>>>>>>>>>>>>>\n");
-	unk_0x675D9C12C73D3DE7();
+	if (ENTITY::DOES_ENTITY_EXIST(obLocal_3))
+		OBJECT::DELETE_OBJECT(&obLocal_3);
+
+	STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(joaat("p_abat_roller_1_col"));
+	func_5("ob_abatdoor Terminated >>>>>>>>>>>>>>>>>\\n");
+	SCRIPT::TERMINATE_THIS_THREAD();
+	return;
 }
 
-void func_5(char* sParam0)
+void func_5(char* sParam0) // Position - 0x2F2
 {
 	func_6(sParam0);
+	return;
 }
 
-void func_6(var uParam0)
+void func_6(char* sParam0) // Position - 0x300
 {
-	if (unk_0x4310A0DB886F9FED(uParam0, uParam0))
-	{
-	}
+	MISC::ARE_STRINGS_EQUAL(sParam0, sParam0);
+	return;
 }
 

@@ -1,4 +1,5 @@
-void __EntryFunction__()
+// Program registers 148553 globals at index 7 starting from Global_1835008
+void main() // Position - 0x0
 {
 	Global_1835422 = 1;
 	Global_1835423 = -1;
@@ -44,9 +45,9 @@ void __EntryFunction__()
 	Global_1890426 = 1;
 	Global_1924501 = 1;
 	Global_1924502 = -1;
-	Global_1924505 = joaat("s_m_y_blackops_01");
+	Global_1924505 = joaat("S_M_Y_BlackOps_01");
 	Global_1924506 = joaat("patriot");
-	Global_1924507 = joaat("weapon_microsmg");
+	Global_1924507 = joaat("WEAPON_MICROSMG");
 	Global_1925756 = 1f;
 	Global_1925780 = -1;
 	Global_1925791 = -1;
@@ -54,11 +55,11 @@ void __EntryFunction__()
 	Global_1934458 = -1;
 	Global_1935021 = -1;
 	Global_1935129 = { 1973.696f, 3814.861f, 32.4259f };
-	Global_1935133 = { 1274.796f, -1721.399f, 53.655f };
-	Global_1935137 = { 1204.21f, -3107.252f, 4.5502f };
+	Global_1935133 = { 1274.7963f, -1721.3986f, 53.655f };
+	Global_1935137 = { 1204.2096f, -3107.2524f, 4.5502f };
 	Global_1935141 = { 718.0308f, -976.4414f, 23.9148f };
 	Global_1944412 = 1;
-	Global_1945398 = joaat("weapon_vehicle_rocket");
+	Global_1945398 = joaat("WEAPON_VEHICLE_ROCKET");
 	Global_1949767 = -1;
 	Global_1949768 = -3;
 	Global_1949774 = -1;
@@ -108,8 +109,8 @@ void __EntryFunction__()
 	Global_1962824 = 1;
 	Global_1962825 = 8;
 	Global_1962827 = 25.4375f;
-	Global_1962828 = { -578.43f, -794.0187f, 22.19716f };
-	Global_1962831 = { -615.1322f, -794.2707f, 45.31073f };
+	Global_1962828 = { -578.43f, -794.01874f, 22.197163f };
+	Global_1962831 = { -615.1322f, -794.2707f, 45.310726f };
 	Global_1962836 = -1;
 	Global_1962837 = -1;
 	Global_1962838 = -1;
@@ -186,5 +187,6 @@ void __EntryFunction__()
 	Global_1983515 = 1;
 	Global_1983516 = 1;
 	Global_1983557 = 1;
+	return;
 }
 

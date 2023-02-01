@@ -1,43 +1,45 @@
 #region Local Var
-	struct<4> ScriptParam_0 = { 0, 0, 0, 0 } ;
+	int iScriptParam_0 = 0;
+	var uScriptParam_1 = 0;
+	var uScriptParam_2 = 0;
+	var uScriptParam_3 = 0;
 #endregion
 
-void __EntryFunction__()
+void main() // Position - 0x0
 {
-	switch (ScriptParam_0.f_0)
+	switch (iScriptParam_0)
 	{
 		case 3:
 			while (true)
 			{
-				unk_0x4EDE34FBADD967A6(5000);
+				SYSTEM::WAIT(5000);
 			}
 			break;
-		
+	
 		case 0:
 		case 1:
-			if (ScriptParam_0.f_1 == -1931845307)
+			if (iScriptParam_0.f_1 == joaat("PM_REPLAY"))
 			{
-				func_2(1, 0, -1705870862, 25, 1, "PM_PANE_AUD", 0, 0);
-				func_2(1, 1, -1705870862, 50, 1, "PM_PANE_DIS", 0, 0);
+				func_2(1, 0, -1705870862, 25, true, "PM_PANE_AUD" /*Audio*/, 0, 0);
+				func_2(1, 1, -1705870862, 50, true, "PM_PANE_DIS" /*Display*/, 0, 0);
 				func_1(1);
 			}
-			if (ScriptParam_0.f_1 == -1705871862)
-			{
-			}
-			break;
 		
+			iScriptParam_0.f_1 == -1705871862;
+			break;
+	
 		case 2:
-			switch (ScriptParam_0.f_1)
+			switch (iScriptParam_0.f_1)
 			{
-				case -1931845307:
+				case joaat("PM_REPLAY"):
 					break;
-				
+			
 				case -1705871862:
-					switch (ScriptParam_0.f_3)
+					switch (iScriptParam_0.f_3)
 					{
 						case 25:
 							break;
-						
+					
 						case 50:
 							break;
 					}
@@ -45,51 +47,53 @@ void __EntryFunction__()
 			}
 			break;
 	}
-	unk_0x675D9C12C73D3DE7();
+
+	SCRIPT::TERMINATE_THIS_THREAD();
+	return;
 }
 
-void func_1(int iParam0)
+void func_1(int iParam0) // Position - 0xBA
 {
-	if (unk_0x67E249DE642CF95F("DISPLAY_DATA_SLOT"))
+	if (GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD_ON_FRONTEND("DISPLAY_DATA_SLOT"))
 	{
-		unk_0xC6A3EF6C4A3412C1(iParam0);
-		unk_0xAE3413B0654A0035();
+		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(iParam0);
+		GRAPHICS::END_SCALEFORM_MOVIE_METHOD();
 	}
+
+	return;
 }
 
-void func_2(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, char* sParam5, int iParam6, int iParam7)
+void func_2(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4, char* sParam5, int iParam6, int iParam7) // Position - 0xD6
 {
-	if (unk_0x67E249DE642CF95F("SET_DATA_SLOT"))
+	if (GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD_ON_FRONTEND("SET_DATA_SLOT"))
 	{
-		unk_0xC6A3EF6C4A3412C1(iParam0);
-		unk_0xC6A3EF6C4A3412C1(iParam1);
-		unk_0xC6A3EF6C4A3412C1(iParam2);
-		unk_0xC6A3EF6C4A3412C1(iParam3);
-		unk_0xC6A3EF6C4A3412C1(iParam7);
-		unk_0xC6A3EF6C4A3412C1(0);
+		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(iParam0);
+		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(iParam1);
+		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(iParam2);
+		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(iParam3);
+		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(iParam7);
+		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(0);
+	
 		if (bParam4)
-		{
-			unk_0xC6A3EF6C4A3412C1(1);
-		}
+			GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(1);
 		else
-		{
-			unk_0xC6A3EF6C4A3412C1(0);
-		}
+			GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(0);
+	
 		if (iParam6 == 0)
-		{
 			func_3(sParam5);
-		}
 		else
-		{
-			unk_0x7DDE71A42D80E8FA(sParam5);
-		}
-		unk_0xAE3413B0654A0035();
+			GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_PLAYER_NAME_STRING(sParam5);
+	
+		GRAPHICS::END_SCALEFORM_MOVIE_METHOD();
 	}
+
+	return;
 }
 
-void func_3(var uParam0)
+void func_3(char* sParam0) // Position - 0x136
 {
-	unk_0x2AF11E92DE43CDE3(uParam0);
-	unk_0xF8FCA9E7130CE1C8();
+	GRAPHICS::BEGIN_TEXT_COMMAND_SCALEFORM_STRING(sParam0);
+	GRAPHICS::END_TEXT_COMMAND_SCALEFORM_STRING();
+	return;
 }
 

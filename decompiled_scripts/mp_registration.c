@@ -1,4 +1,5 @@
-void __EntryFunction__()
+// Program registers 97929 globals at index 6 starting from Global_1572864
+void main() // Position - 0x0
 {
 	Global_1573982 = 1;
 	Global_1574461 = 4000;
@@ -113,5 +114,6 @@ void __EntryFunction__()
 	Global_1665819 = -1;
 	Global_1666879 = -1;
 	Global_1666883 = 1;
+	return;
 }
 
