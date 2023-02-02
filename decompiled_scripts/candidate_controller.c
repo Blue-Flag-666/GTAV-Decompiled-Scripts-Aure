@@ -44,7 +44,7 @@ void main() // Position - 0x0
 	fLocal_14 = 0.001f;
 	iLocal_17 = -1;
 
-	if (unk_0x96CFB880BAC634CE(2))
+	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(2))
 		func_18();
 
 	num = Global_43218;
@@ -56,7 +56,7 @@ void main() // Position - 0x0
 		if (Global_43257 != 15)
 			if (Global_43220 != 0)
 				if (Global_43219 != -1)
-					if (!unk_0xF40767E41852FB72(Global_43220))
+					if (!SCRIPT::IS_THREAD_ACTIVE(Global_43220))
 						func_17(&Global_43219);
 	
 		if (Global_43218 > 0)
@@ -130,7 +130,7 @@ void main() // Position - 0x0
 			Global_38595 = 1;
 		
 			if (Global_43257 != 5 && Global_43257 != 15)
-				unk_0xB1495D79F52B9EEE(8);
+				PLAYER::FORCE_CLEANUP(8);
 		
 			if (Global_43257 == 15 || Global_43257 == 6)
 				func_13(false);
@@ -141,13 +141,13 @@ void main() // Position - 0x0
 			{
 				if (!bLocal_20)
 				{
-					unk_0x6E8BBCAC6E64214C(1);
+					NETWORK::NETWORK_BLOCK_JOIN_QUEUE_INVITES(true);
 					bLocal_20 = true;
 				}
 			}
 			else if (bLocal_20)
 			{
-				unk_0x6E8BBCAC6E64214C(0);
+				NETWORK::NETWORK_BLOCK_JOIN_QUEUE_INVITES(false);
 				bLocal_20 = false;
 			}
 		}
@@ -155,7 +155,7 @@ void main() // Position - 0x0
 		num2 = Global_43257;
 		num = Global_43218;
 		Global_112074 = func_1();
-		Global_32440 = unk_0xDDA4278694CAA369();
+		Global_32440 = CLOCK::GET_CLOCK_DAY_OF_WEEK();
 		SYSTEM::WAIT(0);
 	}
 
@@ -167,12 +167,12 @@ var func_1() // Position - 0x244
 {
 	var unk;
 
-	func_11(&unk, unk_0x4BA5A16068183C5E());
-	func_10(&unk, unk_0x18E502A71E28968C());
-	func_9(&unk, unk_0x5295501D0862870D());
-	func_4(&unk, unk_0xB12880C92EA6EE15());
-	func_3(&unk, unk_0x8825A6E0A30BDCB8());
-	func_2(&unk, unk_0x7598FE4545010A75());
+	func_11(&unk, CLOCK::GET_CLOCK_SECONDS());
+	func_10(&unk, CLOCK::GET_CLOCK_MINUTES());
+	func_9(&unk, CLOCK::GET_CLOCK_HOURS());
+	func_4(&unk, CLOCK::GET_CLOCK_DAY_OF_MONTH());
+	func_3(&unk, CLOCK::GET_CLOCK_MONTH());
+	func_2(&unk, CLOCK::GET_CLOCK_YEAR());
 	return unk;
 }
 
@@ -334,7 +334,7 @@ BOOL func_12(int iParam0) // Position - 0x52D
 void func_13(BOOL bParam0) // Position - 0x58C
 {
 	if (!bParam0)
-		Global_112290 = unk_0x1DD05E817C89C737() + 250;
+		Global_112290 = MISC::GET_GAME_TIMER() + 250;
 
 	Global_112287 = bParam0;
 	return;
@@ -540,7 +540,7 @@ void func_18() // Position - 0xA5B
 {
 	func_17(&Global_43219);
 	Global_43223 = 0;
-	unk_0xBBC29EBE6E1A48FA();
+	SCRIPT::TERMINATE_THIS_THREAD();
 	return;
 }
 

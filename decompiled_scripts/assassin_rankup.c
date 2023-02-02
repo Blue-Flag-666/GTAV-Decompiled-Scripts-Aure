@@ -73,16 +73,16 @@ void main() // Position - 0x0
 	iLocal_41 = 49;
 	iLocal_42 = 64;
 
-	if (unk_0x96CFB880BAC634CE(3))
-		unk_0xBBC29EBE6E1A48FA();
+	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(3))
+		SCRIPT::TERMINATE_THIS_THREAD();
 
 	while (true)
 	{
-		if (!unk_0x4FAFF4BCB7633475(unk_0x4A8C381C258A124D()))
+		if (!PED::IS_PED_INJURED(PLAYER::PLAYER_PED_ID()))
 		{
 			Global_113648.f_19965 = Global_113648.f_19965 + 1;
 			func_1();
-			unk_0xBBC29EBE6E1A48FA();
+			SCRIPT::TERMINATE_THIS_THREAD();
 		}
 	
 		SYSTEM::WAIT(0);

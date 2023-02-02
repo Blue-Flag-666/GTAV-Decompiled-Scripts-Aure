@@ -22,7 +22,7 @@
 	var uLocal_20 = 0;
 	var uLocal_21 = 0;
 	int iLocal_22 = 0;
-	var uScriptParam_0 = 0;
+	Object obScriptParam_0 = 0;
 #endregion
 
 void main() // Position - 0x0
@@ -40,7 +40,7 @@ void main() // Position - 0x0
 	fLocal_14 = 0.001f;
 	iLocal_17 = -1;
 
-	if (unk_0x76CD105BCAC6EB9F())
+	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
 		if (IS_BIT_SET(Global_1666891, 1))
 		{
@@ -48,13 +48,13 @@ void main() // Position - 0x0
 		}
 		else
 		{
-			unk_0xDB2434E51017FFCC(32, 0, -1);
+			NETWORK::NETWORK_SET_THIS_SCRIPT_IS_NETWORK_SCRIPT(32, false, -1);
 			_NETWORK_ENSURE_SCRIPT_IS_NETWORKED(0, -1, false);
-			unk_0xAECC5FA98C879D67(0);
+			MISC::SET_THIS_SCRIPT_CAN_BE_PAUSED(false);
 			iLocal_22 = 1;
 		}
 	}
-	else if (unk_0x96CFB880BAC634CE(2))
+	else if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(2))
 	{
 		func_25();
 	}
@@ -67,22 +67,22 @@ void main() // Position - 0x0
 			if (_SHOULD_NETWORK_SCRIPT_TERMINATE())
 				func_25();
 	
-		if (unk_0xFC8BFE4B41177C22(uScriptParam_0))
+		if (ENTITY::DOES_ENTITY_EXIST(obScriptParam_0))
 		{
-			if (unk_0x71C1A46B17126AA4(uScriptParam_0))
+			if (BRAIN::IS_OBJECT_WITHIN_BRAIN_ACTIVATION_RANGE(obScriptParam_0))
 			{
 				switch (iLocal_18)
 				{
 					case 0:
-						if (unk_0xF98CC1C0E657B6CB(uScriptParam_0))
+						if (ENTITY::DOES_ENTITY_HAVE_DRAWABLE(obScriptParam_0))
 						{
-							uLocal_19 = { unk_0xD1A6A821F5AC81DB(uScriptParam_0, 1) };
+							uLocal_19 = { ENTITY::GET_ENTITY_COORDS(obScriptParam_0, true) };
 							iLocal_18 = 1;
 						}
 						break;
 				
 					case 1:
-						if (unk_0x1C3788A51C49D6AD(uScriptParam_0, 0) && unk_0xE5E2AE8B19267B8A(uScriptParam_0) && !unk_0x110821AE6C63DD4F(uScriptParam_0))
+						if (OBJECT::HAS_OBJECT_BEEN_BROKEN(obScriptParam_0, 0) && ENTITY::IS_ENTITY_VISIBLE(obScriptParam_0) && !ENTITY::IS_ENTITY_A_MISSION_ENTITY(obScriptParam_0))
 						{
 							func_1();
 							iLocal_18 = 2;
@@ -109,59 +109,59 @@ void main() // Position - 0x0
 
 void func_1() // Position - 0x111
 {
-	int num;
-	int num2;
-	var unk;
-	int num3;
+	Hash model;
+	Hash pickupHash;
+	int address;
+	int randomIntInRange;
 
-	num = joaat("prop_money_bag_01");
-	num2 = joaat("PICKUP_MONEY_MED_BAG");
-	num3 = unk_0xC5935DFB3F39785A(70, 121);
+	model = joaat("prop_money_bag_01");
+	pickupHash = joaat("PICKUP_MONEY_MED_BAG");
+	randomIntInRange = MISC::GET_RANDOM_INT_IN_RANGE(70, 121);
 
-	if (unk_0x76CD105BCAC6EB9F())
+	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
-		num = joaat("prop_cash_pile_01");
-		num3 = unk_0xC5935DFB3F39785A(50, 101);
-		num3 = func_13(num3, 1);
+		model = joaat("prop_cash_pile_01");
+		randomIntInRange = MISC::GET_RANDOM_INT_IN_RANGE(50, 101);
+		randomIntInRange = func_13(randomIntInRange, 1);
 	}
 
-	unk_0x0B0C9A0F9AAEB7F0(&unk, 3);
-	unk_0x0B0C9A0F9AAEB7F0(&unk, 4);
-	unk_0xEC9DAA34BBB4658C(num);
+	MISC::SET_BIT(&address, 3);
+	MISC::SET_BIT(&address, 4);
+	STREAMING::REQUEST_MODEL(model);
 
-	while (!unk_0x6252BC0DD8A320DB(num))
+	while (!STREAMING::HAS_MODEL_LOADED(model))
 	{
 		SYSTEM::WAIT(0);
 	}
 
-	if (unk_0x76CD105BCAC6EB9F())
-		func_2(num2, unk_0x165E2DDD2BD0F07D(uLocal_19, 1067030938, 1069547520), unk, num3, num, false, 0);
+	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
+		func_2(pickupHash, OBJECT::GET_SAFE_PICKUP_COORDS(uLocal_19, 1067030938, 1069547520), address, randomIntInRange, model, false, false);
 	else
-		unk_0x8D4CAF9A056EA9E4(num2, unk_0x165E2DDD2BD0F07D(uLocal_19, 1067030938, 1069547520), unk, num3, 0, num);
+		OBJECT::CREATE_PICKUP(pickupHash, OBJECT::GET_SAFE_PICKUP_COORDS(uLocal_19, 1067030938, 1069547520), address, randomIntInRange, false, model);
 
 	return;
 }
 
-struct<5> func_2(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4, int iParam5, int iParam6, BOOL bParam7, int iParam8) // Position - 0x1C5
+struct<5> func_2(Hash hParam0, Vector3 vParam1, var uParam2, var uParam3, int iParam4, int iParam5, Hash hParam6, BOOL bParam7, BOOL bParam8) // Position - 0x1C5
 {
 	var unk;
 
 	unk = 123;
 
-	if (func_12() && func_11(iParam0))
-		unk = { func_3(iParam0, uParam1, uParam4, iParam5, iParam6, bParam7) };
+	if (func_12() && func_11(hParam0))
+		unk = { func_3(hParam0, vParam1, iParam4, iParam5, hParam6, bParam7) };
 	else
-		unk.f_4 = unk_0xD0DDC0D0D8D33E57(iParam0, uParam1, uParam4, iParam5, iParam6, bParam7, iParam8);
+		unk.f_4 = OBJECT::CREATE_AMBIENT_PICKUP(hParam0, vParam1, iParam4, iParam5, hParam6, bParam7, bParam8);
 
 	return unk;
 }
 
-struct<5> func_3(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4, int iParam5, int iParam6, BOOL bParam7) // Position - 0x21C
+struct<5> func_3(Hash hParam0, Vector3 vParam1, var uParam2, var uParam3, int iParam4, int iParam5, Hash hParam6, BOOL bParam7) // Position - 0x21C
 {
 	var unk;
 	int num;
+	Hash hash;
 	int num2;
-	int num3;
 
 	unk = 123;
 
@@ -173,39 +173,39 @@ struct<5> func_3(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4
 	if (num == -1)
 		return unk;
 
-	num2 = 123;
-	num2 = iParam0;
-	num2.f_1 = { uParam1 };
+	hash = 123;
+	hash = hParam0;
+	hash.f_1 = { vParam1 };
 
-	if (func_4(&num2) != -1)
+	if (func_4(&hash) != -1)
 		return unk;
 
-	unk_0x0B0C9A0F9AAEB7F0(&uParam4, 5);
-	num2.f_4 = unk_0x192C5E68A3552FDC(iParam0, uParam1, uParam4, iParam5, iParam6, bParam7, 0);
-	num3 = unk_0x383461852896D73D();
+	MISC::SET_BIT(&iParam4, 5);
+	hash.f_4 = OBJECT::CREATE_NON_NETWORKED_AMBIENT_PICKUP(hParam0, vParam1, iParam4, iParam5, hParam6, bParam7, false);
+	num2 = PLAYER::NETWORK_PLAYER_ID_TO_INT();
 
 	if (bParam7)
 	{
-		Global_1914091[num3 /*297*/].f_98.f_21[num /*14*/].f_12 = unk_0x931D15B1D60C81B0();
-		Global_1914091[num3 /*297*/].f_98.f_21[num /*14*/].f_13 = unk_0x4C7F9ACFABADEB9E();
+		Global_1914091[num2 /*297*/].f_98.f_21[num /*14*/].f_12 = SCRIPT::GET_HASH_OF_THIS_SCRIPT_NAME();
+		Global_1914091[num2 /*297*/].f_98.f_21[num /*14*/].f_13 = NETWORK::NETWORK_GET_POSITION_HASH_OF_THIS_SCRIPT();
 	
-		if (Global_1914091[num3 /*297*/].f_98.f_21[num /*14*/].f_13 == 0)
+		if (Global_1914091[num2 /*297*/].f_98.f_21[num /*14*/].f_13 == 0)
 		{
-			Global_1914091[num3 /*297*/].f_98.f_21[num /*14*/].f_13 = unk_0xF25E5B7C1279A85B();
-			Global_1914091[num3 /*297*/].f_98.f_21[num /*14*/].f_11 = 1;
+			Global_1914091[num2 /*297*/].f_98.f_21[num /*14*/].f_13 = NETWORK::NETWORK_GET_INSTANCE_ID_OF_THIS_SCRIPT();
+			Global_1914091[num2 /*297*/].f_98.f_21[num /*14*/].f_11 = 1;
 		}
 		else
 		{
-			Global_1914091[num3 /*297*/].f_98.f_21[num /*14*/].f_11 = 2;
+			Global_1914091[num2 /*297*/].f_98.f_21[num /*14*/].f_11 = 2;
 		}
 	}
 
-	Global_1914091[num3 /*297*/].f_98.f_21[num /*14*/] = { num2 };
-	Global_1914091[num3 /*297*/].f_98.f_21[num /*14*/].f_5 = { uParam1 };
-	Global_1914091[num3 /*297*/].f_98.f_21[num /*14*/].f_8 = uParam4;
-	Global_1914091[num3 /*297*/].f_98.f_21[num /*14*/].f_9 = iParam5;
-	Global_1914091[num3 /*297*/].f_98.f_21[num /*14*/].f_10 = iParam6;
-	return num2;
+	Global_1914091[num2 /*297*/].f_98.f_21[num /*14*/] = { hash };
+	Global_1914091[num2 /*297*/].f_98.f_21[num /*14*/].f_5 = { vParam1 };
+	Global_1914091[num2 /*297*/].f_98.f_21[num /*14*/].f_8 = iParam4;
+	Global_1914091[num2 /*297*/].f_98.f_21[num /*14*/].f_9 = iParam5;
+	Global_1914091[num2 /*297*/].f_98.f_21[num /*14*/].f_10 = hParam6;
+	return hash;
 }
 
 int func_4(var uParam0) // Position - 0x399
@@ -262,7 +262,7 @@ int func_9(int iParam0) // Position - 0x4BA
 	int i;
 
 	if (iParam0 == -1)
-		iParam0 = unk_0x383461852896D73D();
+		iParam0 = PLAYER::NETWORK_PLAYER_ID_TO_INT();
 
 	num = -1;
 
@@ -351,7 +351,7 @@ int func_13(int iParam0, int iParam1) // Position - 0x599
 BOOL _SHOULD_NETWORK_SCRIPT_TERMINATE() // Position - 0x5DA
 {
 	if (Global_1575035 == false)
-		if (!unk_0x76CD105BCAC6EB9F())
+		if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 			return true;
 
 	if (func_21())
@@ -370,17 +370,17 @@ BOOL _SHOULD_NETWORK_SCRIPT_TERMINATE() // Position - 0x5DA
 	if (_DOES_EVENT_OF_TYPE_EXIST(157))
 		return true;
 
-	if (!unk_0x261E3728EE56B3AC())
+	if (!NETWORK::NETWORK_IS_SIGNED_ONLINE())
 		return true;
 
 	if (_GET_CURRENT_SESSION_TYPE_SCRIPT_HASH() != 0)
-		if (unk_0x486FF5D06E9659F1(_GET_CURRENT_SESSION_TYPE_SCRIPT_HASH()) == 0)
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(_GET_CURRENT_SESSION_TYPE_SCRIPT_HASH()) == 0)
 			return true;
 
 	return false;
 }
 
-int _GET_CURRENT_SESSION_TYPE_SCRIPT_HASH() // Position - 0x65E
+Hash _GET_CURRENT_SESSION_TYPE_SCRIPT_HASH() // Position - 0x65E
 {
 	switch (func_17())
 	{
@@ -394,7 +394,7 @@ int _GET_CURRENT_SESSION_TYPE_SCRIPT_HASH() // Position - 0x65E
 	return 0;
 }
 
-int func_16() // Position - 0x691
+Hash func_16() // Position - 0x691
 {
 	switch (Global_2697021)
 	{
@@ -420,7 +420,7 @@ BOOL func_18() // Position - 0x6C0
 
 BOOL _DOES_EVENT_OF_TYPE_EXIST(int iParam0) // Position - 0x6CF
 {
-	if (unk_0x5E3ED023C0E7CC7C(1, iParam0))
+	if (SCRIPT::GET_EVENT_EXISTS(SCRIPT_EVENT_QUEUE_NETWORK, iParam0))
 		return true;
 
 	return false;
@@ -440,7 +440,7 @@ int _NETWORK_ENSURE_SCRIPT_IS_NETWORKED(int iParam0, int iParam1, BOOL bNoTermin
 {
 	int i;
 
-	for (i = unk_0xDFF16B5B12604EFF(); i != 2; i = unk_0xDFF16B5B12604EFF())
+	for (i = NETWORK::NETWORK_GET_SCRIPT_STATUS(); i != 2; i = NETWORK::NETWORK_GET_SCRIPT_STATUS())
 	{
 		if (i == 3 || i == 4 || i == 5 || i == 6)
 			if (!bNoTerminate)
@@ -452,7 +452,7 @@ int _NETWORK_ENSURE_SCRIPT_IS_NETWORKED(int iParam0, int iParam1, BOOL bNoTermin
 		{
 			if (iParam0 == 0)
 			{
-				if (!unk_0x76CD105BCAC6EB9F())
+				if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 					if (!bNoTerminate)
 						func_24();
 					else
@@ -470,7 +470,7 @@ int _NETWORK_ENSURE_SCRIPT_IS_NETWORKED(int iParam0, int iParam1, BOOL bNoTermin
 					else
 						return 0;
 			}
-			else if (!unk_0xBF52D447C795492B())
+			else if (!NETWORK::NETWORK_IS_IN_SESSION())
 			{
 				if (!bNoTerminate)
 					func_24();
@@ -486,12 +486,12 @@ int _NETWORK_ENSURE_SCRIPT_IS_NETWORKED(int iParam0, int iParam1, BOOL bNoTermin
 		Global_1574666 = i;
 
 	if (iParam0 == 0)
-		if (!unk_0x76CD105BCAC6EB9F())
+		if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 			if (!bNoTerminate)
 				func_24();
 			else
 				return 0;
-	else if (!unk_0xBF52D447C795492B())
+	else if (!NETWORK::NETWORK_IS_IN_SESSION())
 		if (!bNoTerminate)
 			func_24();
 		else
@@ -508,13 +508,13 @@ BOOL func_23(BOOL bParam0) // Position - 0x817
 
 void func_24() // Position - 0x828
 {
-	unk_0xBBC29EBE6E1A48FA();
+	SCRIPT::TERMINATE_THIS_THREAD();
 	return;
 }
 
 void func_25() // Position - 0x834
 {
-	unk_0xBBC29EBE6E1A48FA();
+	SCRIPT::TERMINATE_THIS_THREAD();
 	return;
 }
 

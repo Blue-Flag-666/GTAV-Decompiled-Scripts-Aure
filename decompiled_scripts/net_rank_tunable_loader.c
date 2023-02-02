@@ -48,7 +48,7 @@ void main() // Position - 0x0
 	iLocal_24 = -1;
 	iLocal_25 = 21;
 	iLocal_27 = 1;
-	unk_0x51CC1333A10C4E09();
+	MISC::NETWORK_SET_SCRIPT_IS_SAFE_FOR_NETWORK_GAME();
 
 	while (true)
 	{
@@ -61,7 +61,7 @@ void main() // Position - 0x0
 		
 			case 1:
 				func_1();
-				unk_0xBBC29EBE6E1A48FA();
+				SCRIPT::TERMINATE_THIS_THREAD();
 				break;
 		}
 	
@@ -8076,9 +8076,9 @@ void func_1() // Position - 0x7E
 	return;
 }
 
-void func_2(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4) // Position - 0x2CE32
+void func_2(int iParam0, int iParam1, Hash hParam2, int iParam3, BOOL bParam4) // Position - 0x2CE32
 {
-	func_3(0, iParam2, iParam3, bParam4);
+	func_3(0, hParam2, iParam3, bParam4);
 
 	if (iParam0 == 0)
 		return;
@@ -8111,7 +8111,7 @@ void func_2(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4) //
 		case 23:
 		case 24:
 		case 25:
-			func_3(1, iParam2, iParam3, bParam4);
+			func_3(1, hParam2, iParam3, bParam4);
 		
 			if (iParam0 == 1)
 				return;
@@ -8122,7 +8122,7 @@ void func_2(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4) //
 				case 3:
 				case 4:
 				case 5:
-					func_3(2, iParam2, iParam3, bParam4);
+					func_3(2, hParam2, iParam3, bParam4);
 				
 					if (iParam0 == 2)
 						return;
@@ -8132,7 +8132,7 @@ void func_2(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4) //
 						case 3:
 						case 4:
 						case 5:
-							func_3(iParam0, iParam2, iParam3, bParam4);
+							func_3(iParam0, hParam2, iParam3, bParam4);
 							return;
 					
 						case 1:
@@ -8187,7 +8187,7 @@ void func_2(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4) //
 				case 23:
 				case 24:
 				case 25:
-					func_3(6, iParam2, iParam3, bParam4);
+					func_3(6, hParam2, iParam3, bParam4);
 				
 					if (iParam0 == 6)
 						return;
@@ -8201,10 +8201,10 @@ void func_2(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4) //
 						case 19:
 						case 26:
 						case 24:
-							func_3(iParam0, iParam2, iParam3, bParam4);
+							func_3(iParam0, hParam2, iParam3, bParam4);
 						
 							if (iParam1 != 27)
-								func_3(iParam1, iParam2, iParam3, bParam4);
+								func_3(iParam1, hParam2, iParam3, bParam4);
 						
 							return;
 					
@@ -8214,12 +8214,12 @@ void func_2(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4) //
 						case 22:
 						case 23:
 						case 25:
-							func_3(15, iParam2, iParam3, bParam4);
+							func_3(15, hParam2, iParam3, bParam4);
 						
 							if (iParam0 == 15)
 							{
 								if (iParam1 != 27)
-									func_3(iParam1, iParam2, iParam3, bParam4);
+									func_3(iParam1, hParam2, iParam3, bParam4);
 							
 								return;
 							}
@@ -8231,10 +8231,10 @@ void func_2(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4) //
 								case 22:
 								case 23:
 								case 25:
-									func_3(iParam0, iParam2, iParam3, bParam4);
+									func_3(iParam0, hParam2, iParam3, bParam4);
 								
 									if (iParam1 != 27)
-										func_3(iParam1, iParam2, iParam3, bParam4);
+										func_3(iParam1, hParam2, iParam3, bParam4);
 								
 									return;
 							
@@ -8251,12 +8251,12 @@ void func_2(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4) //
 						case 12:
 						case 13:
 						case 14:
-							func_3(8, iParam2, iParam3, bParam4);
+							func_3(8, hParam2, iParam3, bParam4);
 						
 							if (iParam0 == 8)
 							{
 								if (iParam1 != 27)
-									func_3(iParam1, iParam2, iParam3, bParam4);
+									func_3(iParam1, hParam2, iParam3, bParam4);
 							
 								return;
 							}
@@ -8269,10 +8269,10 @@ void func_2(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4) //
 								case 12:
 								case 13:
 								case 14:
-									func_3(iParam0, iParam2, iParam3, bParam4);
+									func_3(iParam0, hParam2, iParam3, bParam4);
 								
 									if (iParam1 != 27)
-										func_3(iParam1, iParam2, iParam3, bParam4);
+										func_3(iParam1, hParam2, iParam3, bParam4);
 								
 									return;
 							
@@ -8305,15 +8305,15 @@ void func_2(int iParam0, int iParam1, int iParam2, int iParam3, BOOL bParam4) //
 	return;
 }
 
-void func_3(int iParam0, int iParam1, int iParam2, BOOL bParam3) // Position - 0x2D254
+void func_3(int iParam0, Hash hParam1, int iParam2, BOOL bParam3) // Position - 0x2D254
 {
-	int num;
+	Hash tunableContext;
 	var unk;
 
-	num = func_4(iParam0);
+	tunableContext = func_4(iParam0);
 	unk = *iParam2;
 
-	if (!unk_0x3924757A6ED5FEDB(num, iParam1, iParam2))
+	if (!NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(tunableContext, hParam1, iParam2))
 	{
 		bParam3;
 		return;
@@ -8321,14 +8321,14 @@ void func_3(int iParam0, int iParam1, int iParam2, BOOL bParam3) // Position - 0
 	}
 	else
 	{
-		unk_0xDF6F5F7DECDD6CA3(num, iParam1, iParam2);
+		NETWORK::NETWORK_ACCESS_TUNABLE_INT_MODIFICATION_DETECTION_REGISTRATION_HASH(tunableContext, hParam1, iParam2);
 	}
 
 	bParam3;
 	return;
 }
 
-int func_4(int iParam0) // Position - 0x2D297
+Hash func_4(int iParam0) // Position - 0x2D297
 {
 	var unk;
 
@@ -8336,7 +8336,7 @@ int func_4(int iParam0) // Position - 0x2D297
 	{
 		TEXT_LABEL_ASSIGN_STRING(&unk, "CONTENT_MODIFIER_", 64);
 		TEXT_LABEL_APPEND_INT(&unk, iParam0 - 28, 64);
-		return unk_0x70E57E9927B6BA58(&unk);
+		return MISC::GET_HASH_KEY(&unk);
 	}
 
 	switch (iParam0)

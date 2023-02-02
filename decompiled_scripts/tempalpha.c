@@ -91,8 +91,8 @@
 	var uLocal_89 = 0;
 	var uLocal_90 = 0;
 	var uLocal_91 = 0;
-	var uLocal_92 = 0;
-	var uLocal_93 = 0;
+	int iLocal_92 = 0;
+	int iLocal_93 = 0;
 #endregion
 
 void main() // Position - 0x0
@@ -121,8 +121,8 @@ void main() // Position - 0x0
 	iLocal_86 = 65;
 	iLocal_87 = 49;
 	iLocal_88 = 64;
-	uLocal_92 = unk_0x8CC13B3BF7A9890A();
-	uLocal_93 = unk_0x2A3612A4B836469E();
+	iLocal_92 = HUD::GET_STANDARD_BLIP_ENUM_ID();
+	iLocal_93 = HUD::GET_WAYPOINT_BLIP_ENUM_ID();
 	return;
 }
 

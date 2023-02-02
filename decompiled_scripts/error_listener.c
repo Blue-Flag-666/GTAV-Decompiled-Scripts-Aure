@@ -116,25 +116,25 @@ void func_1() // Position - 0xA2
 void func_2() // Position - 0xAE
 {
 	int i;
-	int num;
-	int num2;
+	eEventType eventAtIndex;
+	eEventType type;
 	var unk3;
 
-	for (i = 0; i < unk_0x703C4F7316B7195D(2); i = i + 1)
+	for (i = 0; i < SCRIPT::GET_NUMBER_OF_EVENTS(SCRIPT_EVENT_QUEUE_ERRORS); i = i + 1)
 	{
-		num = unk_0x4BC3E5D2FB0A1665(2, i);
+		eventAtIndex = SCRIPT::GET_EVENT_AT_INDEX(SCRIPT_EVENT_QUEUE_ERRORS, i);
 	
-		if (func_10(num))
+		if (func_10(eventAtIndex))
 		{
-			func_9(&num2);
-			func_8(2, i, num, &num2);
-			num2.f_1 = unk_0x8034325BF6D6E41F() - 1;
-			num2 = num;
+			func_9(&type);
+			func_8(SCRIPT_EVENT_QUEUE_ERRORS, i, eventAtIndex, &type);
+			type.f_1 = MISC::GET_FRAME_COUNT() - 1;
+			type = eventAtIndex;
 		
-			if (!func_7(&num2, &unk3))
-				func_6(&num2);
+			if (!func_7(&type, &unk3))
+				func_6(&type);
 		
-			func_3(&num2);
+			func_3(&type);
 		}
 	}
 
@@ -143,24 +143,24 @@ void func_2() // Position - 0xAE
 
 void func_3(var uParam0) // Position - 0x116
 {
-	int num;
+	eEventType type;
 
-	num = *uParam0;
+	type = *uParam0;
 
-	if (_IS_FMMC_ACTIVE() && func_4(num) && num != 248 && unk_0xF08B45C0CEBE11C2())
-		unk_0xB0926B14C2D3A838(0, 1, 0);
+	if (_IS_FMMC_ACTIVE() && func_4(type) && type != EVENT_ERRORS_UNKNOWN_ERROR && NETWORK::NETWORK_CAN_BAIL())
+		NETWORK::NETWORK_BAIL(0, 1, 0);
 
 	return;
 }
 
-BOOL func_4(int iParam0) // Position - 0x14F
+BOOL func_4(eEventType eetParam0) // Position - 0x14F
 {
-	return iParam0 == 249 || iParam0 == 250 || iParam0 == 251 || iParam0 == 248;
+	return eetParam0 == EVENT_ERRORS_ARRAY_OVERFLOW || eetParam0 == EVENT_ERRORS_INSTRUCTION_LIMIT || eetParam0 == EVENT_ERRORS_STACK_OVERFLOW || eetParam0 == EVENT_ERRORS_UNKNOWN_ERROR;
 }
 
 BOOL _IS_FMMC_ACTIVE() // Position - 0x17D
 {
-	return Global_1853910[unk_0x259BE71D8A81D4FA() /*862*/].f_192 != 0;
+	return Global_1853910[PLAYER::PLAYER_ID() /*862*/].f_192 != 0;
 }
 
 int func_6(var uParam0) // Position - 0x194
@@ -191,13 +191,13 @@ BOOL func_7(var uParam0, var uParam1) // Position - 0x1C7
 	return false;
 }
 
-void func_8(int iParam0, int iParam1, int iParam2, var uParam3) // Position - 0x215
+void func_8(eEventGroup eegParam0, int iParam1, eEventType eetParam2, var uParam3) // Position - 0x215
 {
-	var unk;
+	var eventData;
 
-	if (iParam2 == 248 || iParam2 == 249 || iParam2 == 250 || iParam2 == 251)
-		if (unk_0xFCEF367B86651ED3(iParam0, iParam1, &unk, 1))
-			uParam3->f_2 = unk;
+	if (eetParam2 == EVENT_ERRORS_UNKNOWN_ERROR || eetParam2 == EVENT_ERRORS_ARRAY_OVERFLOW || eetParam2 == EVENT_ERRORS_INSTRUCTION_LIMIT || eetParam2 == EVENT_ERRORS_STACK_OVERFLOW)
+		if (SCRIPT::GET_EVENT_DATA(eegParam0, iParam1, &eventData, 1))
+			uParam3->f_2 = eventData;
 
 	return;
 }
@@ -210,9 +210,9 @@ void func_9(var uParam0) // Position - 0x25A
 	return;
 }
 
-BOOL func_10(int iParam0) // Position - 0x270
+BOOL func_10(eEventType eetParam0) // Position - 0x270
 {
-	return func_4(iParam0);
+	return func_4(eetParam0);
 }
 
 BOOL func_11() // Position - 0x27E
@@ -222,7 +222,7 @@ BOOL func_11() // Position - 0x27E
 
 void func_12() // Position - 0x287
 {
-	unk_0x51CC1333A10C4E09();
+	MISC::NETWORK_SET_SCRIPT_IS_SAFE_FOR_NETWORK_GAME();
 	return;
 }
 

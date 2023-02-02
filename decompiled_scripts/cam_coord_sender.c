@@ -34,8 +34,8 @@ void main() // Position - 0x0
 	fLocal_14 = 0.001f;
 	iLocal_17 = -1;
 
-	if (!unk_0x4FAFF4BCB7633475(unk_0x4A8C381C258A124D()))
-		unk_0x935364B4448CD584(unk_0x4A8C381C258A124D(), 1);
+	if (!PED::IS_PED_INJURED(PLAYER::PLAYER_PED_ID()))
+		ENTITY::SET_ENTITY_INVINCIBLE(PLAYER::PLAYER_PED_ID(), true);
 
 	while (true)
 	{
