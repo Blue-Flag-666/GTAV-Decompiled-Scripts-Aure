@@ -2,7 +2,7 @@ void main() // Position - 0x0
 {
 	func_1();
 	Global_2694459 = 1;
-	SCRIPT::TERMINATE_THIS_THREAD();
+	unk_0xBBC29EBE6E1A48FA();
 	return;
 }
 

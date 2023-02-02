@@ -37,8 +37,8 @@ void main() // Position - 0x0
 	fLocal_14 = 0.001f;
 	iLocal_17 = -1;
 
-	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(34))
-		SCRIPT::TERMINATE_THIS_THREAD();
+	if (unk_0x96CFB880BAC634CE(34))
+		unk_0xBBC29EBE6E1A48FA();
 
 	return;
 }

@@ -1,6 +1,6 @@
 void main() // Position - 0x0
 {
-	SCRIPT::TERMINATE_THIS_THREAD();
+	unk_0xBBC29EBE6E1A48FA();
 	return;
 }
 

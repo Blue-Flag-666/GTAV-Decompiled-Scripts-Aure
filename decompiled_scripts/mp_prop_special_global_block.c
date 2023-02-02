@@ -32,7 +32,7 @@ void main() // Position - 0x0
 	Global_4196256 = 1;
 	Global_4282954 = -1;
 	Global_4282955 = -1;
-	MISC::NETWORK_SET_SCRIPT_IS_SAFE_FOR_NETWORK_GAME();
+	unk_0x51CC1333A10C4E09();
 	func_16();
 
 	for (i = 0; i < 42; i = i + 1)
@@ -120,7 +120,7 @@ void func_2(var uParam0, int iParam1) // Position - 0xA0
 void func_3(int iParam0, int iParam1, var uParam2, BOOL bParam3) // Position - 0x40E
 {
 	var unk;
-	Vector3 vector;
+	var unk14;
 
 	unk = 2;
 
@@ -145,10 +145,10 @@ void func_3(int iParam0, int iParam1, var uParam2, BOOL bParam3) // Position - 0
 	}
 
 	*uParam2 = { func_5(iParam1, 86) };
-	vector = { *uParam2 - unk[0 /*6*/] };
-	vector = { func_4(vector, -unk[0 /*6*/].f_3.f_2) };
-	vector = { func_4(vector, unk[1 /*6*/].f_3.f_2) };
-	*uParam2 = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(unk[1 /*6*/], 0f, vector) };
+	unk14 = { *uParam2 - unk[0 /*6*/] };
+	unk14 = { func_4(unk14, -unk[0 /*6*/].f_3.f_2) };
+	unk14 = { func_4(unk14, unk[1 /*6*/].f_3.f_2) };
+	*uParam2 = { unk_0xF10F2A2453AF1DFB(unk[1 /*6*/], 0f, unk14) };
 
 	switch (iParam1)
 	{
@@ -511,15 +511,15 @@ Vector3 func_4(float fParam0, var uParam1, var uParam2, float fParam3) // Positi
 struct<6> func_5(int iParam0, int iParam1) // Position - 0xDCF
 {
 	var unk;
-	BOOL flag;
-	BOOL flag2;
+	var unk7;
+	int num;
 
-	flag2 = false;
+	num = 0;
 
-	if (func_6(iParam1, &flag))
-		flag2 = true;
+	if (func_6(iParam1, &unk7))
+		num = 1;
 
-	if (flag2 && MISC::GET_BASE_ELEMENT_LOCATION_FROM_METADATA_BLOCK(&unk, &(unk.f_3), iParam0, flag))
+	if (num && unk_0xC557C842E425A746(&unk, &(unk.f_3), iParam0, unk7))
 		return unk;
 
 	return unk;
@@ -1343,16 +1343,16 @@ void func_9(int iParam0, var uParam1, var uParam2, int iParam3) // Position - 0x
 void func_10(int iParam0, int iParam1, var uParam2, int iParam3, BOOL bParam4) // Position - 0x2E0D
 {
 	var unk;
-	Vector3 vector;
+	var unk14;
 
 	unk = 2;
 	unk[0 /*6*/] = { func_11(iParam3, bParam4) };
 	unk[1 /*6*/] = { func_11(iParam0, bParam4) };
 	*uParam2 = { func_5(iParam1, iParam3) };
-	vector = { *uParam2 - unk[0 /*6*/] };
-	vector = { func_4(vector, -unk[0 /*6*/].f_3.f_2) };
-	vector = { func_4(vector, unk[1 /*6*/].f_3.f_2) };
-	*uParam2 = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(unk[1 /*6*/], 0f, vector) };
+	unk14 = { *uParam2 - unk[0 /*6*/] };
+	unk14 = { func_4(unk14, -unk[0 /*6*/].f_3.f_2) };
+	unk14 = { func_4(unk14, unk[1 /*6*/].f_3.f_2) };
+	*uParam2 = { unk_0xF10F2A2453AF1DFB(unk[1 /*6*/], 0f, unk14) };
 
 	switch (iParam1)
 	{
@@ -2721,17 +2721,17 @@ void func_13(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 	return;
 }
 
-void func_14(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, Vector3 vParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18) // Position - 0x5563
+void func_14(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18) // Position - 0x5563
 {
-	Vector3 vector;
+	var unk;
 
 	*uParam18 = { uParam6 };
-	vector = { *uParam18 - uParam0 };
-	vector = { func_4(vector, -uParam0.f_3.f_2) };
-	vector = { func_4(vector, vParam12.f_3.f_2) };
-	*uParam18 = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(vParam12, 0f, vector) };
+	unk = { *uParam18 - uParam0 };
+	unk = { func_4(unk, -uParam0.f_3.f_2) };
+	unk = { func_4(unk, uParam12.f_3.f_2) };
+	*uParam18 = { unk_0xF10F2A2453AF1DFB(uParam12, 0f, unk) };
 
-	if (!func_15(vParam12.f_3, uParam0.f_3, false))
+	if (!func_15(uParam12.f_3, uParam0.f_3, false))
 	{
 		while (uParam0.f_3.f_2 > 180f)
 		{
@@ -2743,17 +2743,17 @@ void func_14(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 			uParam0.f_3.f_2 = uParam0.f_3.f_2 + 360f;
 		}
 	
-		while (vParam12.f_3.f_2 > 180f)
+		while (uParam12.f_3.f_2 > 180f)
 		{
-			vParam12.f_3.f_2 = vParam12.f_3.f_2 - 360f;
+			uParam12.f_3.f_2 = uParam12.f_3.f_2 - 360f;
 		}
 	
-		while (vParam12.f_3.f_2 < -180f)
+		while (uParam12.f_3.f_2 < -180f)
 		{
-			vParam12.f_3.f_2 = vParam12.f_3.f_2 + 360f;
+			uParam12.f_3.f_2 = uParam12.f_3.f_2 + 360f;
 		}
 	
-		uParam18->f_3.f_2 = uParam18->f_3.f_2 + (vParam12.f_3.f_2 - uParam0.f_3.f_2);
+		uParam18->f_3.f_2 = uParam18->f_3.f_2 + (uParam12.f_3.f_2 - uParam0.f_3.f_2);
 	
 		while (uParam18->f_3.f_2 > 180f)
 		{
