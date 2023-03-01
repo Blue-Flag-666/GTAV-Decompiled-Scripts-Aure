@@ -48,7 +48,7 @@ void main() // Position - 0x0
 		if (_SHOULD_NETWORK_SCRIPT_TERMINATE() || Global_1961986 == 1)
 			func_6();
 	
-		if (func_1(&uLocal_21, &Global_297007))
+		if (func_1(&uLocal_21, &Global_297008))
 			func_6();
 	
 		SYSTEM::WAIT(0);

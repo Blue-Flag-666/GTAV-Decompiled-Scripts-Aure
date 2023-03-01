@@ -592,12 +592,12 @@ int func_15(var uParam0, int iParam1) // Position - 0x750
 			return num;
 		}
 	
-		if (Global_297010[num] == uParam0)
+		if (Global_297011[num] == uParam0)
 		{
 			value = num;
 			value2 = num;
 		}
-		else if (Global_297010[num] < uParam0)
+		else if (Global_297011[num] < uParam0)
 		{
 			if (value2 == num)
 				value2 = value2 + 1;
@@ -7500,43 +7500,43 @@ int func_22(Hash hParam0, int iParam1) // Position - 0x6027
 				switch (iParam1)
 				{
 					case 370527443:
-						price = *Global_262145.f_34096;
-						break;
-				
-					case 1109907117:
-						price = *Global_262145.f_34100;
-						break;
-				
-					case 2055456612:
 						price = *Global_262145.f_34097;
 						break;
 				
-					case 1690606566:
-						price = *Global_262145.f_34098;
-						break;
-				
-					case -1633316949:
+					case 1109907117:
 						price = *Global_262145.f_34101;
 						break;
 				
-					case -1461476313:
+					case 2055456612:
+						price = *Global_262145.f_34098;
+						break;
+				
+					case 1690606566:
 						price = *Global_262145.f_34099;
 						break;
 				
-					case -1770422457:
-						price = *Global_262145.f_34103;
-						break;
-				
-					case -2059739958:
+					case -1633316949:
 						price = *Global_262145.f_34102;
 						break;
 				
-					case -1280001599:
+					case -1461476313:
+						price = *Global_262145.f_34100;
+						break;
+				
+					case -1770422457:
 						price = *Global_262145.f_34104;
 						break;
 				
-					case -922885037:
+					case -2059739958:
+						price = *Global_262145.f_34103;
+						break;
+				
+					case -1280001599:
 						price = *Global_262145.f_34105;
+						break;
+				
+					case -922885037:
+						price = *Global_262145.f_34106;
 						break;
 				}
 				break;
@@ -7545,43 +7545,43 @@ int func_22(Hash hParam0, int iParam1) // Position - 0x6027
 				switch (iParam1)
 				{
 					case 716207715:
-						price = *Global_262145.f_34086;
-						break;
-				
-					case 446271089:
 						price = *Global_262145.f_34087;
 						break;
 				
-					case 1045616099:
-						price = *Global_262145.f_34089;
+					case 446271089:
+						price = *Global_262145.f_34088;
 						break;
 				
-					case 1336277129:
+					case 1045616099:
 						price = *Global_262145.f_34090;
 						break;
 				
-					case -513369076:
+					case 1336277129:
 						price = *Global_262145.f_34091;
 						break;
 				
-					case -447700000:
+					case -513369076:
 						price = *Global_262145.f_34092;
 						break;
 				
-					case -149207179:
+					case -447700000:
 						price = *Global_262145.f_34093;
 						break;
 				
-					case 166784288:
+					case -149207179:
 						price = *Global_262145.f_34094;
 						break;
 				
-					case 2068729789:
+					case 166784288:
 						price = *Global_262145.f_34095;
 						break;
 				
+					case 2068729789:
+						price = *Global_262145.f_34096;
+						break;
+				
 					case 1761389338:
-						price = *Global_262145.f_34088;
+						price = *Global_262145.f_34089;
 						break;
 				}
 				break;
@@ -7594,7 +7594,7 @@ int func_22(Hash hParam0, int iParam1) // Position - 0x6027
 						break;
 				
 					case 503494624:
-						price = *Global_262145.f_34069;
+						price = *Global_262145.f_34070;
 						break;
 				}
 				break;

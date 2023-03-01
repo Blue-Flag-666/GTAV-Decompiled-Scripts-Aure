@@ -20373,87 +20373,87 @@ BOOL func_410(Hash hParam0, int iParam1) // Position - 0x1764E
 	}
 	else if (hParam0 == 1384502824)
 	{
-		if (!*Global_262145.f_33962 && cloudTimeAsInt < *Global_262145.f_33946)
+		if (!*Global_262145.f_33963 && cloudTimeAsInt < *Global_262145.f_33947)
 			num = 0;
 	}
 	else if (hParam0 == -1576586413)
 	{
-		if (!*Global_262145.f_33962 && cloudTimeAsInt < *Global_262145.f_33946)
+		if (!*Global_262145.f_33963 && cloudTimeAsInt < *Global_262145.f_33947)
 			num = 0;
 	}
 	else if (hParam0 == -1249788006)
 	{
-		if (!*Global_262145.f_33971 && cloudTimeAsInt < *Global_262145.f_33954)
+		if (!*Global_262145.f_33972 && cloudTimeAsInt < *Global_262145.f_33955)
 			num = 0;
 	}
 	else if (hParam0 == -1386336041)
 	{
-		if (!*Global_262145.f_33965 && cloudTimeAsInt < *Global_262145.f_33949)
+		if (!*Global_262145.f_33966 && cloudTimeAsInt < *Global_262145.f_33950)
 			num = 0;
 	}
 	else if (hParam0 == -1627077503)
 	{
-		if (!*Global_262145.f_33959 && cloudTimeAsInt < *Global_262145.f_33943)
+		if (!*Global_262145.f_33960 && cloudTimeAsInt < *Global_262145.f_33944)
 			num = 0;
 	}
 	else if (hParam0 == -1035489563)
 	{
-		if (!*Global_262145.f_33960 && cloudTimeAsInt < *Global_262145.f_33944)
+		if (!*Global_262145.f_33961 && cloudTimeAsInt < *Global_262145.f_33945)
 			num = 0;
 	}
 	else if (hParam0 == 1748565021)
 	{
-		if (!*Global_262145.f_33957 && cloudTimeAsInt < *Global_262145.f_33941)
+		if (!*Global_262145.f_33958 && cloudTimeAsInt < *Global_262145.f_33942)
 			num = 0;
 	}
 	else if (hParam0 == 2100457220)
 	{
-		if (!*Global_262145.f_33968 && cloudTimeAsInt < *Global_262145.f_33952)
+		if (!*Global_262145.f_33969 && cloudTimeAsInt < *Global_262145.f_33953)
 			num = 0;
 	}
 	else if (hParam0 == 996383885)
 	{
-		if (!*Global_262145.f_33972 && cloudTimeAsInt < *Global_262145.f_33956)
+		if (!*Global_262145.f_33973 && cloudTimeAsInt < *Global_262145.f_33957)
 			num = 0;
 	}
 	else if (hParam0 == -131348178)
 	{
-		if (!*Global_262145.f_33969 && cloudTimeAsInt < *Global_262145.f_33953)
+		if (!*Global_262145.f_33970 && cloudTimeAsInt < *Global_262145.f_33954)
 			num = 0;
 	}
 	else if (hParam0 == 268758436)
 	{
-		if (!*Global_262145.f_33958 && cloudTimeAsInt < *Global_262145.f_33942)
+		if (!*Global_262145.f_33959 && cloudTimeAsInt < *Global_262145.f_33943)
 			num = 0;
 	}
 	else if (hParam0 == 1076201208)
 	{
-		if (!*Global_262145.f_33961 && cloudTimeAsInt < *Global_262145.f_33945)
+		if (!*Global_262145.f_33962 && cloudTimeAsInt < *Global_262145.f_33946)
 			num = 0;
 	}
 	else if (hParam0 == 669204833)
 	{
-		if (!*Global_262145.f_33970 && cloudTimeAsInt < *Global_262145.f_33955)
+		if (!*Global_262145.f_33971 && cloudTimeAsInt < *Global_262145.f_33956)
 			num = 0;
 	}
 	else if (hParam0 == 1550581940)
 	{
-		if (!*Global_262145.f_33966 && cloudTimeAsInt < *Global_262145.f_33950)
+		if (!*Global_262145.f_33967 && cloudTimeAsInt < *Global_262145.f_33951)
 			num = 0;
 	}
 	else if (hParam0 == -1933242328)
 	{
-		if (!*Global_262145.f_33967 && cloudTimeAsInt < *Global_262145.f_33951)
+		if (!*Global_262145.f_33968 && cloudTimeAsInt < *Global_262145.f_33952)
 			num = 0;
 	}
 	else if (hParam0 == -461850249)
 	{
-		if (!*Global_262145.f_33964 && cloudTimeAsInt < *Global_262145.f_33948)
+		if (!*Global_262145.f_33965 && cloudTimeAsInt < *Global_262145.f_33949)
 			num = 0;
 	}
 	else if (hParam0 == joaat("taxi"))
 	{
-		if (!*Global_262145.f_33963 && cloudTimeAsInt < *Global_262145.f_33947)
+		if (!*Global_262145.f_33964 && cloudTimeAsInt < *Global_262145.f_33948)
 			num = 0;
 	}
 

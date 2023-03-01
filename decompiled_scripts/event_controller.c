@@ -2795,12 +2795,12 @@ int func_96(var uParam0, int iParam1) // Position - 0x2D45
 			return num;
 		}
 	
-		if (Global_297010[num] == uParam0)
+		if (Global_297011[num] == uParam0)
 		{
 			value = num;
 			value2 = num;
 		}
-		else if (Global_297010[num] < uParam0)
+		else if (Global_297011[num] < uParam0)
 		{
 			if (value2 == num)
 				value2 = value2 + 1;

@@ -13836,16 +13836,16 @@ BOOL func_275(var uParam0, Hash hParam1, BOOL bParam2, int iParam3) // Position 
 			{
 				value = 650000;
 			
-				if (flag && *Global_262145.f_33932 >= 0)
-					value = *Global_262145.f_33932;
+				if (flag && *Global_262145.f_33933 >= 0)
+					value = *Global_262145.f_33933;
 			
 				if (bParam2)
 				{
 					num = value;
 					value = 487500;
 				
-					if (flag && *Global_262145.f_33937 >= 0)
-						value = *Global_262145.f_33937;
+					if (flag && *Global_262145.f_33938 >= 0)
+						value = *Global_262145.f_33938;
 				}
 			}
 			break;
@@ -16334,8 +16334,8 @@ BOOL func_275(var uParam0, Hash hParam1, BOOL bParam2, int iParam3) // Position 
 						num = value;
 						value = 622500;
 					
-						if (flag && *Global_262145.f_33938 >= 0)
-							value = *Global_262145.f_33938;
+						if (flag && *Global_262145.f_33939 >= 0)
+							value = *Global_262145.f_33939;
 					}
 				}
 				break;
@@ -18471,8 +18471,8 @@ BOOL func_275(var uParam0, Hash hParam1, BOOL bParam2, int iParam3) // Position 
 			case -1576586413:
 				value = 1450000;
 			
-				if (flag && *Global_262145.f_33917 >= 0)
-					value = *Global_262145.f_33917;
+				if (flag && *Global_262145.f_33918 >= 0)
+					value = *Global_262145.f_33918;
 			
 				if (bParam2)
 				{
@@ -18487,135 +18487,135 @@ BOOL func_275(var uParam0, Hash hParam1, BOOL bParam2, int iParam3) // Position 
 			case -1627077503:
 				value = 790000;
 			
-				if (flag && *Global_262145.f_33918 >= 0)
-					value = *Global_262145.f_33918;
-			
-				if (bParam2)
-				{
-					num = value;
-					value = 592500;
-				
-					if (flag && *Global_262145.f_33933 >= 0)
-						value = *Global_262145.f_33933;
-				}
-				break;
-		
-			case -1035489563:
-				value = 590000;
-			
 				if (flag && *Global_262145.f_33919 >= 0)
 					value = *Global_262145.f_33919;
 			
 				if (bParam2)
 				{
 					num = value;
-					value = 442500;
+					value = 592500;
 				
 					if (flag && *Global_262145.f_33934 >= 0)
 						value = *Global_262145.f_33934;
 				}
 				break;
 		
-			case 2100457220:
-				value = 2170000;
+			case -1035489563:
+				value = 590000;
 			
-				if (flag && *Global_262145.f_33921 >= 0)
-					value = *Global_262145.f_33921;
-				break;
-		
-			case 268758436:
-				value = 1658000;
-			
-				if (flag && *Global_262145.f_33923 >= 0)
-					value = *Global_262145.f_33923;
-				break;
-		
-			case -131348178:
-				value = 1790000;
-			
-				if (flag && *Global_262145.f_33924 >= 0)
-					value = *Global_262145.f_33924;
+				if (flag && *Global_262145.f_33920 >= 0)
+					value = *Global_262145.f_33920;
 			
 				if (bParam2)
 				{
 					num = value;
-					value = 1342500;
+					value = 442500;
 				
 					if (flag && *Global_262145.f_33935 >= 0)
 						value = *Global_262145.f_33935;
 				}
 				break;
 		
-			case -1933242328:
-				value = 925000;
+			case 2100457220:
+				value = 2170000;
 			
-				if (flag && *Global_262145.f_33926 >= 0)
-					value = *Global_262145.f_33926;
+				if (flag && *Global_262145.f_33922 >= 0)
+					value = *Global_262145.f_33922;
 				break;
 		
-			case 996383885:
-				value = 1280000;
+			case 268758436:
+				value = 1658000;
 			
-				if (flag && *Global_262145.f_33928 >= 0)
-					value = *Global_262145.f_33928;
+				if (flag && *Global_262145.f_33924 >= 0)
+					value = *Global_262145.f_33924;
 				break;
 		
-			case 669204833:
-				value = 2980000;
+			case -131348178:
+				value = 1790000;
 			
-				if (flag && *Global_262145.f_33930 >= 0)
-					value = *Global_262145.f_33930;
+				if (flag && *Global_262145.f_33925 >= 0)
+					value = *Global_262145.f_33925;
 			
 				if (bParam2)
 				{
 					num = value;
-					value = 2235000;
+					value = 1342500;
 				
 					if (flag && *Global_262145.f_33936 >= 0)
 						value = *Global_262145.f_33936;
 				}
 				break;
 		
-			case 1076201208:
-				value = 2075000;
-			
-				if (flag && *Global_262145.f_33931 >= 0)
-					value = *Global_262145.f_33931;
-				break;
-		
-			case -1386336041:
-				value = 1605000;
-			
-				if (flag && *Global_262145.f_33929 >= 0)
-					value = *Global_262145.f_33929;
-				break;
-		
-			case 1550581940:
-				value = 1835000;
+			case -1933242328:
+				value = 925000;
 			
 				if (flag && *Global_262145.f_33927 >= 0)
 					value = *Global_262145.f_33927;
 				break;
 		
+			case 996383885:
+				value = 1280000;
+			
+				if (flag && *Global_262145.f_33929 >= 0)
+					value = *Global_262145.f_33929;
+				break;
+		
+			case 669204833:
+				value = 2980000;
+			
+				if (flag && *Global_262145.f_33931 >= 0)
+					value = *Global_262145.f_33931;
+			
+				if (bParam2)
+				{
+					num = value;
+					value = 2235000;
+				
+					if (flag && *Global_262145.f_33937 >= 0)
+						value = *Global_262145.f_33937;
+				}
+				break;
+		
+			case 1076201208:
+				value = 2075000;
+			
+				if (flag && *Global_262145.f_33932 >= 0)
+					value = *Global_262145.f_33932;
+				break;
+		
+			case -1386336041:
+				value = 1605000;
+			
+				if (flag && *Global_262145.f_33930 >= 0)
+					value = *Global_262145.f_33930;
+				break;
+		
+			case 1550581940:
+				value = 1835000;
+			
+				if (flag && *Global_262145.f_33928 >= 0)
+					value = *Global_262145.f_33928;
+				break;
+		
 			case -1249788006:
 				value = 1250000;
 			
-				if (flag && *Global_262145.f_33925 >= 0)
-					value = *Global_262145.f_33925;
+				if (flag && *Global_262145.f_33926 >= 0)
+					value = *Global_262145.f_33926;
 				break;
 		
 			case -461850249:
 				value = 1500000;
 			
-				if (flag && *Global_262145.f_33922 >= 0)
-					value = *Global_262145.f_33922;
+				if (flag && *Global_262145.f_33923 >= 0)
+					value = *Global_262145.f_33923;
 				break;
 		
 			case 1748565021:
 				value = 2355000;
 			
-				if (flag && *Global_262145.f_33920 >= 0)
-					value = *Global_262145.f_33920;
+				if (flag && *Global_262145.f_33921 >= 0)
+					value = *Global_262145.f_33921;
 				break;
 		}
 	

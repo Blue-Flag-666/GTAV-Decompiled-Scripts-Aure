@@ -11905,7 +11905,7 @@ int func_239(int iParam0) // Position - 0xA572
 			return Global_262145.f_21421;
 	
 		case 32:
-			return *Global_262145.f_33917;
+			return *Global_262145.f_33918;
 	
 		default:
 		

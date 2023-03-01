@@ -1579,12 +1579,12 @@ int func_21(int iParam0, int iParam1) // Position - 0x1BD3
 			return num;
 		}
 	
-		if (Global_297010[num] == iParam0)
+		if (Global_297011[num] == iParam0)
 		{
 			value = num;
 			value2 = num;
 		}
-		else if (Global_297010[num] < iParam0)
+		else if (Global_297011[num] < iParam0)
 		{
 			if (value2 == num)
 				value2 = value2 + 1;

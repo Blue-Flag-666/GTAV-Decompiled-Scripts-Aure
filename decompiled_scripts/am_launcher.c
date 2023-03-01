@@ -14259,7 +14259,7 @@ BOOL func_306(int iParam0, int iParam1, Player plParam2) // Position - 0x10A99
 			return func_308(iParam1, plParam2);
 	
 		case 304:
-			if (*Global_262145.f_34060)
+			if (*Global_262145.f_34061)
 				if (_IS_PLAYER_BOSS_OF_ORGANIZATION(plParam2) && func_307(plParam2) > 0)
 					return false;
 			break;

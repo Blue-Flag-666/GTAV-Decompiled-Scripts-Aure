@@ -4653,38 +4653,38 @@ void func_101(const char* sParam0, var uParam1, BOOL bParam2, Hash hParam3, int 
 	
 		case 1:
 			if (hParam3 == joaat("MP_M_Freemode_01"))
-				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_22);
+				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_22);
 			else if (hParam3 == joaat("MP_F_Freemode_01"))
-				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_29);
+				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_29);
 			break;
 	
 		case 4:
 			if (hParam3 == joaat("MP_M_Freemode_01"))
-				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_15);
+				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_15);
 			else if (hParam3 == joaat("MP_F_Freemode_01"))
-				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_23);
+				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_23);
 			break;
 	
 		case 6:
 			if (hParam3 == joaat("MP_M_Freemode_01"))
-				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_17);
+				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_17);
 			else if (hParam3 == joaat("MP_F_Freemode_01"))
-				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_25);
+				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_25);
 			break;
 	
 		case 11:
 		case 8:
 			if (hParam3 == joaat("MP_M_Freemode_01"))
-				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_16);
+				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_16);
 			else if (hParam3 == joaat("MP_F_Freemode_01"))
-				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_24);
+				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_24);
 			break;
 	
 		case 7:
 			if (hParam3 == joaat("MP_M_Freemode_01"))
-				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_57);
+				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_57);
 			else if (hParam3 == joaat("MP_F_Freemode_01"))
-				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_58);
+				*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_58);
 			break;
 	
 		case 14:
@@ -4692,29 +4692,29 @@ void func_101(const char* sParam0, var uParam1, BOOL bParam2, Hash hParam3, int 
 			{
 				case PV_COMP_BERD:
 					if (hParam3 == joaat("MP_M_Freemode_01"))
-						*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_20);
+						*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_20);
 					else if (hParam3 == joaat("MP_F_Freemode_01"))
-						*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_56);
+						*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_56);
 					break;
 			
 				case PV_COMP_HEAD:
 					if (func_107(hParam3, iParam5, iParam4, -1))
 						if (hParam3 == joaat("MP_M_Freemode_01"))
-							*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_19);
+							*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_19);
 						else if (hParam3 == joaat("MP_F_Freemode_01"))
-							*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_27);
+							*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_27);
 					else if (func_102(hParam3, iParam5, iParam4, -1))
 						if (hParam3 == joaat("MP_M_Freemode_01"))
-							*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_18);
+							*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_18);
 						else if (hParam3 == joaat("MP_F_Freemode_01"))
-							*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_26);
+							*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_26);
 					break;
 			
 				case PV_COMP_FEET:
 					if (hParam3 == joaat("MP_M_Freemode_01"))
-						*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_21);
+						*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_21);
 					else if (hParam3 == joaat("MP_F_Freemode_01"))
-						*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_28);
+						*uParam1 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_28);
 					break;
 			}
 			break;
@@ -5213,103 +5213,103 @@ void func_108(Hash hParam0, var uParam1, int iParam2) // Position - 0x3B9D
 			switch (hParam0)
 			{
 				case -498303189:
-					*uParam1 = *Global_262145.f_34336;
-					break;
-			
-				case -1344431538:
 					*uParam1 = *Global_262145.f_34337;
 					break;
 			
-				case 2110273060:
+				case -1344431538:
 					*uParam1 = *Global_262145.f_34338;
 					break;
 			
-				case -882945711:
+				case 2110273060:
 					*uParam1 = *Global_262145.f_34339;
 					break;
 			
-				case 431353341:
+				case -882945711:
 					*uParam1 = *Global_262145.f_34340;
 					break;
 			
-				case 1479356202:
+				case 431353341:
 					*uParam1 = *Global_262145.f_34341;
 					break;
 			
-				case 1182436293:
+				case 1479356202:
 					*uParam1 = *Global_262145.f_34342;
 					break;
 			
-				case 892856672:
+				case 1182436293:
 					*uParam1 = *Global_262145.f_34343;
 					break;
 			
-				case 590398802:
+				case 892856672:
 					*uParam1 = *Global_262145.f_34344;
 					break;
 			
-				case 292757975:
+				case 590398802:
 					*uParam1 = *Global_262145.f_34345;
 					break;
 			
-				case 230496875:
+				case 292757975:
 					*uParam1 = *Global_262145.f_34346;
 					break;
 			
-				case 493664678:
+				case 230496875:
 					*uParam1 = *Global_262145.f_34347;
 					break;
 			
-				case 188192060:
+				case 493664678:
 					*uParam1 = *Global_262145.f_34348;
 					break;
 			
-				case -118624087:
+				case 188192060:
 					*uParam1 = *Global_262145.f_34349;
 					break;
 			
-				case -662327335:
+				case -118624087:
 					*uParam1 = *Global_262145.f_34350;
 					break;
 			
-				case 1647023283:
+				case -662327335:
 					*uParam1 = *Global_262145.f_34351;
 					break;
 			
-				case 1272342533:
+				case 1647023283:
 					*uParam1 = *Global_262145.f_34352;
 					break;
 			
-				case 968541134:
+				case 1272342533:
 					*uParam1 = *Global_262145.f_34353;
 					break;
 			
-				case 721495643:
+				case 968541134:
 					*uParam1 = *Global_262145.f_34354;
 					break;
 			
-				case 455968436:
+				case 721495643:
 					*uParam1 = *Global_262145.f_34355;
 					break;
 			
-				case 73292054:
+				case 455968436:
 					*uParam1 = *Global_262145.f_34356;
 					break;
 			
-				case 1290043360:
+				case 73292054:
 					*uParam1 = *Global_262145.f_34357;
 					break;
 			
-				case -2071367895:
+				case 1290043360:
 					*uParam1 = *Global_262145.f_34358;
 					break;
 			
-				case 290588860:
+				case -2071367895:
 					*uParam1 = *Global_262145.f_34359;
 					break;
 			
-				case 1731900556:
+				case 290588860:
 					*uParam1 = *Global_262145.f_34360;
+					break;
+			
+				case 1731900556:
+					*uParam1 = *Global_262145.f_34361;
 					break;
 			}
 			break;
@@ -5318,283 +5318,283 @@ void func_108(Hash hParam0, var uParam1, int iParam2) // Position - 0x3B9D
 			switch (hParam0)
 			{
 				case 110713366:
-					*uParam1 = *Global_262145.f_34266;
-					break;
-			
-				case 965230579:
 					*uParam1 = *Global_262145.f_34267;
 					break;
 			
-				case -189483419:
+				case 965230579:
 					*uParam1 = *Global_262145.f_34268;
 					break;
 			
-				case -414803063:
+				case -189483419:
 					*uParam1 = *Global_262145.f_34269;
 					break;
 			
-				case 405896542:
+				case -414803063:
 					*uParam1 = *Global_262145.f_34270;
 					break;
 			
-				case -84262160:
+				case 405896542:
 					*uParam1 = *Global_262145.f_34271;
 					break;
 			
-				case 2054865391:
+				case -84262160:
 					*uParam1 = *Global_262145.f_34272;
 					break;
 			
-				case -1406098086:
+				case 2054865391:
 					*uParam1 = *Global_262145.f_34273;
 					break;
 			
-				case -1593471228:
+				case -1406098086:
 					*uParam1 = *Global_262145.f_34274;
 					break;
 			
-				case -810259359:
+				case -1593471228:
 					*uParam1 = *Global_262145.f_34275;
 					break;
 			
-				case -670655633:
+				case -810259359:
 					*uParam1 = *Global_262145.f_34276;
 					break;
 			
-				case -387957470:
+				case -670655633:
 					*uParam1 = *Global_262145.f_34277;
 					break;
 			
-				case 866112160:
+				case -387957470:
 					*uParam1 = *Global_262145.f_34278;
 					break;
 			
-				case -1269738487:
+				case 866112160:
 					*uParam1 = *Global_262145.f_34279;
 					break;
 			
-				case -1891038727:
+				case -1269738487:
 					*uParam1 = *Global_262145.f_34280;
 					break;
 			
-				case -1612272844:
+				case -1891038727:
 					*uParam1 = *Global_262145.f_34281;
 					break;
 			
-				case -357154610:
+				case -1612272844:
 					*uParam1 = *Global_262145.f_34282;
 					break;
 			
-				case 1808253687:
+				case -357154610:
 					*uParam1 = *Global_262145.f_34283;
 					break;
 			
-				case 2106091128:
+				case 1808253687:
 					*uParam1 = *Global_262145.f_34284;
 					break;
 			
-				case 1460869518:
+				case 2106091128:
 					*uParam1 = *Global_262145.f_34285;
 					break;
 			
-				case -1796169656:
+				case 1460869518:
 					*uParam1 = *Global_262145.f_34286;
 					break;
 			
-				case -1951429178:
+				case -1796169656:
 					*uParam1 = *Global_262145.f_34287;
 					break;
 			
-				case -107157085:
+				case -1951429178:
 					*uParam1 = *Global_262145.f_34288;
 					break;
 			
-				case -260778157:
+				case -107157085:
 					*uParam1 = *Global_262145.f_34289;
 					break;
 			
-				case -566873386:
+				case -260778157:
 					*uParam1 = *Global_262145.f_34290;
 					break;
 			
-				case -856715191:
+				case -566873386:
 					*uParam1 = *Global_262145.f_34291;
 					break;
 			
-				case 1825947575:
+				case -856715191:
 					*uParam1 = *Global_262145.f_34292;
 					break;
 			
-				case 2068012178:
+				case 1825947575:
 					*uParam1 = *Global_262145.f_34293;
 					break;
 			
-				case -1995376595:
+				case 2068012178:
 					*uParam1 = *Global_262145.f_34294;
 					break;
 			
-				case 398071161:
+				case -1995376595:
 					*uParam1 = *Global_262145.f_34295;
 					break;
 			
-				case 57339123:
+				case 398071161:
 					*uParam1 = *Global_262145.f_34296;
 					break;
 			
-				case -1874065737:
+				case 57339123:
 					*uParam1 = *Global_262145.f_34297;
 					break;
 			
-				case -1629576228:
+				case -1874065737:
 					*uParam1 = *Global_262145.f_34298;
 					break;
 			
-				case -1384824567:
+				case -1629576228:
 					*uParam1 = *Global_262145.f_34299;
 					break;
 			
-				case 1120331789:
+				case -1384824567:
 					*uParam1 = *Global_262145.f_34300;
 					break;
 			
-				case 960091379:
+				case 1120331789:
 					*uParam1 = *Global_262145.f_34301;
 					break;
 			
-				case -642542108:
+				case 960091379:
 					*uParam1 = *Global_262145.f_34302;
 					break;
 			
-				case 133853809:
+				case -642542108:
 					*uParam1 = *Global_262145.f_34303;
 					break;
 			
-				case -28221665:
+				case 133853809:
 					*uParam1 = *Global_262145.f_34304;
 					break;
 			
-				case -1862400902:
+				case -28221665:
 					*uParam1 = *Global_262145.f_34305;
 					break;
 			
-				case -961515554:
+				case -1862400902:
 					*uParam1 = *Global_262145.f_34306;
 					break;
 			
-				case -1249784447:
+				case -961515554:
 					*uParam1 = *Global_262145.f_34307;
 					break;
 			
-				case 1400165239:
+				case -1249784447:
 					*uParam1 = *Global_262145.f_34308;
 					break;
 			
-				case 1698002680:
+				case 1400165239:
 					*uParam1 = *Global_262145.f_34309;
 					break;
 			
-				case 1978112092:
+				case 1698002680:
 					*uParam1 = *Global_262145.f_34310;
 					break;
 			
-				case -1991950569:
+				case 1978112092:
 					*uParam1 = *Global_262145.f_34311;
 					break;
 			
-				case 475096357:
+				case -1991950569:
 					*uParam1 = *Global_262145.f_34312;
 					break;
 			
-				case -158393951:
+				case 475096357:
 					*uParam1 = *Global_262145.f_34313;
 					break;
 			
-				case 990945967:
+				case -158393951:
 					*uParam1 = *Global_262145.f_34314;
 					break;
 			
-				case 215008804:
+				case 990945967:
 					*uParam1 = *Global_262145.f_34315;
 					break;
 			
-				case -455346629:
+				case 215008804:
 					*uParam1 = *Global_262145.f_34316;
 					break;
 			
-				case -1079792693:
+				case -455346629:
 					*uParam1 = *Global_262145.f_34317;
 					break;
 			
-				case 178608096:
+				case -1079792693:
 					*uParam1 = *Global_262145.f_34318;
 					break;
 			
-				case 626429250:
+				case 178608096:
 					*uParam1 = *Global_262145.f_34319;
 					break;
 			
-				case 1328013540:
+				case 626429250:
 					*uParam1 = *Global_262145.f_34320;
 					break;
 			
-				case -809278947:
+				case 1328013540:
 					*uParam1 = *Global_262145.f_34321;
 					break;
 			
-				case -1049639562:
+				case -809278947:
 					*uParam1 = *Global_262145.f_34322;
 					break;
 			
-				case -62047440:
+				case -1049639562:
 					*uParam1 = *Global_262145.f_34323;
 					break;
 			
-				case -303784353:
+				case -62047440:
 					*uParam1 = *Global_262145.f_34324;
 					break;
 			
-				case 1854349222:
+				case -303784353:
 					*uParam1 = *Global_262145.f_34325;
 					break;
 			
-				case -1740999924:
+				case 1854349222:
 					*uParam1 = *Global_262145.f_34326;
 					break;
 			
-				case -1290557250:
+				case -1740999924:
 					*uParam1 = *Global_262145.f_34327;
 					break;
 			
-				case 96454721:
+				case -1290557250:
 					*uParam1 = *Global_262145.f_34328;
 					break;
 			
-				case 965914598:
+				case 96454721:
 					*uParam1 = *Global_262145.f_34329;
 					break;
 			
-				case -487849318:
+				case 965914598:
 					*uParam1 = *Global_262145.f_34330;
 					break;
 			
-				case 346285577:
+				case -487849318:
 					*uParam1 = *Global_262145.f_34331;
 					break;
 			
-				case -518750445:
+				case 346285577:
 					*uParam1 = *Global_262145.f_34332;
 					break;
 			
-				case -1941480959:
+				case -518750445:
 					*uParam1 = *Global_262145.f_34333;
 					break;
 			
-				case -1846188707:
+				case -1941480959:
 					*uParam1 = *Global_262145.f_34334;
 					break;
 			
-				case -1606745624:
+				case -1846188707:
 					*uParam1 = *Global_262145.f_34335;
+					break;
+			
+				case -1606745624:
+					*uParam1 = *Global_262145.f_34336;
 					break;
 			}
 			break;
@@ -5603,814 +5603,814 @@ void func_108(Hash hParam0, var uParam1, int iParam2) // Position - 0x3B9D
 			switch (hParam0)
 			{
 				case 459451274:
-					*uParam1 = *Global_262145.f_34125;
-					break;
-			
-				case 1755530766:
 					*uParam1 = *Global_262145.f_34126;
 					break;
 			
-				case 1994187393:
+				case 1755530766:
 					*uParam1 = *Global_262145.f_34127;
 					break;
 			
-				case -122067400:
+				case 1994187393:
 					*uParam1 = *Global_262145.f_34128;
 					break;
 			
-				case -746939461:
+				case -122067400:
 					*uParam1 = *Global_262145.f_34129;
 					break;
 			
-				case -517425385:
+				case -746939461:
 					*uParam1 = *Global_262145.f_34130;
 					break;
 			
-				case 771084464:
+				case -517425385:
 					*uParam1 = *Global_262145.f_34131;
 					break;
 			
-				case -1143083906:
+				case 771084464:
 					*uParam1 = *Global_262145.f_34132;
 					break;
 			
-				case -1969944083:
+				case -1143083906:
 					*uParam1 = *Global_262145.f_34133;
 					break;
 			
-				case -1742789375:
+				case -1969944083:
 					*uParam1 = *Global_262145.f_34134;
 					break;
 			
-				case -1865772411:
+				case -1742789375:
 					*uParam1 = *Global_262145.f_34135;
 					break;
 			
-				case -1373385417:
+				case -1865772411:
 					*uParam1 = *Global_262145.f_34136;
 					break;
 			
-				case -56483533:
+				case -1373385417:
 					*uParam1 = *Global_262145.f_34137;
 					break;
 			
-				case 1799552627:
+				case -56483533:
 					*uParam1 = *Global_262145.f_34138;
 					break;
 			
-				case 537716744:
+				case 1799552627:
 					*uParam1 = *Global_262145.f_34139;
 					break;
 			
-				case 244696346:
+				case 537716744:
 					*uParam1 = *Global_262145.f_34140;
 					break;
 			
-				case 939890681:
+				case 244696346:
 					*uParam1 = *Global_262145.f_34141;
 					break;
 			
-				case -1573884851:
+				case 939890681:
 					*uParam1 = *Global_262145.f_34142;
 					break;
 			
-				case 1534746338:
+				case -1573884851:
 					*uParam1 = *Global_262145.f_34143;
 					break;
 			
-				case 1229568641:
+				case 1534746338:
 					*uParam1 = *Global_262145.f_34144;
 					break;
 			
-				case -345604432:
+				case 1229568641:
 					*uParam1 = *Global_262145.f_34145;
 					break;
 			
-				case -650257825:
+				case -345604432:
 					*uParam1 = *Global_262145.f_34146;
 					break;
 			
-				case 659233962:
+				case -650257825:
 					*uParam1 = *Global_262145.f_34147;
 					break;
 			
-				case 914996007:
+				case 659233962:
 					*uParam1 = *Global_262145.f_34148;
 					break;
 			
-				case 1143920241:
+				case 914996007:
 					*uParam1 = *Global_262145.f_34149;
 					break;
 			
-				case 1383363324:
+				case 1143920241:
 					*uParam1 = *Global_262145.f_34150;
 					break;
 			
-				case 1487849357:
+				case 1383363324:
 					*uParam1 = *Global_262145.f_34151;
+					break;
+			
+				case 1487849357:
+					*uParam1 = *Global_262145.f_34152;
 					break;
 			
 				case 553474087:
-					*uParam1 = *Global_262145.f_34152;
+					*uParam1 = *Global_262145.f_34153;
 					break;
 			
 				case 322944172:
-					*uParam1 = *Global_262145.f_34153;
+					*uParam1 = *Global_262145.f_34154;
 					break;
 			
 				case -1422889841:
-					*uParam1 = *Global_262145.f_34154;
+					*uParam1 = *Global_262145.f_34155;
 					break;
 			
 				case -1650306701:
-					*uParam1 = *Global_262145.f_34155;
+					*uParam1 = *Global_262145.f_34156;
 					break;
 			
 				case 1205478884:
-					*uParam1 = *Global_262145.f_34156;
+					*uParam1 = *Global_262145.f_34157;
 					break;
 			
 				case 1009192574:
-					*uParam1 = *Global_262145.f_34157;
+					*uParam1 = *Global_262145.f_34158;
 					break;
 			
 				case -1815659103:
-					*uParam1 = *Global_262145.f_34158;
+					*uParam1 = *Global_262145.f_34159;
 					break;
 			
 				case -430316831:
-					*uParam1 = *Global_262145.f_34159;
+					*uParam1 = *Global_262145.f_34160;
 					break;
 			
 				case -1354500966:
-					*uParam1 = *Global_262145.f_34160;
+					*uParam1 = *Global_262145.f_34161;
 					break;
 			
 				case 1532484382:
-					*uParam1 = *Global_262145.f_34161;
+					*uParam1 = *Global_262145.f_34162;
 					break;
 			
 				case 801735682:
-					*uParam1 = *Global_262145.f_34162;
+					*uParam1 = *Global_262145.f_34163;
 					break;
 			
 				case 726825748:
-					*uParam1 = *Global_262145.f_34163;
+					*uParam1 = *Global_262145.f_34164;
 					break;
 			
 				case 3810532:
-					*uParam1 = *Global_262145.f_34164;
+					*uParam1 = *Global_262145.f_34165;
 					break;
 			
 				case -975491041:
-					*uParam1 = *Global_262145.f_34165;
+					*uParam1 = *Global_262145.f_34166;
 					break;
 			
 				case 482795005:
-					*uParam1 = *Global_262145.f_34166;
+					*uParam1 = *Global_262145.f_34167;
 					break;
 			
 				case -393448063:
-					*uParam1 = *Global_262145.f_34167;
+					*uParam1 = *Global_262145.f_34168;
 					break;
 			
 				case -1234792138:
-					*uParam1 = *Global_262145.f_34168;
+					*uParam1 = *Global_262145.f_34169;
 					break;
 			
 				case 2132779689:
-					*uParam1 = *Global_262145.f_34169;
+					*uParam1 = *Global_262145.f_34170;
 					break;
 			
 				case -720548221:
-					*uParam1 = *Global_262145.f_34170;
+					*uParam1 = *Global_262145.f_34171;
 					break;
 			
 				case 182495585:
-					*uParam1 = *Global_262145.f_34171;
+					*uParam1 = *Global_262145.f_34172;
 					break;
 			
 				case -47837716:
-					*uParam1 = *Global_262145.f_34172;
+					*uParam1 = *Global_262145.f_34173;
 					break;
 			
 				case 670131066:
-					*uParam1 = *Global_262145.f_34173;
+					*uParam1 = *Global_262145.f_34174;
 					break;
 			
 				case 414172407:
-					*uParam1 = *Global_262145.f_34174;
+					*uParam1 = *Global_262145.f_34175;
 					break;
 			
 				case 183937413:
-					*uParam1 = *Global_262145.f_34175;
+					*uParam1 = *Global_262145.f_34176;
 					break;
 			
 				case -55046904:
-					*uParam1 = *Global_262145.f_34176;
-					break;
-			
-				case 960022012:
-					*uParam1 = *Global_262145.f_34151;
-					break;
-			
-				case 1364555425:
-					*uParam1 = *Global_262145.f_34152;
-					break;
-			
-				case 1058722348:
-					*uParam1 = *Global_262145.f_34153;
-					break;
-			
-				case 905166814:
-					*uParam1 = *Global_262145.f_34154;
-					break;
-			
-				case 598612819:
-					*uParam1 = *Global_262145.f_34155;
-					break;
-			
-				case -697204517:
-					*uParam1 = *Global_262145.f_34156;
-					break;
-			
-				case 70311001:
-					*uParam1 = *Global_262145.f_34157;
-					break;
-			
-				case -1154758068:
-					*uParam1 = *Global_262145.f_34158;
-					break;
-			
-				case -386390552:
-					*uParam1 = *Global_262145.f_34159;
-					break;
-			
-				case 2014495663:
-					*uParam1 = *Global_262145.f_34160;
-					break;
-			
-				case 2103073412:
-					*uParam1 = *Global_262145.f_34161;
-					break;
-			
-				case -1879834697:
-					*uParam1 = *Global_262145.f_34162;
-					break;
-			
-				case 1495372307:
-					*uParam1 = *Global_262145.f_34163;
-					break;
-			
-				case 1802385068:
-					*uParam1 = *Global_262145.f_34164;
-					break;
-			
-				case 890817018:
-					*uParam1 = *Global_262145.f_34165;
-					break;
-			
-				case 1229779554:
-					*uParam1 = *Global_262145.f_34166;
-					break;
-			
-				case 274595973:
-					*uParam1 = *Global_262145.f_34167;
-					break;
-			
-				case 584623482:
-					*uParam1 = *Global_262145.f_34168;
-					break;
-			
-				case 238910536:
-					*uParam1 = *Global_262145.f_34169;
-					break;
-			
-				case 540778564:
-					*uParam1 = *Global_262145.f_34170;
-					break;
-			
-				case -1387544550:
-					*uParam1 = *Global_262145.f_34171;
-					break;
-			
-				case 1677536638:
-					*uParam1 = *Global_262145.f_34172;
-					break;
-			
-				case -277920668:
-					*uParam1 = *Global_262145.f_34173;
-					break;
-			
-				case -1650122543:
-					*uParam1 = *Global_262145.f_34174;
-					break;
-			
-				case -319176839:
-					*uParam1 = *Global_262145.f_34175;
-					break;
-			
-				case -617145356:
-					*uParam1 = *Global_262145.f_34176;
-					break;
-			
-				case 804458986:
 					*uParam1 = *Global_262145.f_34177;
 					break;
 			
-				case 1639642489:
+				case 960022012:
+					*uParam1 = *Global_262145.f_34152;
+					break;
+			
+				case 1364555425:
+					*uParam1 = *Global_262145.f_34153;
+					break;
+			
+				case 1058722348:
+					*uParam1 = *Global_262145.f_34154;
+					break;
+			
+				case 905166814:
+					*uParam1 = *Global_262145.f_34155;
+					break;
+			
+				case 598612819:
+					*uParam1 = *Global_262145.f_34156;
+					break;
+			
+				case -697204517:
+					*uParam1 = *Global_262145.f_34157;
+					break;
+			
+				case 70311001:
+					*uParam1 = *Global_262145.f_34158;
+					break;
+			
+				case -1154758068:
+					*uParam1 = *Global_262145.f_34159;
+					break;
+			
+				case -386390552:
+					*uParam1 = *Global_262145.f_34160;
+					break;
+			
+				case 2014495663:
+					*uParam1 = *Global_262145.f_34161;
+					break;
+			
+				case 2103073412:
+					*uParam1 = *Global_262145.f_34162;
+					break;
+			
+				case -1879834697:
+					*uParam1 = *Global_262145.f_34163;
+					break;
+			
+				case 1495372307:
+					*uParam1 = *Global_262145.f_34164;
+					break;
+			
+				case 1802385068:
+					*uParam1 = *Global_262145.f_34165;
+					break;
+			
+				case 890817018:
+					*uParam1 = *Global_262145.f_34166;
+					break;
+			
+				case 1229779554:
+					*uParam1 = *Global_262145.f_34167;
+					break;
+			
+				case 274595973:
+					*uParam1 = *Global_262145.f_34168;
+					break;
+			
+				case 584623482:
+					*uParam1 = *Global_262145.f_34169;
+					break;
+			
+				case 238910536:
+					*uParam1 = *Global_262145.f_34170;
+					break;
+			
+				case 540778564:
+					*uParam1 = *Global_262145.f_34171;
+					break;
+			
+				case -1387544550:
+					*uParam1 = *Global_262145.f_34172;
+					break;
+			
+				case 1677536638:
+					*uParam1 = *Global_262145.f_34173;
+					break;
+			
+				case -277920668:
+					*uParam1 = *Global_262145.f_34174;
+					break;
+			
+				case -1650122543:
+					*uParam1 = *Global_262145.f_34175;
+					break;
+			
+				case -319176839:
+					*uParam1 = *Global_262145.f_34176;
+					break;
+			
+				case -617145356:
+					*uParam1 = *Global_262145.f_34177;
+					break;
+			
+				case 804458986:
 					*uParam1 = *Global_262145.f_34178;
 					break;
 			
-				case 1398331573:
+				case 1639642489:
 					*uParam1 = *Global_262145.f_34179;
 					break;
 			
-				case -2063090670:
+				case 1398331573:
 					*uParam1 = *Global_262145.f_34180;
 					break;
 			
-				case 1214005956:
+				case -2063090670:
 					*uParam1 = *Global_262145.f_34181;
 					break;
 			
-				case 2061641679:
+				case 1214005956:
 					*uParam1 = *Global_262145.f_34182;
 					break;
 			
-				case 1815349875:
+				case 2061641679:
 					*uParam1 = *Global_262145.f_34183;
 					break;
 			
-				case -1636503820:
+				case 1815349875:
 					*uParam1 = *Global_262145.f_34184;
 					break;
 			
-				case -1886400214:
+				case -1636503820:
 					*uParam1 = *Global_262145.f_34185;
 					break;
 			
-				case -1041910311:
+				case -1886400214:
 					*uParam1 = *Global_262145.f_34186;
 					break;
 			
-				case -556654491:
+				case -1041910311:
 					*uParam1 = *Global_262145.f_34187;
 					break;
 			
-				case -1325448000:
+				case -556654491:
 					*uParam1 = *Global_262145.f_34188;
 					break;
 			
-				case -1512821146:
+				case -1325448000:
 					*uParam1 = *Global_262145.f_34189;
 					break;
 			
-				case 1937918403:
+				case -1512821146:
 					*uParam1 = *Global_262145.f_34190;
 					break;
 			
-				case 1340965530:
+				case 1937918403:
 					*uParam1 = *Global_262145.f_34191;
 					break;
 			
-				case 1716760422:
+				case 1340965530:
 					*uParam1 = *Global_262145.f_34192;
 					break;
 			
-				case 881380305:
+				case 1716760422:
 					*uParam1 = *Global_262145.f_34193;
 					break;
 			
-				case 381784131:
+				case 881380305:
 					*uParam1 = *Global_262145.f_34194;
 					break;
 			
-				case 758431017:
+				case 381784131:
 					*uParam1 = *Global_262145.f_34195;
 					break;
 			
-				case 499654228:
+				case 758431017:
 					*uParam1 = *Global_262145.f_34196;
 					break;
 			
-				case -860194026:
+				case 499654228:
 					*uParam1 = *Global_262145.f_34197;
 					break;
 			
-				case 1075405294:
+				case -860194026:
 					*uParam1 = *Global_262145.f_34198;
 					break;
 			
-				case 1380976219:
+				case 1075405294:
 					*uParam1 = *Global_262145.f_34199;
 					break;
 			
-				case 597076201:
+				case 1380976219:
 					*uParam1 = *Global_262145.f_34200;
 					break;
 			
-				case 895503484:
+				case 597076201:
 					*uParam1 = *Global_262145.f_34201;
 					break;
 			
-				case 224820353:
+				case 895503484:
 					*uParam1 = *Global_262145.f_34202;
 					break;
 			
-				case -1623204793:
+				case 224820353:
 					*uParam1 = *Global_262145.f_34203;
 					break;
 			
-				case -1382975254:
+				case -1623204793:
 					*uParam1 = *Global_262145.f_34204;
 					break;
 			
-				case 2086540988:
+				case -1382975254:
 					*uParam1 = *Global_262145.f_34205;
 					break;
 			
-				case -1947683375:
+				case 2086540988:
 					*uParam1 = *Global_262145.f_34206;
 					break;
 			
-				case -1594499093:
+				case -1947683375:
 					*uParam1 = *Global_262145.f_34207;
 					break;
 			
-				case -1363444874:
+				case -1594499093:
 					*uParam1 = *Global_262145.f_34208;
 					break;
 			
-				case -450336689:
+				case -1363444874:
 					*uParam1 = *Global_262145.f_34209;
 					break;
 			
-				case -1258420229:
+				case -450336689:
 					*uParam1 = *Global_262145.f_34210;
 					break;
 			
-				case 164770210:
+				case -1258420229:
 					*uParam1 = *Global_262145.f_34211;
 					break;
 			
-				case 60847548:
+				case 164770210:
 					*uParam1 = *Global_262145.f_34212;
 					break;
 			
-				case 214861848:
+				case 60847548:
 					*uParam1 = *Global_262145.f_34213;
 					break;
 			
-				case -495635610:
+				case 214861848:
 					*uParam1 = *Global_262145.f_34214;
 					break;
 			
-				case -973571479:
+				case -495635610:
 					*uParam1 = *Global_262145.f_34215;
 					break;
 			
-				case -669442386:
+				case -973571479:
 					*uParam1 = *Global_262145.f_34216;
 					break;
 			
-				case -1990360780:
+				case -669442386:
 					*uParam1 = *Global_262145.f_34217;
 					break;
 			
-				case -1675680073:
+				case -1990360780:
 					*uParam1 = *Global_262145.f_34218;
 					break;
 			
-				case -1393997757:
+				case -1675680073:
 					*uParam1 = *Global_262145.f_34219;
 					break;
 			
-				case -1087509300:
+				case -1393997757:
 					*uParam1 = *Global_262145.f_34220;
 					break;
 			
-				case -2106845103:
+				case -1087509300:
 					*uParam1 = *Global_262145.f_34221;
 					break;
 			
-				case -1450744185:
+				case -2106845103:
 					*uParam1 = *Global_262145.f_34222;
 					break;
 			
-				case -1664463603:
+				case -1450744185:
 					*uParam1 = *Global_262145.f_34223;
 					break;
 			
-				case -836358200:
+				case -1664463603:
 					*uParam1 = *Global_262145.f_34224;
 					break;
 			
-				case -1150973369:
+				case -836358200:
 					*uParam1 = *Global_262145.f_34225;
 					break;
 			
-				case 820344129:
+				case -1150973369:
 					*uParam1 = *Global_262145.f_34226;
 					break;
 			
-				case -742617768:
+				case 820344129:
 					*uParam1 = *Global_262145.f_34227;
 					break;
 			
-				case -512546619:
+				case -742617768:
 					*uParam1 = *Global_262145.f_34228;
 					break;
 			
-				case 793429107:
+				case -512546619:
 					*uParam1 = *Global_262145.f_34229;
 					break;
 			
-				case 485597121:
+				case 793429107:
 					*uParam1 = *Global_262145.f_34230;
+					break;
+			
+				case 485597121:
+					*uParam1 = *Global_262145.f_34231;
 					break;
 			}
 		
 			switch (hParam0)
 			{
 				case 630852893:
-					*uParam1 = *Global_262145.f_34237;
+					*uParam1 = *Global_262145.f_34238;
 					break;
 			
 				case -1826035607:
-					*uParam1 = *Global_262145.f_34238;
+					*uParam1 = *Global_262145.f_34239;
 					break;
 			
 				case -2065806380:
-					*uParam1 = *Global_262145.f_34239;
+					*uParam1 = *Global_262145.f_34240;
 					break;
 			
 				case 1874665874:
-					*uParam1 = *Global_262145.f_34240;
+					*uParam1 = *Global_262145.f_34241;
 					break;
 			
 				case 1635484943:
-					*uParam1 = *Global_262145.f_34241;
+					*uParam1 = *Global_262145.f_34242;
 					break;
 			
 				case -604997129:
-					*uParam1 = *Global_262145.f_34242;
+					*uParam1 = *Global_262145.f_34243;
 					break;
 			
 				case -834543974:
-					*uParam1 = *Global_262145.f_34243;
+					*uParam1 = *Global_262145.f_34244;
 					break;
 			
 				case -1199918324:
-					*uParam1 = *Global_262145.f_34244;
+					*uParam1 = *Global_262145.f_34245;
 					break;
 			
 				case -1429923935:
-					*uParam1 = *Global_262145.f_34245;
+					*uParam1 = *Global_262145.f_34246;
 					break;
 			
 				case -1043184237:
-					*uParam1 = *Global_262145.f_34246;
+					*uParam1 = *Global_262145.f_34247;
 					break;
 			
 				case 853571914:
-					*uParam1 = *Global_262145.f_34247;
+					*uParam1 = *Global_262145.f_34248;
 					break;
 			
 				case 617602345:
-					*uParam1 = *Global_262145.f_34248;
+					*uParam1 = *Global_262145.f_34249;
 					break;
 			
 				case -570306670:
-					*uParam1 = *Global_262145.f_34249;
+					*uParam1 = *Global_262145.f_34250;
 					break;
 			
 				case 121971220:
-					*uParam1 = *Global_262145.f_34250;
+					*uParam1 = *Global_262145.f_34251;
 					break;
 			
 				case 1687477442:
-					*uParam1 = *Global_262145.f_34251;
+					*uParam1 = *Global_262145.f_34252;
 					break;
 			
 				case -1897778848:
-					*uParam1 = *Global_262145.f_34252;
+					*uParam1 = *Global_262145.f_34253;
 					break;
 			
 				case 1203839771:
-					*uParam1 = *Global_262145.f_34253;
+					*uParam1 = *Global_262145.f_34254;
 					break;
 			
 				case 973440932:
-					*uParam1 = *Global_262145.f_34254;
+					*uParam1 = *Global_262145.f_34255;
 					break;
 			
 				case 728459888:
-					*uParam1 = *Global_262145.f_34255;
+					*uParam1 = *Global_262145.f_34256;
 					break;
 			
 				case 483183923:
-					*uParam1 = *Global_262145.f_34256;
+					*uParam1 = *Global_262145.f_34257;
 					break;
 			
 				case 173319963:
-					*uParam1 = *Global_262145.f_34257;
+					*uParam1 = *Global_262145.f_34258;
 					break;
 			
 				case -125172858:
-					*uParam1 = *Global_262145.f_34258;
+					*uParam1 = *Global_262145.f_34259;
 					break;
 			
 				case -1086451469:
-					*uParam1 = *Global_262145.f_34259;
+					*uParam1 = *Global_262145.f_34260;
 					break;
 			
 				case -162496745:
-					*uParam1 = *Global_262145.f_34260;
+					*uParam1 = *Global_262145.f_34261;
 					break;
 			
 				case -1682880038:
-					*uParam1 = *Global_262145.f_34261;
+					*uParam1 = *Global_262145.f_34262;
 					break;
 			
 				case -788876180:
-					*uParam1 = *Global_262145.f_34262;
+					*uParam1 = *Global_262145.f_34263;
 					break;
 			
 				case 1841634841:
-					*uParam1 = *Global_262145.f_34263;
+					*uParam1 = *Global_262145.f_34264;
 					break;
 			
 				case 2088418180:
-					*uParam1 = *Global_262145.f_34264;
+					*uParam1 = *Global_262145.f_34265;
 					break;
 			
 				case 1343167704:
-					*uParam1 = *Global_262145.f_34237;
-					break;
-			
-				case -1723912393:
 					*uParam1 = *Global_262145.f_34238;
 					break;
 			
-				case 1667482497:
+				case -1723912393:
 					*uParam1 = *Global_262145.f_34239;
 					break;
 			
-				case -1427582326:
+				case 1667482497:
 					*uParam1 = *Global_262145.f_34240;
 					break;
 			
-				case -1131383335:
+				case -1427582326:
 					*uParam1 = *Global_262145.f_34241;
 					break;
 			
-				case -839214931:
+				case -1131383335:
 					*uParam1 = *Global_262145.f_34242;
 					break;
 			
-				case -540197806:
+				case -839214931:
 					*uParam1 = *Global_262145.f_34243;
 					break;
 			
-				case -473021356:
+				case -540197806:
 					*uParam1 = *Global_262145.f_34244;
 					break;
 			
-				case -181672177:
+				case -473021356:
 					*uParam1 = *Global_262145.f_34245;
 					break;
 			
-				case 116525723:
+				case -181672177:
 					*uParam1 = *Global_262145.f_34246;
 					break;
 			
-				case -785763220:
+				case 116525723:
 					*uParam1 = *Global_262145.f_34247;
 					break;
 			
-				case 1434926372:
+				case -785763220:
 					*uParam1 = *Global_262145.f_34248;
 					break;
 			
-				case 1732206740:
+				case 1434926372:
 					*uParam1 = *Global_262145.f_34249;
 					break;
 			
-				case 1517405945:
+				case 1732206740:
 					*uParam1 = *Global_262145.f_34250;
 					break;
 			
-				case -1949881949:
+				case 1517405945:
 					*uParam1 = *Global_262145.f_34251;
 					break;
 			
-				case -274534047:
+				case -1949881949:
 					*uParam1 = *Global_262145.f_34252;
 					break;
 			
-				case -1109094939:
+				case -274534047:
 					*uParam1 = *Global_262145.f_34253;
 					break;
 			
-				case -858903624:
+				case -1109094939:
 					*uParam1 = *Global_262145.f_34254;
 					break;
 			
-				case -1705457974:
+				case -858903624:
 					*uParam1 = *Global_262145.f_34255;
 					break;
 			
-				case 444352275:
+				case -1705457974:
 					*uParam1 = *Global_262145.f_34256;
 					break;
 			
-				case -1305145106:
+				case 444352275:
 					*uParam1 = *Global_262145.f_34257;
 					break;
 			
-				case -484379963:
+				case -1305145106:
 					*uParam1 = *Global_262145.f_34258;
 					break;
 			
-				case -697640615:
+				case -484379963:
 					*uParam1 = *Global_262145.f_34259;
 					break;
 			
-				case 839553179:
+				case -697640615:
 					*uParam1 = *Global_262145.f_34260;
 					break;
 			
-				case 1767178031:
+				case 839553179:
 					*uParam1 = *Global_262145.f_34261;
 					break;
 			
-				case 1449089348:
+				case 1767178031:
 					*uParam1 = *Global_262145.f_34262;
 					break;
 			
-				case 1061153774:
+				case 1449089348:
 					*uParam1 = *Global_262145.f_34263;
 					break;
 			
-				case 148111127:
+				case 1061153774:
 					*uParam1 = *Global_262145.f_34264;
 					break;
 			
+				case 148111127:
+					*uParam1 = *Global_262145.f_34265;
+					break;
+			
 				case 1321627857:
-					*uParam1 = *Global_262145.f_34231;
+					*uParam1 = *Global_262145.f_34232;
 					break;
 			
 				case 113926362:
-					*uParam1 = *Global_262145.f_34232;
+					*uParam1 = *Global_262145.f_34233;
 					break;
 			
 				case -32026764:
-					*uParam1 = *Global_262145.f_34233;
+					*uParam1 = *Global_262145.f_34234;
 					break;
 			
 				case -211895805:
-					*uParam1 = *Global_262145.f_34234;
+					*uParam1 = *Global_262145.f_34235;
 					break;
 			
 				case -640547094:
-					*uParam1 = *Global_262145.f_34235;
+					*uParam1 = *Global_262145.f_34236;
 					break;
 			
 				case -594932638:
-					*uParam1 = *Global_262145.f_34236;
+					*uParam1 = *Global_262145.f_34237;
 					break;
 			
 				case -1187822167:
-					*uParam1 = *Global_262145.f_34265;
+					*uParam1 = *Global_262145.f_34266;
 					break;
 			
 				case -1321332262:
-					*uParam1 = *Global_262145.f_34231;
-					break;
-			
-				case -730769352:
 					*uParam1 = *Global_262145.f_34232;
 					break;
 			
-				case -1749596229:
+				case -730769352:
 					*uParam1 = *Global_262145.f_34233;
 					break;
 			
-				case -1444445403:
+				case -1749596229:
 					*uParam1 = *Global_262145.f_34234;
 					break;
 			
-				case -1137629256:
+				case -1444445403:
 					*uParam1 = *Global_262145.f_34235;
 					break;
 			
-				case 530247306:
+				case -1137629256:
 					*uParam1 = *Global_262145.f_34236;
 					break;
 			
+				case 530247306:
+					*uParam1 = *Global_262145.f_34237;
+					break;
+			
 				case -212134389:
-					*uParam1 = *Global_262145.f_34265;
+					*uParam1 = *Global_262145.f_34266;
 					break;
 			}
 			break;
@@ -6420,599 +6420,599 @@ void func_108(Hash hParam0, var uParam1, int iParam2) // Position - 0x3B9D
 			switch (hParam0)
 			{
 				case -957060689:
-					*uParam1 = *Global_262145.f_34717;
-					break;
-			
-				case -1199551289:
 					*uParam1 = *Global_262145.f_34718;
 					break;
 			
-				case 1716332642:
+				case -1199551289:
 					*uParam1 = *Global_262145.f_34719;
 					break;
 			
-				case -528180017:
+				case 1716332642:
 					*uParam1 = *Global_262145.f_34720;
 					break;
 			
-				case 239761498:
+				case -528180017:
 					*uParam1 = *Global_262145.f_34721;
 					break;
 			
-				case -49982000:
+				case 239761498:
 					*uParam1 = *Global_262145.f_34722;
 					break;
 			
-				case -1431883499:
+				case -49982000:
 					*uParam1 = *Global_262145.f_34723;
 					break;
 			
-				case 729592510:
+				case -1431883499:
 					*uParam1 = *Global_262145.f_34724;
 					break;
 			
-				case 422415904:
+				case 729592510:
 					*uParam1 = *Global_262145.f_34725;
 					break;
 			
-				case 1202940715:
+				case 422415904:
 					*uParam1 = *Global_262145.f_34726;
 					break;
 			
-				case 285564965:
+				case 1202940715:
 					*uParam1 = *Global_262145.f_34727;
 					break;
 			
-				case -1339318669:
+				case 285564965:
 					*uParam1 = *Global_262145.f_34728;
 					break;
 			
-				case -1115539168:
+				case -1339318669:
 					*uParam1 = *Global_262145.f_34729;
 					break;
 			
-				case -862169260:
+				case -1115539168:
 					*uParam1 = *Global_262145.f_34730;
 					break;
 			
-				case -622857253:
+				case -862169260:
 					*uParam1 = *Global_262145.f_34731;
 					break;
 			
-				case 1078771371:
+				case -622857253:
 					*uParam1 = *Global_262145.f_34732;
 					break;
 			
-				case 1311464040:
+				case 1078771371:
 					*uParam1 = *Global_262145.f_34733;
 					break;
 			
-				case 1558280148:
+				case 1311464040:
 					*uParam1 = *Global_262145.f_34734;
 					break;
 			
-				case 1788416835:
+				case 1558280148:
 					*uParam1 = *Global_262145.f_34735;
 					break;
 			
-				case -447543111:
+				case 1788416835:
 					*uParam1 = *Global_262145.f_34736;
 					break;
 			
-				case 272194989:
+				case -447543111:
 					*uParam1 = *Global_262145.f_34737;
 					break;
 			
-				case -1950395205:
+				case 272194989:
 					*uParam1 = *Global_262145.f_34738;
 					break;
 			
-				case -1181667234:
+				case -1950395205:
 					*uParam1 = *Global_262145.f_34739;
 					break;
 			
-				case -662606274:
+				case -1181667234:
 					*uParam1 = *Global_262145.f_34740;
 					break;
 			
-				case -956052669:
+				case -662606274:
 					*uParam1 = *Global_262145.f_34741;
 					break;
 			
-				case -42715149:
+				case -956052669:
 					*uParam1 = *Global_262145.f_34742;
 					break;
 			
-				case 647924437:
-					*uParam1 = *Global_262145.f_34542;
+				case -42715149:
+					*uParam1 = *Global_262145.f_34743;
 					break;
 			
-				case 1549596241:
+				case 647924437:
 					*uParam1 = *Global_262145.f_34543;
 					break;
 			
-				case -599820760:
+				case 1549596241:
 					*uParam1 = *Global_262145.f_34544;
 					break;
 			
-				case -899100037:
+				case -599820760:
 					*uParam1 = *Global_262145.f_34545;
 					break;
 			
-				case 11747087:
+				case -899100037:
 					*uParam1 = *Global_262145.f_34546;
 					break;
 			
-				case -287073424:
+				case 11747087:
 					*uParam1 = *Global_262145.f_34547;
 					break;
 			
-				case -1214468913:
+				case -287073424:
 					*uParam1 = *Global_262145.f_34548;
 					break;
 			
-				case -1522595820:
+				case -1214468913:
 					*uParam1 = *Global_262145.f_34549;
 					break;
 			
-				case -586254414:
+				case -1522595820:
 					*uParam1 = *Global_262145.f_34550;
 					break;
 			
-				case -893660403:
+				case -586254414:
 					*uParam1 = *Global_262145.f_34551;
 					break;
 			
-				case 116240923:
+				case -893660403:
 					*uParam1 = *Global_262145.f_34552;
 					break;
 			
-				case 1496110744:
+				case 116240923:
 					*uParam1 = *Global_262145.f_34553;
 					break;
 			
-				case 1803221812:
+				case 1496110744:
 					*uParam1 = *Global_262145.f_34554;
 					break;
 			
-				case 1034035075:
+				case 1803221812:
 					*uParam1 = *Global_262145.f_34555;
 					break;
 			
-				case -1880505327:
+				case 1034035075:
 					*uParam1 = *Global_262145.f_34556;
 					break;
 			
-				case -1570051821:
+				case -1880505327:
 					*uParam1 = *Global_262145.f_34557;
 					break;
 			
-				case 1888781671:
+				case -1570051821:
 					*uParam1 = *Global_262145.f_34558;
 					break;
 			
-				case -2099926551:
+				case 1888781671:
 					*uParam1 = *Global_262145.f_34559;
 					break;
 			
-				case -719860116:
+				case -2099926551:
 					*uParam1 = *Global_262145.f_34560;
 					break;
 			
-				case -413928732:
+				case -719860116:
 					*uParam1 = *Global_262145.f_34561;
 					break;
 			
-				case -659958164:
+				case -413928732:
 					*uParam1 = *Global_262145.f_34562;
 					break;
 			
-				case 1953631742:
+				case -659958164:
 					*uParam1 = *Global_262145.f_34563;
 					break;
 			
-				case -1122164909:
+				case 1953631742:
 					*uParam1 = *Global_262145.f_34564;
 					break;
 			
-				case -354485546:
+				case -1122164909:
 					*uParam1 = *Global_262145.f_34565;
 					break;
 			
-				case 260916282:
+				case -354485546:
 					*uParam1 = *Global_262145.f_34566;
 					break;
 			
-				case -1084546097:
+				case 260916282:
 					*uParam1 = *Global_262145.f_34567;
 					break;
 			
-				case 1218991708:
+				case -1084546097:
 					*uParam1 = *Global_262145.f_34568;
 					break;
 			
-				case -1494641955:
+				case 1218991708:
 					*uParam1 = *Global_262145.f_34569;
 					break;
 			
-				case -1197590970:
+				case -1494641955:
 					*uParam1 = *Global_262145.f_34570;
 					break;
 			
-				case 488800077:
+				case -1197590970:
 					*uParam1 = *Global_262145.f_34571;
 					break;
 			
-				case -1883347833:
+				case 488800077:
 					*uParam1 = *Global_262145.f_34572;
 					break;
 			
-				case 1675463878:
+				case -1883347833:
 					*uParam1 = *Global_262145.f_34573;
 					break;
 			
-				case 1965567835:
+				case 1675463878:
 					*uParam1 = *Global_262145.f_34574;
 					break;
 			
-				case -680463381:
+				case 1965567835:
 					*uParam1 = *Global_262145.f_34575;
 					break;
 			
-				case 1934585197:
+				case -680463381:
 					*uParam1 = *Global_262145.f_34576;
 					break;
 			
-				case 1278582586:
+				case 1934585197:
 					*uParam1 = *Global_262145.f_34577;
 					break;
 			
-				case -1134461040:
+				case 1278582586:
 					*uParam1 = *Global_262145.f_34578;
 					break;
 			
-				case 199119036:
+				case -1134461040:
 					*uParam1 = *Global_262145.f_34579;
 					break;
 			
-				case -1435595314:
+				case 199119036:
 					*uParam1 = *Global_262145.f_34580;
 					break;
 			
-				case -742399884:
+				case -1435595314:
 					*uParam1 = *Global_262145.f_34581;
 					break;
 			
-				case -2092712067:
+				case -742399884:
 					*uParam1 = *Global_262145.f_34582;
 					break;
 			
-				case -1913006871:
+				case -2092712067:
 					*uParam1 = *Global_262145.f_34583;
 					break;
 			
-				case -1633257918:
+				case -1913006871:
 					*uParam1 = *Global_262145.f_34584;
 					break;
 			
-				case 761795527:
+				case -1633257918:
 					*uParam1 = *Global_262145.f_34585;
 					break;
 			
-				case 1245203815:
+				case 761795527:
 					*uParam1 = *Global_262145.f_34586;
 					break;
 			
-				case -940243380:
+				case 1245203815:
 					*uParam1 = *Global_262145.f_34587;
 					break;
 			
-				case 925721787:
+				case -940243380:
 					*uParam1 = *Global_262145.f_34588;
 					break;
 			
-				case -1426797464:
+				case 925721787:
 					*uParam1 = *Global_262145.f_34589;
 					break;
 			
-				case -1164887924:
+				case -1426797464:
 					*uParam1 = *Global_262145.f_34590;
 					break;
 			
-				case -1580529920:
+				case -1164887924:
 					*uParam1 = *Global_262145.f_34591;
 					break;
 			
-				case -1743883385:
+				case -1580529920:
 					*uParam1 = *Global_262145.f_34592;
 					break;
 			
-				case -1924309499:
+				case -1743883385:
 					*uParam1 = *Global_262145.f_34593;
 					break;
 			
-				case -1370906623:
+				case -1924309499:
 					*uParam1 = *Global_262145.f_34594;
 					break;
 			
-				case -1525248613:
+				case -1370906623:
 					*uParam1 = *Global_262145.f_34595;
 					break;
 			
-				case 10437803:
+				case -1525248613:
 					*uParam1 = *Global_262145.f_34596;
 					break;
 			
-				case 780148844:
+				case 10437803:
 					*uParam1 = *Global_262145.f_34597;
 					break;
 			
-				case 280504193:
+				case 780148844:
 					*uParam1 = *Global_262145.f_34598;
 					break;
 			
-				case -654067687:
+				case 280504193:
 					*uParam1 = *Global_262145.f_34599;
 					break;
 			
-				case -885449596:
+				case -654067687:
 					*uParam1 = *Global_262145.f_34600;
 					break;
 			
-				case -147164026:
+				case -885449596:
 					*uParam1 = *Global_262145.f_34601;
 					break;
 			
-				case -376153798:
+				case -147164026:
 					*uParam1 = *Global_262145.f_34602;
 					break;
 			
-				case -1816253041:
+				case -376153798:
 					*uParam1 = *Global_262145.f_34603;
 					break;
 			
-				case -2080403950:
+				case -1816253041:
 					*uParam1 = *Global_262145.f_34604;
 					break;
 			
-				case -1887918816:
+				case -2080403950:
 					*uParam1 = *Global_262145.f_34605;
 					break;
 			
-				case -2126608212:
+				case -1887918816:
 					*uParam1 = *Global_262145.f_34606;
 					break;
 			
-				case 1257937957:
+				case -2126608212:
 					*uParam1 = *Global_262145.f_34607;
 					break;
 			
-				case -1036548283:
+				case 1257937957:
 					*uParam1 = *Global_262145.f_34608;
 					break;
 			
-				case -1255248589:
+				case -1036548283:
 					*uParam1 = *Global_262145.f_34609;
 					break;
 			
-				case -1761595177:
+				case -1255248589:
 					*uParam1 = *Global_262145.f_34610;
 					break;
 			
-				case 1065484760:
+				case -1761595177:
 					*uParam1 = *Global_262145.f_34611;
 					break;
 			
-				case 1255832830:
+				case 1065484760:
 					*uParam1 = *Global_262145.f_34612;
 					break;
 			
-				case 8284231:
+				case 1255832830:
 					*uParam1 = *Global_262145.f_34613;
 					break;
 			
-				case -413846027:
+				case 8284231:
 					*uParam1 = *Global_262145.f_34614;
 					break;
 			
-				case 2135708238:
+				case -413846027:
 					*uParam1 = *Global_262145.f_34615;
 					break;
 			
-				case 102653940:
+				case 2135708238:
 					*uParam1 = *Global_262145.f_34616;
 					break;
 			
-				case 333511545:
+				case 102653940:
 					*uParam1 = *Global_262145.f_34617;
 					break;
 			
-				case -492234486:
+				case 333511545:
 					*uParam1 = *Global_262145.f_34618;
 					break;
 			
-				case -1199455048:
+				case -492234486:
 					*uParam1 = *Global_262145.f_34619;
 					break;
 			
-				case -898537433:
+				case -1199455048:
 					*uParam1 = *Global_262145.f_34620;
 					break;
 			
-				case -249121387:
+				case -898537433:
 					*uParam1 = *Global_262145.f_34621;
 					break;
 			
-				case -1377423599:
+				case -249121387:
 					*uParam1 = *Global_262145.f_34622;
 					break;
 			
-				case -1675392116:
+				case -1377423599:
 					*uParam1 = *Global_262145.f_34623;
 					break;
 			
-				case -1807196658:
+				case -1675392116:
 					*uParam1 = *Global_262145.f_34624;
 					break;
 			
-				case 1983717880:
+				case -1807196658:
 					*uParam1 = *Global_262145.f_34625;
 					break;
 			
-				case 1743553879:
+				case 1983717880:
 					*uParam1 = *Global_262145.f_34626;
 					break;
 			
-				case -643077933:
+				case 1743553879:
 					*uParam1 = *Global_262145.f_34627;
 					break;
 			
-				case -881734560:
+				case -643077933:
 					*uParam1 = *Global_262145.f_34628;
 					break;
 			
-				case -1334536606:
+				case -881734560:
 					*uParam1 = *Global_262145.f_34629;
 					break;
 			
-				case -892548334:
+				case -1334536606:
 					*uParam1 = *Global_262145.f_34630;
 					break;
 			
-				case 334945641:
+				case -892548334:
 					*uParam1 = *Global_262145.f_34631;
 					break;
 			
-				case -1102499317:
+				case 334945641:
 					*uParam1 = *Global_262145.f_34632;
 					break;
 			
-				case -411302796:
+				case -1102499317:
 					*uParam1 = *Global_262145.f_34633;
 					break;
 			
-				case -2098183510:
+				case -411302796:
 					*uParam1 = *Global_262145.f_34634;
 					break;
 			
-				case 587399893:
+				case -2098183510:
 					*uParam1 = *Global_262145.f_34635;
 					break;
 			
-				case 1075657993:
+				case 587399893:
 					*uParam1 = *Global_262145.f_34636;
 					break;
 			
-				case -323343055:
+				case 1075657993:
 					*uParam1 = *Global_262145.f_34637;
 					break;
 			
-				case -697761649:
+				case -323343055:
 					*uParam1 = *Global_262145.f_34638;
 					break;
 			
-				case 995084895:
+				case -697761649:
 					*uParam1 = *Global_262145.f_34639;
 					break;
 			
-				case -1966308870:
+				case 995084895:
 					*uParam1 = *Global_262145.f_34640;
 					break;
 			
-				case -1131387519:
+				case -1966308870:
 					*uParam1 = *Global_262145.f_34641;
 					break;
 			
-				case 547302817:
+				case -1131387519:
 					*uParam1 = *Global_262145.f_34642;
 					break;
 			
-				case 167641183:
+				case 547302817:
 					*uParam1 = *Global_262145.f_34643;
 					break;
 			
-				case 70415560:
+				case 167641183:
 					*uParam1 = *Global_262145.f_34644;
 					break;
 			
-				case -277460144:
+				case 70415560:
 					*uParam1 = *Global_262145.f_34645;
 					break;
 			
-				case 606975174:
+				case -277460144:
 					*uParam1 = *Global_262145.f_34646;
 					break;
 			
-				case 235374714:
+				case 606975174:
 					*uParam1 = *Global_262145.f_34647;
 					break;
 			
-				case 163643373:
+				case 235374714:
 					*uParam1 = *Global_262145.f_34648;
 					break;
 			
-				case -213265665:
+				case 163643373:
 					*uParam1 = *Global_262145.f_34649;
 					break;
 			
-				case 651330017:
+				case -213265665:
 					*uParam1 = *Global_262145.f_34650;
 					break;
 			
-				case -1697289755:
+				case 651330017:
 					*uParam1 = *Global_262145.f_34651;
 					break;
 			
-				case -2009447249:
+				case -1697289755:
 					*uParam1 = *Global_262145.f_34652;
 					break;
 			
-				case -2123450600:
+				case -2009447249:
 					*uParam1 = *Global_262145.f_34653;
 					break;
 			
-				case 1873679255:
+				case -2123450600:
 					*uParam1 = *Global_262145.f_34654;
 					break;
 			
-				case -2095957429:
+				case 1873679255:
 					*uParam1 = *Global_262145.f_34655;
 					break;
 			
-				case 1858900416:
+				case -2095957429:
 					*uParam1 = *Global_262145.f_34656;
 					break;
 			
-				case -457343564:
+				case 1858900416:
 					*uParam1 = *Global_262145.f_34657;
 					break;
 			
-				case -764880629:
+				case -457343564:
 					*uParam1 = *Global_262145.f_34658;
 					break;
 			
-				case 174835984:
+				case -764880629:
 					*uParam1 = *Global_262145.f_34659;
 					break;
 			
-				case -932789909:
+				case 174835984:
 					*uParam1 = *Global_262145.f_34660;
 					break;
 			
-				case -1413806060:
+				case -932789909:
 					*uParam1 = *Global_262145.f_34661;
 					break;
 			
-				case -2025144528:
+				case -1413806060:
 					*uParam1 = *Global_262145.f_34662;
 					break;
 			
-				case 1970543491:
+				case -2025144528:
 					*uParam1 = *Global_262145.f_34663;
 					break;
 			
-				case -825432295:
+				case 1970543491:
 					*uParam1 = *Global_262145.f_34664;
+					break;
+			
+				case -825432295:
+					*uParam1 = *Global_262145.f_34665;
 					break;
 			}
 			break;
@@ -7021,103 +7021,103 @@ void func_108(Hash hParam0, var uParam1, int iParam2) // Position - 0x3B9D
 			switch (hParam0)
 			{
 				case 779520306:
-					*uParam1 = *Global_262145.f_34517;
-					break;
-			
-				case 1622240679:
 					*uParam1 = *Global_262145.f_34518;
 					break;
 			
-				case 358668039:
+				case 1622240679:
 					*uParam1 = *Global_262145.f_34519;
 					break;
 			
-				case 1059465873:
+				case 358668039:
 					*uParam1 = *Global_262145.f_34520;
 					break;
 			
-				case -135586788:
+				case 1059465873:
 					*uParam1 = *Global_262145.f_34521;
 					break;
 			
-				case 598307736:
+				case -135586788:
 					*uParam1 = *Global_262145.f_34522;
 					break;
 			
-				case -586324331:
+				case 598307736:
 					*uParam1 = *Global_262145.f_34523;
 					break;
 			
-				case 105953511:
+				case -586324331:
 					*uParam1 = *Global_262145.f_34524;
 					break;
 			
-				case 1272529955:
+				case 105953511:
 					*uParam1 = *Global_262145.f_34525;
 					break;
 			
-				case 1989056913:
+				case 1272529955:
 					*uParam1 = *Global_262145.f_34526;
 					break;
 			
-				case -117066502:
+				case 1989056913:
 					*uParam1 = *Global_262145.f_34527;
 					break;
 			
-				case -364701835:
+				case -117066502:
 					*uParam1 = *Global_262145.f_34528;
 					break;
 			
-				case -1771999325:
+				case -364701835:
 					*uParam1 = *Global_262145.f_34529;
 					break;
 			
-				case -2078029016:
+				case -1771999325:
 					*uParam1 = *Global_262145.f_34530;
 					break;
 			
-				case -1313986996:
+				case -2078029016:
 					*uParam1 = *Global_262145.f_34531;
 					break;
 			
-				case 1506938701:
+				case -1313986996:
 					*uParam1 = *Global_262145.f_34532;
 					break;
 			
-				case 1719511216:
+				case 1506938701:
 					*uParam1 = *Global_262145.f_34533;
 					break;
 			
-				case 1483148419:
+				case 1719511216:
 					*uParam1 = *Global_262145.f_34534;
 					break;
 			
-				case -878382347:
+				case 1483148419:
 					*uParam1 = *Global_262145.f_34535;
 					break;
 			
-				case -1118874038:
+				case -878382347:
 					*uParam1 = *Global_262145.f_34536;
 					break;
 			
-				case -1712562574:
+				case -1118874038:
 					*uParam1 = *Global_262145.f_34537;
 					break;
 			
-				case -1649318404:
+				case -1712562574:
 					*uParam1 = *Global_262145.f_34538;
 					break;
 			
-				case 1798865163:
+				case -1649318404:
 					*uParam1 = *Global_262145.f_34539;
 					break;
 			
-				case 2067144966:
+				case 1798865163:
 					*uParam1 = *Global_262145.f_34540;
 					break;
 			
-				case -791294908:
+				case 2067144966:
 					*uParam1 = *Global_262145.f_34541;
+					break;
+			
+				case -791294908:
+					*uParam1 = *Global_262145.f_34542;
 					break;
 			}
 			break;
@@ -7126,842 +7126,842 @@ void func_108(Hash hParam0, var uParam1, int iParam2) // Position - 0x3B9D
 			switch (hParam0)
 			{
 				case -1480589671:
-					*uParam1 = *Global_262145.f_34361;
+					*uParam1 = *Global_262145.f_34362;
 					break;
 			
 				case -779529685:
-					*uParam1 = *Global_262145.f_34362;
+					*uParam1 = *Global_262145.f_34363;
 					break;
 			
 				case -1009600834:
-					*uParam1 = *Global_262145.f_34363;
+					*uParam1 = *Global_262145.f_34364;
 					break;
 			
 				case -623811393:
-					*uParam1 = *Global_262145.f_34364;
+					*uParam1 = *Global_262145.f_34365;
 					break;
 			
 				case -856471293:
-					*uParam1 = *Global_262145.f_34365;
+					*uParam1 = *Global_262145.f_34366;
 					break;
 			
 				case 141115378:
-					*uParam1 = *Global_262145.f_34366;
+					*uParam1 = *Global_262145.f_34367;
 					break;
 			
 				case -391774100:
-					*uParam1 = *Global_262145.f_34367;
+					*uParam1 = *Global_262145.f_34368;
 					break;
 			
 				case 595916329:
-					*uParam1 = *Global_262145.f_34368;
+					*uParam1 = *Global_262145.f_34369;
 					break;
 			
 				case 370858837:
-					*uParam1 = *Global_262145.f_34369;
+					*uParam1 = *Global_262145.f_34370;
 					break;
 			
 				case 1290848512:
-					*uParam1 = *Global_262145.f_34370;
+					*uParam1 = *Global_262145.f_34371;
 					break;
 			
 				case 1501328822:
-					*uParam1 = *Global_262145.f_34371;
+					*uParam1 = *Global_262145.f_34372;
 					break;
 			
 				case 1708625456:
-					*uParam1 = *Global_262145.f_34372;
+					*uParam1 = *Global_262145.f_34373;
 					break;
 			
 				case -1784975945:
-					*uParam1 = *Global_262145.f_34373;
+					*uParam1 = *Global_262145.f_34374;
 					break;
 			
 				case 1515058973:
-					*uParam1 = *Global_262145.f_34374;
+					*uParam1 = *Global_262145.f_34375;
 					break;
 			
 				case 1948527305:
-					*uParam1 = *Global_262145.f_34375;
+					*uParam1 = *Global_262145.f_34376;
 					break;
 			
 				case 1015036802:
-					*uParam1 = *Global_262145.f_34376;
+					*uParam1 = *Global_262145.f_34377;
 					break;
 			
 				case 776314637:
-					*uParam1 = *Global_262145.f_34377;
+					*uParam1 = *Global_262145.f_34378;
 					break;
 			
 				case 258236747:
-					*uParam1 = *Global_262145.f_34378;
+					*uParam1 = *Global_262145.f_34379;
 					break;
 			
 				case 12764168:
-					*uParam1 = *Global_262145.f_34379;
+					*uParam1 = *Global_262145.f_34380;
 					break;
 			
 				case 271278821:
-					*uParam1 = *Global_262145.f_34380;
+					*uParam1 = *Global_262145.f_34381;
 					break;
 			
 				case -1651901256:
-					*uParam1 = *Global_262145.f_34381;
+					*uParam1 = *Global_262145.f_34382;
 					break;
 			
 				case 2046604698:
-					*uParam1 = *Global_262145.f_34382;
+					*uParam1 = *Global_262145.f_34383;
 					break;
 			
 				case -2076849652:
-					*uParam1 = *Global_262145.f_34383;
+					*uParam1 = *Global_262145.f_34384;
 					break;
 			
 				case 1571421429:
-					*uParam1 = *Global_262145.f_34384;
+					*uParam1 = *Global_262145.f_34385;
 					break;
 			
 				case 1742213457:
-					*uParam1 = *Global_262145.f_34385;
+					*uParam1 = *Global_262145.f_34386;
 					break;
 			
 				case 555942888:
-					*uParam1 = *Global_262145.f_34386;
-					break;
-			
-				case -487705506:
-					*uParam1 = *Global_262145.f_34361;
-					break;
-			
-				case 201328257:
-					*uParam1 = *Global_262145.f_34362;
-					break;
-			
-				case 115080249:
-					*uParam1 = *Global_262145.f_34363;
-					break;
-			
-				case -1602637958:
-					*uParam1 = *Global_262145.f_34364;
-					break;
-			
-				case -1993965356:
-					*uParam1 = *Global_262145.f_34365;
-					break;
-			
-				case -738290049:
-					*uParam1 = *Global_262145.f_34366;
-					break;
-			
-				case -1366144085:
-					*uParam1 = *Global_262145.f_34367;
-					break;
-			
-				case 1734491468:
-					*uParam1 = *Global_262145.f_34368;
-					break;
-			
-				case 1473093155:
-					*uParam1 = *Global_262145.f_34369;
-					break;
-			
-				case 2063000693:
-					*uParam1 = *Global_262145.f_34370;
-					break;
-			
-				case 1289021629:
-					*uParam1 = *Global_262145.f_34371;
-					break;
-			
-				case 1051282534:
-					*uParam1 = *Global_262145.f_34372;
-					break;
-			
-				case 595072516:
-					*uParam1 = *Global_262145.f_34373;
-					break;
-			
-				case 372833154:
-					*uParam1 = *Global_262145.f_34374;
-					break;
-			
-				case -110247444:
-					*uParam1 = *Global_262145.f_34375;
-					break;
-			
-				case -348445305:
-					*uParam1 = *Global_262145.f_34376;
-					break;
-			
-				case -616266342:
-					*uParam1 = *Global_262145.f_34377;
-					break;
-			
-				case -856856340:
-					*uParam1 = *Global_262145.f_34378;
-					break;
-			
-				case -1071657135:
-					*uParam1 = *Global_262145.f_34379;
-					break;
-			
-				case -1569614859:
-					*uParam1 = *Global_262145.f_34380;
-					break;
-			
-				case 1160469122:
-					*uParam1 = *Global_262145.f_34381;
-					break;
-			
-				case 1418328383:
-					*uParam1 = *Global_262145.f_34382;
-					break;
-			
-				case 571118649:
-					*uParam1 = *Global_262145.f_34383;
-					break;
-			
-				case 901823397:
-					*uParam1 = *Global_262145.f_34384;
-					break;
-			
-				case 1202020206:
-					*uParam1 = *Global_262145.f_34385;
-					break;
-			
-				case 1492943388:
-					*uParam1 = *Global_262145.f_34386;
-					break;
-			
-				case 1379366141:
 					*uParam1 = *Global_262145.f_34387;
 					break;
 			
-				case -576943159:
+				case -487705506:
+					*uParam1 = *Global_262145.f_34362;
+					break;
+			
+				case 201328257:
+					*uParam1 = *Global_262145.f_34363;
+					break;
+			
+				case 115080249:
+					*uParam1 = *Global_262145.f_34364;
+					break;
+			
+				case -1602637958:
+					*uParam1 = *Global_262145.f_34365;
+					break;
+			
+				case -1993965356:
+					*uParam1 = *Global_262145.f_34366;
+					break;
+			
+				case -738290049:
+					*uParam1 = *Global_262145.f_34367;
+					break;
+			
+				case -1366144085:
+					*uParam1 = *Global_262145.f_34368;
+					break;
+			
+				case 1734491468:
+					*uParam1 = *Global_262145.f_34369;
+					break;
+			
+				case 1473093155:
+					*uParam1 = *Global_262145.f_34370;
+					break;
+			
+				case 2063000693:
+					*uParam1 = *Global_262145.f_34371;
+					break;
+			
+				case 1289021629:
+					*uParam1 = *Global_262145.f_34372;
+					break;
+			
+				case 1051282534:
+					*uParam1 = *Global_262145.f_34373;
+					break;
+			
+				case 595072516:
+					*uParam1 = *Global_262145.f_34374;
+					break;
+			
+				case 372833154:
+					*uParam1 = *Global_262145.f_34375;
+					break;
+			
+				case -110247444:
+					*uParam1 = *Global_262145.f_34376;
+					break;
+			
+				case -348445305:
+					*uParam1 = *Global_262145.f_34377;
+					break;
+			
+				case -616266342:
+					*uParam1 = *Global_262145.f_34378;
+					break;
+			
+				case -856856340:
+					*uParam1 = *Global_262145.f_34379;
+					break;
+			
+				case -1071657135:
+					*uParam1 = *Global_262145.f_34380;
+					break;
+			
+				case -1569614859:
+					*uParam1 = *Global_262145.f_34381;
+					break;
+			
+				case 1160469122:
+					*uParam1 = *Global_262145.f_34382;
+					break;
+			
+				case 1418328383:
+					*uParam1 = *Global_262145.f_34383;
+					break;
+			
+				case 571118649:
+					*uParam1 = *Global_262145.f_34384;
+					break;
+			
+				case 901823397:
+					*uParam1 = *Global_262145.f_34385;
+					break;
+			
+				case 1202020206:
+					*uParam1 = *Global_262145.f_34386;
+					break;
+			
+				case 1492943388:
+					*uParam1 = *Global_262145.f_34387;
+					break;
+			
+				case 1379366141:
 					*uParam1 = *Global_262145.f_34388;
 					break;
 			
-				case -336451468:
+				case -576943159:
 					*uParam1 = *Global_262145.f_34389;
 					break;
 			
-				case -111197362:
+				case -336451468:
 					*uParam1 = *Global_262145.f_34390;
 					break;
 			
-				case 186246851:
+				case -111197362:
 					*uParam1 = *Global_262145.f_34391;
 					break;
 			
-				case -1959434504:
+				case 186246851:
 					*uParam1 = *Global_262145.f_34392;
 					break;
 			
-				case -1527735698:
+				case -1959434504:
 					*uParam1 = *Global_262145.f_34393;
 					break;
 			
-				case -1237041899:
+				case -1527735698:
 					*uParam1 = *Global_262145.f_34394;
 					break;
 			
-				case -1073590127:
+				case -1237041899:
 					*uParam1 = *Global_262145.f_34395;
 					break;
 			
-				case 1072943210:
+				case -1073590127:
 					*uParam1 = *Global_262145.f_34396;
 					break;
 			
-				case -1722748203:
+				case 1072943210:
 					*uParam1 = *Global_262145.f_34397;
 					break;
 			
-				case -2076456789:
+				case -1722748203:
 					*uParam1 = *Global_262145.f_34398;
 					break;
 			
-				case 1919329537:
+				case -2076456789:
 					*uParam1 = *Global_262145.f_34399;
 					break;
 			
-				case -852469097:
+				case 1919329537:
 					*uParam1 = *Global_262145.f_34400;
 					break;
 			
-				case -1149946079:
+				case -852469097:
 					*uParam1 = *Global_262145.f_34401;
 					break;
 			
-				case -1499722385:
+				case -1149946079:
 					*uParam1 = *Global_262145.f_34402;
 					break;
 			
-				case -1797625364:
+				case -1499722385:
 					*uParam1 = *Global_262145.f_34403;
 					break;
 			
-				case 300377092:
+				case -1797625364:
 					*uParam1 = *Global_262145.f_34404;
 					break;
 			
-				case 6471931:
+				case 300377092:
 					*uParam1 = *Global_262145.f_34405;
 					break;
 			
-				case -276717767:
+				case 6471931:
 					*uParam1 = *Global_262145.f_34406;
 					break;
 			
-				case -1518371698:
+				case -276717767:
 					*uParam1 = *Global_262145.f_34407;
 					break;
 			
-				case -1807820275:
+				case -1518371698:
 					*uParam1 = *Global_262145.f_34408;
 					break;
 			
-				case 1796179887:
+				case -1807820275:
 					*uParam1 = *Global_262145.f_34409;
 					break;
 			
-				case 313284318:
+				case 1796179887:
 					*uParam1 = *Global_262145.f_34410;
 					break;
 			
-				case 18527163:
+				case 313284318:
 					*uParam1 = *Global_262145.f_34411;
 					break;
 			
-				case -266530368:
+				case 18527163:
 					*uParam1 = *Global_262145.f_34412;
 					break;
 			
-				case 293167376:
+				case -266530368:
 					*uParam1 = *Global_262145.f_34413;
+					break;
+			
+				case 293167376:
+					*uParam1 = *Global_262145.f_34414;
 					break;
 			
 				case 1060224128:
-					*uParam1 = *Global_262145.f_34414;
+					*uParam1 = *Global_262145.f_34415;
 					break;
 			
 				case -182015893:
-					*uParam1 = *Global_262145.f_34415;
+					*uParam1 = *Global_262145.f_34416;
 					break;
 			
 				case 48612329:
-					*uParam1 = *Global_262145.f_34416;
+					*uParam1 = *Global_262145.f_34417;
 					break;
 			
 				case 1753124633:
-					*uParam1 = *Global_262145.f_34417;
+					*uParam1 = *Global_262145.f_34418;
 					break;
 			
 				case 1983720086:
-					*uParam1 = *Global_262145.f_34418;
+					*uParam1 = *Global_262145.f_34419;
 					break;
 			
 				case 1276761680:
-					*uParam1 = *Global_262145.f_34419;
+					*uParam1 = *Global_262145.f_34420;
 					break;
 			
 				case 1508078051:
-					*uParam1 = *Global_262145.f_34420;
+					*uParam1 = *Global_262145.f_34421;
 					break;
 			
 				case -2093071204:
-					*uParam1 = *Global_262145.f_34421;
+					*uParam1 = *Global_262145.f_34422;
 					break;
 			
 				case 698741465:
-					*uParam1 = *Global_262145.f_34422;
+					*uParam1 = *Global_262145.f_34423;
 					break;
 			
 				case -58091363:
-					*uParam1 = *Global_262145.f_34423;
+					*uParam1 = *Global_262145.f_34424;
 					break;
 			
 				case -295175078:
-					*uParam1 = *Global_262145.f_34424;
+					*uParam1 = *Global_262145.f_34425;
 					break;
 			
 				case -892783331:
-					*uParam1 = *Global_262145.f_34425;
+					*uParam1 = *Global_262145.f_34426;
 					break;
 			
 				case -1229189885:
-					*uParam1 = *Global_262145.f_34426;
+					*uParam1 = *Global_262145.f_34427;
 					break;
 			
 				case -1484493164:
-					*uParam1 = *Global_262145.f_34427;
+					*uParam1 = *Global_262145.f_34428;
 					break;
 			
 				case -1857142232:
-					*uParam1 = *Global_262145.f_34428;
+					*uParam1 = *Global_262145.f_34429;
 					break;
 			
 				case -2077251605:
-					*uParam1 = *Global_262145.f_34429;
+					*uParam1 = *Global_262145.f_34430;
 					break;
 			
 				case -1877950543:
-					*uParam1 = *Global_262145.f_34430;
+					*uParam1 = *Global_262145.f_34431;
 					break;
 			
 				case 67510742:
-					*uParam1 = *Global_262145.f_34431;
+					*uParam1 = *Global_262145.f_34432;
 					break;
 			
 				case 349946753:
-					*uParam1 = *Global_262145.f_34432;
+					*uParam1 = *Global_262145.f_34433;
 					break;
 			
 				case -1037820397:
-					*uParam1 = *Global_262145.f_34433;
+					*uParam1 = *Global_262145.f_34434;
 					break;
 			
 				case -1537875285:
-					*uParam1 = *Global_262145.f_34434;
+					*uParam1 = *Global_262145.f_34435;
 					break;
 			
 				case 1387806569:
-					*uParam1 = *Global_262145.f_34435;
+					*uParam1 = *Global_262145.f_34436;
 					break;
 			
 				case 1642782158:
-					*uParam1 = *Global_262145.f_34436;
+					*uParam1 = *Global_262145.f_34437;
 					break;
 			
 				case 1743879512:
-					*uParam1 = *Global_262145.f_34437;
+					*uParam1 = *Global_262145.f_34438;
 					break;
 			
 				case 198558966:
-					*uParam1 = *Global_262145.f_34438;
+					*uParam1 = *Global_262145.f_34439;
 					break;
 			
 				case 1182153314:
-					*uParam1 = *Global_262145.f_34439;
+					*uParam1 = *Global_262145.f_34440;
 					break;
 			
 				case -1846462512:
-					*uParam1 = *Global_262145.f_34413;
-					break;
-			
-				case 2094861736:
 					*uParam1 = *Global_262145.f_34414;
 					break;
 			
-				case -1432360659:
+				case 2094861736:
 					*uParam1 = *Global_262145.f_34415;
 					break;
 			
-				case 741436502:
+				case -1432360659:
 					*uParam1 = *Global_262145.f_34416;
 					break;
 			
-				case 443795675:
+				case 741436502:
 					*uParam1 = *Global_262145.f_34417;
 					break;
 			
-				case 1220486513:
+				case 443795675:
 					*uParam1 = *Global_262145.f_34418;
 					break;
 			
-				case 930906860:
+				case 1220486513:
 					*uParam1 = *Global_262145.f_34419;
 					break;
 			
-				case -181666232:
+				case 930906860:
 					*uParam1 = *Global_262145.f_34420;
 					break;
 			
-				case -469607435:
+				case -181666232:
 					*uParam1 = *Global_262145.f_34421;
 					break;
 			
-				case 360935478:
+				case -469607435:
 					*uParam1 = *Global_262145.f_34422;
 					break;
 			
-				case -407268189:
+				case 360935478:
 					*uParam1 = *Global_262145.f_34423;
 					break;
 			
-				case 1804966989:
+				case -407268189:
 					*uParam1 = *Global_262145.f_34424;
 					break;
 			
-				case -1071528604:
+				case 1804966989:
 					*uParam1 = *Global_262145.f_34425;
 					break;
 			
-				case -789813511:
+				case -1071528604:
 					*uParam1 = *Global_262145.f_34426;
 					break;
 			
-				case 1430679471:
+				case -789813511:
 					*uParam1 = *Global_262145.f_34427;
 					break;
 			
-				case 923087661:
+				case 1430679471:
 					*uParam1 = *Global_262145.f_34428;
 					break;
 			
-				case -2018225014:
+				case 923087661:
 					*uParam1 = *Global_262145.f_34429;
 					break;
 			
-				case -1720551418:
+				case -2018225014:
 					*uParam1 = *Global_262145.f_34430;
 					break;
 			
-				case 564004647:
+				case -1720551418:
 					*uParam1 = *Global_262145.f_34431;
 					break;
 			
-				case 858729033:
+				case 564004647:
 					*uParam1 = *Global_262145.f_34432;
 					break;
 			
-				case -1677427766:
+				case 858729033:
 					*uParam1 = *Global_262145.f_34433;
 					break;
 			
-				case -1993386464:
+				case -1677427766:
 					*uParam1 = *Global_262145.f_34434;
 					break;
 			
-				case -1217252699:
+				case -1993386464:
 					*uParam1 = *Global_262145.f_34435;
 					break;
 			
-				case -1532752631:
+				case -1217252699:
 					*uParam1 = *Global_262145.f_34436;
 					break;
 			
-				case -1240054725:
+				case -1532752631:
 					*uParam1 = *Global_262145.f_34437;
 					break;
 			
-				case -952899978:
+				case -1240054725:
 					*uParam1 = *Global_262145.f_34438;
 					break;
 			
-				case 1524633040:
+				case -952899978:
 					*uParam1 = *Global_262145.f_34439;
+					break;
+			
+				case 1524633040:
+					*uParam1 = *Global_262145.f_34440;
 					break;
 			}
 		
 			switch (hParam0)
 			{
 				case 1447306781:
-					*uParam1 = *Global_262145.f_34440;
-					break;
-			
-				case 2147383697:
 					*uParam1 = *Global_262145.f_34441;
 					break;
 			
-				case -890794138:
+				case 2147383697:
 					*uParam1 = *Global_262145.f_34442;
 					break;
 			
-				case -643224343:
+				case -890794138:
 					*uParam1 = *Global_262145.f_34443;
 					break;
 			
-				case 778884719:
+				case -643224343:
 					*uParam1 = *Global_262145.f_34444;
 					break;
 			
-				case 952691495:
+				case 778884719:
 					*uParam1 = *Global_262145.f_34445;
 					break;
 			
-				case -67276403:
+				case 952691495:
 					*uParam1 = *Global_262145.f_34446;
 					break;
 			
-				case -1916594918:
+				case -67276403:
 					*uParam1 = *Global_262145.f_34447;
 					break;
 			
-				case -542000906:
+				case -1916594918:
 					*uParam1 = *Global_262145.f_34448;
 					break;
 			
-				case -246064067:
+				case -542000906:
 					*uParam1 = *Global_262145.f_34449;
 					break;
 			
-				case -1164472177:
+				case -246064067:
 					*uParam1 = *Global_262145.f_34450;
 					break;
 			
-				case -262276069:
+				case -1164472177:
 					*uParam1 = *Global_262145.f_34451;
 					break;
 			
-				case -1751070054:
+				case -262276069:
 					*uParam1 = *Global_262145.f_34452;
 					break;
 			
-				case 1020728584:
+				case -1751070054:
 					*uParam1 = *Global_262145.f_34453;
 					break;
 			
-				case 1947468673:
+				case 1020728584:
 					*uParam1 = *Global_262145.f_34454;
 					break;
 			
-				case -1453953531:
+				case 1947468673:
 					*uParam1 = *Global_262145.f_34455;
 					break;
 			
-				case 341033533:
+				case -1453953531:
 					*uParam1 = *Global_262145.f_34456;
 					break;
 			
-				case -502178375:
+				case 341033533:
 					*uParam1 = *Global_262145.f_34457;
 					break;
 			
-				case -808273604:
+				case -502178375:
 					*uParam1 = *Global_262145.f_34458;
 					break;
 			
-				case 2047643057:
+				case -808273604:
 					*uParam1 = *Global_262145.f_34459;
 					break;
 			
-				case -406394588:
+				case 2047643057:
 					*uParam1 = *Global_262145.f_34460;
 					break;
 			
-				case -1797569714:
+				case -406394588:
 					*uParam1 = *Global_262145.f_34461;
 					break;
 			
-				case -2087083829:
+				case -1797569714:
 					*uParam1 = *Global_262145.f_34462;
 					break;
 			
-				case 1346976291:
+				case -2087083829:
 					*uParam1 = *Global_262145.f_34463;
 					break;
 			
-				case -1491277871:
+				case 1346976291:
 					*uParam1 = *Global_262145.f_34464;
 					break;
 			
-				case 1807872276:
+				case -1491277871:
 					*uParam1 = *Global_262145.f_34465;
 					break;
 			
-				case -2009110966:
+				case 1807872276:
 					*uParam1 = *Global_262145.f_34466;
 					break;
 			
-				case 2056604406:
+				case -2009110966:
 					*uParam1 = *Global_262145.f_34467;
 					break;
 			
-				case 901628272:
+				case 2056604406:
 					*uParam1 = *Global_262145.f_34468;
 					break;
 			
-				case -403200539:
+				case 901628272:
 					*uParam1 = *Global_262145.f_34469;
 					break;
 			
-				case 809219692:
+				case -403200539:
 					*uParam1 = *Global_262145.f_34470;
 					break;
 			
-				case 578132704:
+				case 809219692:
 					*uParam1 = *Global_262145.f_34471;
 					break;
 			
-				case -22523066:
+				case 578132704:
 					*uParam1 = *Global_262145.f_34472;
 					break;
 			
-				case -1355533261:
+				case -22523066:
 					*uParam1 = *Global_262145.f_34473;
 					break;
 			
-				case -650868641:
+				case -1355533261:
 					*uParam1 = *Global_262145.f_34474;
 					break;
 			
-				case 192048346:
+				case -650868641:
 					*uParam1 = *Global_262145.f_34475;
 					break;
 			
-				case 64248918:
+				case 192048346:
 					*uParam1 = *Global_262145.f_34476;
 					break;
 			
-				case -1304610531:
+				case 64248918:
 					*uParam1 = *Global_262145.f_34477;
 					break;
 			
-				case -345232506:
+				case -1304610531:
 					*uParam1 = *Global_262145.f_34478;
 					break;
 			
-				case 237269238:
+				case -345232506:
 					*uParam1 = *Global_262145.f_34479;
 					break;
 			
-				case -1113403416:
+				case 237269238:
 					*uParam1 = *Global_262145.f_34480;
 					break;
 			
-				case 1799596843:
+				case -1113403416:
 					*uParam1 = *Global_262145.f_34481;
 					break;
 			
-				case -1617541133:
+				case 1799596843:
 					*uParam1 = *Global_262145.f_34482;
 					break;
 			
-				case -1175749475:
+				case -1617541133:
 					*uParam1 = *Global_262145.f_34483;
 					break;
 			
-				case -1443560157:
-					*uParam1 = *Global_262145.f_34508;
-					break;
-			
-				case 294147120:
-					*uParam1 = *Global_262145.f_34509;
-					break;
-			
-				case -3297093:
-					*uParam1 = *Global_262145.f_34510;
-					break;
-			
-				case 905714967:
-					*uParam1 = *Global_262145.f_34511;
-					break;
-			
-				case 607156608:
-					*uParam1 = *Global_262145.f_34512;
-					break;
-			
-				case -1992243384:
-					*uParam1 = *Global_262145.f_34513;
-					break;
-			
-				case -1545798528:
-					*uParam1 = *Global_262145.f_34514;
-					break;
-			
-				case 997206952:
-					*uParam1 = *Global_262145.f_34515;
-					break;
-			
-				case 1268435965:
-					*uParam1 = *Global_262145.f_34516;
-					break;
-			
-				case -2023506475:
+				case -1175749475:
 					*uParam1 = *Global_262145.f_34484;
 					break;
 			
-				case -904248495:
+				case -1443560157:
+					*uParam1 = *Global_262145.f_34509;
+					break;
+			
+				case 294147120:
+					*uParam1 = *Global_262145.f_34510;
+					break;
+			
+				case -3297093:
+					*uParam1 = *Global_262145.f_34511;
+					break;
+			
+				case 905714967:
+					*uParam1 = *Global_262145.f_34512;
+					break;
+			
+				case 607156608:
+					*uParam1 = *Global_262145.f_34513;
+					break;
+			
+				case -1992243384:
+					*uParam1 = *Global_262145.f_34514;
+					break;
+			
+				case -1545798528:
+					*uParam1 = *Global_262145.f_34515;
+					break;
+			
+				case 997206952:
+					*uParam1 = *Global_262145.f_34516;
+					break;
+			
+				case 1268435965:
+					*uParam1 = *Global_262145.f_34517;
+					break;
+			
+				case -2023506475:
 					*uParam1 = *Global_262145.f_34485;
 					break;
 			
-				case -403603713:
+				case -904248495:
 					*uParam1 = *Global_262145.f_34486;
 					break;
 			
-				case -1422326385:
+				case -403603713:
 					*uParam1 = *Global_262145.f_34487;
 					break;
 			
-				case -1191010014:
+				case -1422326385:
 					*uParam1 = *Global_262145.f_34488;
 					break;
 			
-				case 754063518:
+				case -1191010014:
 					*uParam1 = *Global_262145.f_34489;
 					break;
 			
-				case 529563099:
+				case 754063518:
 					*uParam1 = *Global_262145.f_34490;
 					break;
 			
-				case 156062037:
+				case 529563099:
 					*uParam1 = *Global_262145.f_34491;
 					break;
 			
-				case -100486464:
+				case 156062037:
 					*uParam1 = *Global_262145.f_34492;
 					break;
 			
-				case 1712818920:
+				case -100486464:
 					*uParam1 = *Global_262145.f_34493;
 					break;
 			
-				case 1205130871:
+				case 1712818920:
 					*uParam1 = *Global_262145.f_34494;
 					break;
 			
-				case 1518730201:
+				case 1205130871:
 					*uParam1 = *Global_262145.f_34495;
 					break;
 			
-				case -1200048183:
+				case 1518730201:
 					*uParam1 = *Global_262145.f_34496;
 					break;
 			
-				case -909518229:
+				case -1200048183:
 					*uParam1 = *Global_262145.f_34497;
 					break;
 			
-				case -856760139:
+				case -909518229:
 					*uParam1 = *Global_262145.f_34498;
 					break;
 			
-				case 1575781026:
+				case -856760139:
 					*uParam1 = *Global_262145.f_34499;
 					break;
 			
-				case -512652870:
+				case 1575781026:
 					*uParam1 = *Global_262145.f_34500;
 					break;
 			
-				case -209637927:
+				case -512652870:
 					*uParam1 = *Global_262145.f_34501;
 					break;
 			
-				case 362967579:
+				case -209637927:
 					*uParam1 = *Global_262145.f_34502;
 					break;
 			
-				case -1477306692:
+				case 362967579:
 					*uParam1 = *Global_262145.f_34503;
 					break;
 			
-				case -571198189:
+				case -1477306692:
 					*uParam1 = *Global_262145.f_34504;
 					break;
 			
-				case -867593794:
+				case -571198189:
 					*uParam1 = *Global_262145.f_34505;
 					break;
 			
-				case 684214970:
+				case -867593794:
 					*uParam1 = *Global_262145.f_34506;
 					break;
 			
-				case 368715038:
+				case 684214970:
 					*uParam1 = *Global_262145.f_34507;
+					break;
+			
+				case 368715038:
+					*uParam1 = *Global_262145.f_34508;
 					break;
 			}
 			break;
@@ -7973,103 +7973,103 @@ void func_108(Hash hParam0, var uParam1, int iParam2) // Position - 0x3B9D
 			switch (hParam0)
 			{
 				case -1155773180:
-					*uParam1 = *Global_262145.f_34336;
-					break;
-			
-				case -876482993:
 					*uParam1 = *Global_262145.f_34337;
 					break;
 			
-				case 1855075309:
+				case -876482993:
 					*uParam1 = *Global_262145.f_34338;
 					break;
 			
-				case 995872121:
+				case 1855075309:
 					*uParam1 = *Global_262145.f_34339;
 					break;
 			
-				case -577105413:
+				case 995872121:
 					*uParam1 = *Global_262145.f_34340;
 					break;
 			
-				case 46441604:
+				case -577105413:
 					*uParam1 = *Global_262145.f_34341;
 					break;
 			
-				case -258015175:
+				case 46441604:
 					*uParam1 = *Global_262145.f_34342;
 					break;
 			
-				case 1916961662:
+				case -258015175:
 					*uParam1 = *Global_262145.f_34343;
 					break;
 			
-				case 1860664520:
+				case 1916961662:
 					*uParam1 = *Global_262145.f_34344;
 					break;
 			
-				case 1569643031:
+				case 1860664520:
 					*uParam1 = *Global_262145.f_34345;
 					break;
 			
-				case 1283241971:
+				case 1569643031:
 					*uParam1 = *Global_262145.f_34346;
 					break;
 			
-				case -921292500:
+				case 1283241971:
 					*uParam1 = *Global_262145.f_34347;
 					break;
 			
-				case -1180659135:
+				case -921292500:
 					*uParam1 = *Global_262145.f_34348;
 					break;
 			
-				case -1800124319:
+				case -1180659135:
 					*uParam1 = *Global_262145.f_34349;
 					break;
 			
-				case -2090457659:
+				case -1800124319:
 					*uParam1 = *Global_262145.f_34350;
 					break;
 			
-				case 1343962568:
+				case -2090457659:
 					*uParam1 = *Global_262145.f_34351;
 					break;
 			
-				case 437244338:
+				case 1343962568:
 					*uParam1 = *Global_262145.f_34352;
 					break;
 			
-				case 754349951:
+				case 437244338:
 					*uParam1 = *Global_262145.f_34353;
 					break;
 			
-				case -157545781:
+				case 754349951:
 					*uParam1 = *Global_262145.f_34354;
 					break;
 			
-				case 1971882146:
+				case -157545781:
 					*uParam1 = *Global_262145.f_34355;
 					break;
 			
-				case -2093767688:
+				case 1971882146:
 					*uParam1 = *Global_262145.f_34356;
 					break;
 			
-				case -1755431045:
+				case -2093767688:
 					*uParam1 = *Global_262145.f_34357;
 					break;
 			
-				case -1507926788:
+				case -1755431045:
 					*uParam1 = *Global_262145.f_34358;
 					break;
 			
-				case 1791583826:
+				case -1507926788:
 					*uParam1 = *Global_262145.f_34359;
 					break;
 			
-				case -2058511526:
+				case 1791583826:
 					*uParam1 = *Global_262145.f_34360;
+					break;
+			
+				case -2058511526:
+					*uParam1 = *Global_262145.f_34361;
 					break;
 			}
 			break;
@@ -8078,387 +8078,387 @@ void func_108(Hash hParam0, var uParam1, int iParam2) // Position - 0x3B9D
 			switch (hParam0)
 			{
 				case -1898751289:
-					*uParam1 = *Global_262145.f_34691;
-					break;
-			
-				case -1600913848:
 					*uParam1 = *Global_262145.f_34692;
 					break;
 			
-				case 1648263582:
+				case -1600913848:
 					*uParam1 = *Global_262145.f_34693;
 					break;
 			
-				case 1945773333:
+				case 1648263582:
 					*uParam1 = *Global_262145.f_34694;
 					break;
 			
-				case 1160202096:
+				case 1945773333:
 					*uParam1 = *Global_262145.f_34695;
 					break;
 			
-				case 1475243262:
+				case 1160202096:
 					*uParam1 = *Global_262145.f_34696;
 					break;
 			
-				case 1222299363:
+				case 1475243262:
 					*uParam1 = *Global_262145.f_34697;
 					break;
 			
-				case 710447583:
+				case 1222299363:
 					*uParam1 = *Global_262145.f_34698;
 					break;
 			
-				case 1025652594:
+				case 710447583:
 					*uParam1 = *Global_262145.f_34699;
 					break;
 			
-				case 249748212:
+				case 1025652594:
 					*uParam1 = *Global_262145.f_34700;
 					break;
 			
-				case -2015780905:
+				case 249748212:
 					*uParam1 = *Global_262145.f_34701;
 					break;
 			
-				case 1970862866:
+				case -2015780905:
 					*uParam1 = *Global_262145.f_34702;
 					break;
 			
-				case 378649925:
+				case 1970862866:
 					*uParam1 = *Global_262145.f_34703;
 					break;
 			
-				case 73079000:
+				case 378649925:
 					*uParam1 = *Global_262145.f_34704;
 					break;
 			
-				case 992970368:
+				case 73079000:
 					*uParam1 = *Global_262145.f_34705;
 					break;
 			
-				case 687989285:
+				case 992970368:
 					*uParam1 = *Global_262145.f_34706;
 					break;
 			
-				case -780094680:
+				case 687989285:
 					*uParam1 = *Global_262145.f_34707;
 					break;
 			
-				case -1087402362:
+				case -780094680:
 					*uParam1 = *Global_262145.f_34708;
 					break;
 			
-				case -229247790:
+				case -1087402362:
 					*uParam1 = *Global_262145.f_34709;
 					break;
 			
-				case -473147457:
+				case -229247790:
 					*uParam1 = *Global_262145.f_34710;
 					break;
 			
-				case 1041107769:
+				case -473147457:
 					*uParam1 = *Global_262145.f_34711;
 					break;
 			
-				case 799436394:
+				case 1041107769:
 					*uParam1 = *Global_262145.f_34712;
 					break;
 			
-				case -1512383787:
+				case 799436394:
 					*uParam1 = *Global_262145.f_34713;
 					break;
 			
-				case -1751564718:
+				case -1512383787:
 					*uParam1 = *Global_262145.f_34714;
 					break;
 			
-				case 2034631084:
+				case -1751564718:
 					*uParam1 = *Global_262145.f_34715;
 					break;
 			
-				case 1792894167:
+				case 2034631084:
 					*uParam1 = *Global_262145.f_34716;
 					break;
 			
-				case -1698491218:
-					*uParam1 = *Global_262145.f_34266;
+				case 1792894167:
+					*uParam1 = *Global_262145.f_34717;
 					break;
 			
-				case -1467633613:
+				case -1698491218:
 					*uParam1 = *Global_262145.f_34267;
 					break;
 			
-				case 2137152997:
+				case -1467633613:
 					*uParam1 = *Global_262145.f_34268;
 					break;
 			
-				case -1927546536:
+				case 2137152997:
 					*uParam1 = *Global_262145.f_34269;
 					break;
 			
-				case 1402439248:
+				case -1927546536:
 					*uParam1 = *Global_262145.f_34270;
 					break;
 			
-				case 1642996477:
+				case 1402439248:
 					*uParam1 = *Global_262145.f_34271;
 					break;
 			
-				case 1400800802:
+				case 1642996477:
 					*uParam1 = *Global_262145.f_34272;
 					break;
 			
-				case 1641358031:
+				case 1400800802:
 					*uParam1 = *Global_262145.f_34273;
 					break;
 			
-				case 939773741:
+				case 1641358031:
 					*uParam1 = *Global_262145.f_34274;
 					break;
 			
-				case 1179478976:
+				case 939773741:
 					*uParam1 = *Global_262145.f_34275;
 					break;
 			
-				case -2011563600:
+				case 1179478976:
 					*uParam1 = *Global_262145.f_34276;
 					break;
 			
-				case 408656437:
+				case -2011563600:
 					*uParam1 = *Global_262145.f_34277;
 					break;
 			
-				case 513648313:
+				case 408656437:
 					*uParam1 = *Global_262145.f_34278;
 					break;
 			
-				case 753353548:
+				case 513648313:
 					*uParam1 = *Global_262145.f_34279;
 					break;
 			
-				case 1097362510:
+				case 753353548:
 					*uParam1 = *Global_262145.f_34280;
 					break;
 			
-				case -789837029:
+				case 1097362510:
 					*uParam1 = *Global_262145.f_34281;
 					break;
 			
-				case -155953493:
+				case -789837029:
 					*uParam1 = *Global_262145.f_34282;
 					break;
 			
-				case -408405809:
+				case -155953493:
 					*uParam1 = *Global_262145.f_34283;
 					break;
 			
-				case -303020705:
+				case -408405809:
 					*uParam1 = *Global_262145.f_34284;
 					break;
 			
-				case -27662798:
+				case -303020705:
 					*uParam1 = *Global_262145.f_34285;
 					break;
 			
-				case 1525916868:
+				case -27662798:
 					*uParam1 = *Global_262145.f_34286;
 					break;
 			
-				case 906451692:
+				case 1525916868:
 					*uParam1 = *Global_262145.f_34287;
 					break;
 			
-				case 1202847297:
+				case 906451692:
 					*uParam1 = *Global_262145.f_34288;
 					break;
 			
-				case 10678376:
+				case 1202847297:
 					*uParam1 = *Global_262145.f_34289;
 					break;
 			
-				case 571355898:
+				case 10678376:
 					*uParam1 = *Global_262145.f_34290;
 					break;
 			
-				case -467028106:
+				case 571355898:
 					*uParam1 = *Global_262145.f_34291;
 					break;
 			
-				case -159624165:
+				case -467028106:
 					*uParam1 = *Global_262145.f_34292;
 					break;
 			
-				case 1299775947:
+				case -159624165:
 					*uParam1 = *Global_262145.f_34293;
 					break;
 			
-				case -875692421:
+				case 1299775947:
 					*uParam1 = *Global_262145.f_34294;
 					break;
 			
-				case 1910360724:
+				case -875692421:
 					*uParam1 = *Global_262145.f_34295;
 					break;
 			
-				case 353374458:
+				case 1910360724:
 					*uParam1 = *Global_262145.f_34296;
 					break;
 			
-				case 1260551454:
+				case 353374458:
 					*uParam1 = *Global_262145.f_34297;
 					break;
 			
-				case 964942305:
+				case 1260551454:
 					*uParam1 = *Global_262145.f_34298;
 					break;
 			
-				case 1261927756:
+				case 964942305:
 					*uParam1 = *Global_262145.f_34299;
 					break;
 			
-				case -1117391413:
+				case 1261927756:
 					*uParam1 = *Global_262145.f_34300;
 					break;
 			
-				case -1424862940:
+				case -1117391413:
 					*uParam1 = *Global_262145.f_34301;
 					break;
 			
-				case -1828085485:
+				case -1424862940:
 					*uParam1 = *Global_262145.f_34302;
 					break;
 			
-				case -1866621829:
+				case -1828085485:
 					*uParam1 = *Global_262145.f_34303;
 					break;
 			
-				case -125899780:
+				case -1866621829:
 					*uParam1 = *Global_262145.f_34304;
 					break;
 			
-				case -644633050:
+				case -125899780:
 					*uParam1 = *Global_262145.f_34305;
 					break;
 			
-				case -947713531:
+				case -644633050:
 					*uParam1 = *Global_262145.f_34306;
 					break;
 			
-				case 190878143:
+				case -947713531:
 					*uParam1 = *Global_262145.f_34307;
 					break;
 			
-				case -1286735385:
+				case 190878143:
 					*uParam1 = *Global_262145.f_34308;
 					break;
 			
-				case 875789232:
+				case -1286735385:
 					*uParam1 = *Global_262145.f_34309;
 					break;
 			
-				case 432162510:
+				case 875789232:
 					*uParam1 = *Global_262145.f_34310;
 					break;
 			
-				case 1186472121:
+				case 432162510:
 					*uParam1 = *Global_262145.f_34311;
 					break;
 			
-				case 1039011621:
+				case 1186472121:
 					*uParam1 = *Global_262145.f_34312;
 					break;
 			
-				case 778694677:
+				case 1039011621:
 					*uParam1 = *Global_262145.f_34313;
 					break;
 			
-				case 640933801:
+				case 778694677:
 					*uParam1 = *Global_262145.f_34314;
 					break;
 			
-				case 1391376670:
+				case 640933801:
 					*uParam1 = *Global_262145.f_34315;
 					break;
 			
-				case 949978240:
+				case 1391376670:
 					*uParam1 = *Global_262145.f_34316;
 					break;
 			
-				case -1175976169:
+				case 949978240:
 					*uParam1 = *Global_262145.f_34317;
 					break;
 			
-				case -173528392:
+				case -1175976169:
 					*uParam1 = *Global_262145.f_34318;
 					break;
 			
-				case 602834756:
+				case -173528392:
 					*uParam1 = *Global_262145.f_34319;
 					break;
 			
-				case 303293327:
+				case 602834756:
 					*uParam1 = *Global_262145.f_34320;
 					break;
 			
-				case 1137559298:
+				case 303293327:
 					*uParam1 = *Global_262145.f_34321;
 					break;
 			
-				case 839852933:
+				case 1137559298:
 					*uParam1 = *Global_262145.f_34322;
 					break;
 			
-				case 1850907659:
+				case 839852933:
 					*uParam1 = *Global_262145.f_34323;
 					break;
 			
-				case 1556674808:
+				case 1850907659:
 					*uParam1 = *Global_262145.f_34324;
 					break;
 			
-				case -1963502252:
+				case 1556674808:
 					*uParam1 = *Global_262145.f_34325;
 					break;
 			
-				case 2033627603:
+				case -1963502252:
 					*uParam1 = *Global_262145.f_34326;
 					break;
 			
-				case -1314282824:
+				case 2033627603:
 					*uParam1 = *Global_262145.f_34327;
 					break;
 			
-				case -727062116:
+				case -1314282824:
 					*uParam1 = *Global_262145.f_34328;
 					break;
 			
-				case -1574533994:
+				case -727062116:
 					*uParam1 = *Global_262145.f_34329;
 					break;
 			
-				case -1344200693:
+				case -1574533994:
 					*uParam1 = *Global_262145.f_34330;
 					break;
 			
-				case 2049193106:
+				case -1344200693:
 					*uParam1 = *Global_262145.f_34331;
 					break;
 			
-				case -1882300442:
+				case 2049193106:
 					*uParam1 = *Global_262145.f_34332;
 					break;
 			
-				case 999662745:
+				case -1882300442:
 					*uParam1 = *Global_262145.f_34333;
 					break;
 			
-				case 911841825:
+				case 999662745:
 					*uParam1 = *Global_262145.f_34334;
 					break;
 			
-				case 1746632100:
+				case 911841825:
 					*uParam1 = *Global_262145.f_34335;
+					break;
+			
+				case 1746632100:
+					*uParam1 = *Global_262145.f_34336;
 					break;
 			}
 			break;
@@ -8467,814 +8467,814 @@ void func_108(Hash hParam0, var uParam1, int iParam2) // Position - 0x3B9D
 			switch (hParam0)
 			{
 				case -798640182:
-					*uParam1 = *Global_262145.f_34125;
-					break;
-			
-				case -1127673711:
 					*uParam1 = *Global_262145.f_34126;
 					break;
 			
-				case -962485186:
+				case -1127673711:
 					*uParam1 = *Global_262145.f_34127;
 					break;
 			
-				case -1260191551:
+				case -962485186:
 					*uParam1 = *Global_262145.f_34128;
 					break;
 			
-				case -350917339:
+				case -1260191551:
 					*uParam1 = *Global_262145.f_34129;
 					break;
 			
-				case -700923028:
+				case -350917339:
 					*uParam1 = *Global_262145.f_34130;
 					break;
 			
-				case -1946800408:
+				case -700923028:
 					*uParam1 = *Global_262145.f_34131;
 					break;
 			
-				case 2041940583:
+				case -1946800408:
 					*uParam1 = *Global_262145.f_34132;
 					break;
 			
-				case 1092196652:
+				case 2041940583:
 					*uParam1 = *Global_262145.f_34133;
 					break;
 			
-				case -1362004834:
+				case 1092196652:
 					*uParam1 = *Global_262145.f_34134;
 					break;
 			
-				case 693331505:
+				case -1362004834:
 					*uParam1 = *Global_262145.f_34135;
 					break;
 			
-				case -514304452:
+				case 693331505:
 					*uParam1 = *Global_262145.f_34136;
 					break;
 			
-				case -295084842:
+				case -514304452:
 					*uParam1 = *Global_262145.f_34137;
 					break;
 			
-				case -1803474681:
+				case -295084842:
 					*uParam1 = *Global_262145.f_34138;
 					break;
 			
-				case -2100623973:
+				case -1803474681:
 					*uParam1 = *Global_262145.f_34139;
 					break;
 			
-				case -1153632642:
+				case -2100623973:
 					*uParam1 = *Global_262145.f_34140;
 					break;
 			
-				case -1455467901:
+				case -1153632642:
 					*uParam1 = *Global_262145.f_34141;
 					break;
 			
-				case 1802065620:
+				case -1455467901:
 					*uParam1 = *Global_262145.f_34142;
 					break;
 			
-				case 1494725169:
+				case 1802065620:
 					*uParam1 = *Global_262145.f_34143;
 					break;
 			
-				case -1881202753:
+				case 1494725169:
 					*uParam1 = *Global_262145.f_34144;
 					break;
 			
-				case 2105834250:
+				case -1881202753:
 					*uParam1 = *Global_262145.f_34145;
 					break;
 			
-				case 574604418:
+				case 2105834250:
 					*uParam1 = *Global_262145.f_34146;
 					break;
 			
-				case -728707072:
+				case 574604418:
 					*uParam1 = *Global_262145.f_34147;
 					break;
 			
-				case 1143844660:
+				case -728707072:
 					*uParam1 = *Global_262145.f_34148;
 					break;
 			
-				case 845155225:
+				case 1143844660:
 					*uParam1 = *Global_262145.f_34149;
 					break;
 			
-				case -1614682525:
+				case 845155225:
 					*uParam1 = *Global_262145.f_34150;
 					break;
 			
-				case 506887203:
+				case -1614682525:
 					*uParam1 = *Global_262145.f_34151;
+					break;
+			
+				case 506887203:
+					*uParam1 = *Global_262145.f_34152;
 					break;
 			
 				case -458127078:
-					*uParam1 = *Global_262145.f_34152;
+					*uParam1 = *Global_262145.f_34153;
 					break;
 			
 				case -94981020:
-					*uParam1 = *Global_262145.f_34153;
+					*uParam1 = *Global_262145.f_34154;
 					break;
 			
 				case -1024670319:
-					*uParam1 = *Global_262145.f_34154;
+					*uParam1 = *Global_262145.f_34155;
 					break;
 			
 				case -794140404:
-					*uParam1 = *Global_262145.f_34155;
+					*uParam1 = *Global_262145.f_34156;
 					break;
 			
 				case -1664878320:
-					*uParam1 = *Global_262145.f_34156;
+					*uParam1 = *Global_262145.f_34157;
 					break;
 			
 				case -1286789550:
-					*uParam1 = *Global_262145.f_34157;
+					*uParam1 = *Global_262145.f_34158;
 					break;
 			
 				case -1564179139:
-					*uParam1 = *Global_262145.f_34158;
+					*uParam1 = *Global_262145.f_34159;
 					break;
 			
 				case -1936369441:
-					*uParam1 = *Global_262145.f_34159;
+					*uParam1 = *Global_262145.f_34160;
 					break;
 			
 				case 2107095780:
-					*uParam1 = *Global_262145.f_34160;
+					*uParam1 = *Global_262145.f_34161;
 					break;
 			
 				case -1794647277:
-					*uParam1 = *Global_262145.f_34161;
+					*uParam1 = *Global_262145.f_34162;
 					break;
 			
 				case -1175051021:
-					*uParam1 = *Global_262145.f_34162;
+					*uParam1 = *Global_262145.f_34163;
 					break;
 			
 				case -867677801:
-					*uParam1 = *Global_262145.f_34163;
+					*uParam1 = *Global_262145.f_34164;
 					break;
 			
 				case -547295288:
-					*uParam1 = *Global_262145.f_34164;
+					*uParam1 = *Global_262145.f_34165;
 					break;
 			
 				case 19936154:
-					*uParam1 = *Global_262145.f_34165;
+					*uParam1 = *Global_262145.f_34166;
 					break;
 			
 				case 265539809:
-					*uParam1 = *Global_262145.f_34166;
+					*uParam1 = *Global_262145.f_34167;
 					break;
 			
 				case 563180636:
-					*uParam1 = *Global_262145.f_34167;
+					*uParam1 = *Global_262145.f_34168;
 					break;
 			
 				case 912825866:
-					*uParam1 = *Global_262145.f_34168;
+					*uParam1 = *Global_262145.f_34169;
 					break;
 			
 				case 1177501079:
-					*uParam1 = *Global_262145.f_34169;
+					*uParam1 = *Global_262145.f_34170;
 					break;
 			
 				case 730630174:
-					*uParam1 = *Global_262145.f_34170;
+					*uParam1 = *Global_262145.f_34171;
 					break;
 			
 				case 1494180971:
-					*uParam1 = *Global_262145.f_34171;
+					*uParam1 = *Global_262145.f_34172;
 					break;
 			
 				case 731056495:
-					*uParam1 = *Global_262145.f_34172;
+					*uParam1 = *Global_262145.f_34173;
 					break;
 			
 				case 1627092031:
-					*uParam1 = *Global_262145.f_34173;
+					*uParam1 = *Global_262145.f_34174;
 					break;
 			
 				case 1377097330:
-					*uParam1 = *Global_262145.f_34174;
+					*uParam1 = *Global_262145.f_34175;
 					break;
 			
 				case -2055979724:
-					*uParam1 = *Global_262145.f_34175;
+					*uParam1 = *Global_262145.f_34176;
 					break;
 			
 				case 1989582713:
-					*uParam1 = *Global_262145.f_34176;
-					break;
-			
-				case -172096678:
-					*uParam1 = *Global_262145.f_34151;
-					break;
-			
-				case 133998551:
-					*uParam1 = *Global_262145.f_34152;
-					break;
-			
-				case -1129475782:
-					*uParam1 = *Global_262145.f_34153;
-					break;
-			
-				case -823380553:
-					*uParam1 = *Global_262145.f_34154;
-					break;
-			
-				case 463884070:
-					*uParam1 = *Global_262145.f_34155;
-					break;
-			
-				case 761229976:
-					*uParam1 = *Global_262145.f_34156;
-					break;
-			
-				case -2054380807:
-					*uParam1 = *Global_262145.f_34157;
-					break;
-			
-				case -1757002132:
-					*uParam1 = *Global_262145.f_34158;
-					break;
-			
-				case -519513616:
-					*uParam1 = *Global_262145.f_34159;
-					break;
-			
-				case -224953075:
-					*uParam1 = *Global_262145.f_34160;
-					break;
-			
-				case -567222886:
-					*uParam1 = *Global_262145.f_34161;
-					break;
-			
-				case -530259454:
-					*uParam1 = *Global_262145.f_34162;
-					break;
-			
-				case -223639913:
-					*uParam1 = *Global_262145.f_34163;
-					break;
-			
-				case 83143465:
-					*uParam1 = *Global_262145.f_34164;
-					break;
-			
-				case 663089227:
-					*uParam1 = *Global_262145.f_34165;
-					break;
-			
-				case 989599543:
-					*uParam1 = *Global_262145.f_34166;
-					break;
-			
-				case 1286486683:
-					*uParam1 = *Global_262145.f_34167;
-					break;
-			
-				case 1586945644:
-					*uParam1 = *Global_262145.f_34168;
-					break;
-			
-				case 2035127357:
-					*uParam1 = *Global_262145.f_34169;
-					break;
-			
-				case 1736306846:
-					*uParam1 = *Global_262145.f_34170;
-					break;
-			
-				case 1948881209:
-					*uParam1 = *Global_262145.f_34171;
-					break;
-			
-				case -1838494277:
-					*uParam1 = *Global_262145.f_34172;
-					break;
-			
-				case 1769864150:
-					*uParam1 = *Global_262145.f_34173;
-					break;
-			
-				case -147646654:
-					*uParam1 = *Global_262145.f_34174;
-					break;
-			
-				case 1009262891:
-					*uParam1 = *Global_262145.f_34175;
-					break;
-			
-				case 1508465837:
-					*uParam1 = *Global_262145.f_34176;
-					break;
-			
-				case -346142607:
 					*uParam1 = *Global_262145.f_34177;
 					break;
 			
-				case -1057688673:
+				case -172096678:
+					*uParam1 = *Global_262145.f_34152;
+					break;
+			
+				case 133998551:
+					*uParam1 = *Global_262145.f_34153;
+					break;
+			
+				case -1129475782:
+					*uParam1 = *Global_262145.f_34154;
+					break;
+			
+				case -823380553:
+					*uParam1 = *Global_262145.f_34155;
+					break;
+			
+				case 463884070:
+					*uParam1 = *Global_262145.f_34156;
+					break;
+			
+				case 761229976:
+					*uParam1 = *Global_262145.f_34157;
+					break;
+			
+				case -2054380807:
+					*uParam1 = *Global_262145.f_34158;
+					break;
+			
+				case -1757002132:
+					*uParam1 = *Global_262145.f_34159;
+					break;
+			
+				case -519513616:
+					*uParam1 = *Global_262145.f_34160;
+					break;
+			
+				case -224953075:
+					*uParam1 = *Global_262145.f_34161;
+					break;
+			
+				case -567222886:
+					*uParam1 = *Global_262145.f_34162;
+					break;
+			
+				case -530259454:
+					*uParam1 = *Global_262145.f_34163;
+					break;
+			
+				case -223639913:
+					*uParam1 = *Global_262145.f_34164;
+					break;
+			
+				case 83143465:
+					*uParam1 = *Global_262145.f_34165;
+					break;
+			
+				case 663089227:
+					*uParam1 = *Global_262145.f_34166;
+					break;
+			
+				case 989599543:
+					*uParam1 = *Global_262145.f_34167;
+					break;
+			
+				case 1286486683:
+					*uParam1 = *Global_262145.f_34168;
+					break;
+			
+				case 1586945644:
+					*uParam1 = *Global_262145.f_34169;
+					break;
+			
+				case 2035127357:
+					*uParam1 = *Global_262145.f_34170;
+					break;
+			
+				case 1736306846:
+					*uParam1 = *Global_262145.f_34171;
+					break;
+			
+				case 1948881209:
+					*uParam1 = *Global_262145.f_34172;
+					break;
+			
+				case -1838494277:
+					*uParam1 = *Global_262145.f_34173;
+					break;
+			
+				case 1769864150:
+					*uParam1 = *Global_262145.f_34174;
+					break;
+			
+				case -147646654:
+					*uParam1 = *Global_262145.f_34175;
+					break;
+			
+				case 1009262891:
+					*uParam1 = *Global_262145.f_34176;
+					break;
+			
+				case 1508465837:
+					*uParam1 = *Global_262145.f_34177;
+					break;
+			
+				case -346142607:
 					*uParam1 = *Global_262145.f_34178;
 					break;
 			
-				case -752904204:
+				case -1057688673:
 					*uParam1 = *Global_262145.f_34179;
 					break;
 			
-				case 453617611:
+				case -752904204:
 					*uParam1 = *Global_262145.f_34180;
 					break;
 			
-				case 1145174587:
+				case 453617611:
 					*uParam1 = *Global_262145.f_34181;
 					break;
 			
-				case -26874240:
+				case 1145174587:
 					*uParam1 = *Global_262145.f_34182;
 					break;
 			
-				case 129302818:
+				case -26874240:
 					*uParam1 = *Global_262145.f_34183;
 					break;
 			
-				case -2042692044:
+				case 129302818:
 					*uParam1 = *Global_262145.f_34184;
 					break;
 			
-				case -1873014158:
+				case -2042692044:
 					*uParam1 = *Global_262145.f_34185;
 					break;
 			
-				case 1235813641:
+				case -1873014158:
 					*uParam1 = *Global_262145.f_34186;
 					break;
 			
-				case -604815322:
+				case 1235813641:
 					*uParam1 = *Global_262145.f_34187;
 					break;
 			
-				case -296950567:
+				case -604815322:
 					*uParam1 = *Global_262145.f_34188;
 					break;
 			
-				case 964852547:
+				case -296950567:
 					*uParam1 = *Global_262145.f_34189;
 					break;
 			
-				case -891019768:
+				case 964852547:
 					*uParam1 = *Global_262145.f_34190;
 					break;
 			
-				case 746578222:
+				case -891019768:
 					*uParam1 = *Global_262145.f_34191;
 					break;
 			
-				case -1094416967:
+				case 746578222:
 					*uParam1 = *Global_262145.f_34192;
 					break;
 			
-				case 151132723:
+				case -1094416967:
 					*uParam1 = *Global_262145.f_34193;
 					break;
 			
-				case 459587320:
+				case 151132723:
 					*uParam1 = *Global_262145.f_34194;
 					break;
 			
-				case -210374885:
+				case 459587320:
 					*uParam1 = *Global_262145.f_34195;
 					break;
 			
-				case -2050944081:
+				case -210374885:
 					*uParam1 = *Global_262145.f_34196;
 					break;
 			
-				case -719277235:
+				case -2050944081:
 					*uParam1 = *Global_262145.f_34197;
 					break;
 			
-				case -411674632:
+				case -719277235:
 					*uParam1 = *Global_262145.f_34198;
 					break;
 			
-				case 529319972:
+				case -411674632:
 					*uParam1 = *Global_262145.f_34199;
 					break;
 			
-				case 836201657:
+				case 529319972:
 					*uParam1 = *Global_262145.f_34200;
 					break;
 			
-				case -1714963304:
+				case 836201657:
 					*uParam1 = *Global_262145.f_34201;
 					break;
 			
-				case -1670200850:
+				case -1714963304:
 					*uParam1 = *Global_262145.f_34202;
 					break;
 			
-				case 62640709:
+				case -1670200850:
 					*uParam1 = *Global_262145.f_34203;
 					break;
 			
-				case 368932552:
+				case 62640709:
 					*uParam1 = *Global_262145.f_34204;
 					break;
 			
-				case -398058662:
+				case 368932552:
 					*uParam1 = *Global_262145.f_34205;
 					break;
 			
-				case 1748212531:
+				case -398058662:
 					*uParam1 = *Global_262145.f_34206;
 					break;
 			
-				case 2053128076:
+				case 1748212531:
 					*uParam1 = *Global_262145.f_34207;
 					break;
 			
-				case -1163411430:
+				case 2053128076:
 					*uParam1 = *Global_262145.f_34208;
 					break;
 			
-				case -857250663:
+				case -1163411430:
 					*uParam1 = *Global_262145.f_34209;
 					break;
 			
-				case 1290527904:
+				case -857250663:
 					*uParam1 = *Global_262145.f_34210;
 					break;
 			
-				case 523143462:
+				case 1290527904:
 					*uParam1 = *Global_262145.f_34211;
 					break;
 			
-				case 730467278:
+				case 523143462:
 					*uParam1 = *Global_262145.f_34212;
 					break;
 			
-				case 1020046931:
+				case 730467278:
 					*uParam1 = *Global_262145.f_34213;
 					break;
 			
-				case 1286426132:
+				case 1020046931:
 					*uParam1 = *Global_262145.f_34214;
 					break;
 			
-				case 562788285:
+				case 1286426132:
 					*uParam1 = *Global_262145.f_34215;
 					break;
 			
-				case -87283137:
+				case 562788285:
 					*uParam1 = *Global_262145.f_34216;
 					break;
 			
-				case -1106792265:
+				case -87283137:
 					*uParam1 = *Global_262145.f_34217;
 					break;
 			
-				case 255709986:
+				case -1106792265:
 					*uParam1 = *Global_262145.f_34218;
 					break;
 			
-				case -498042552:
+				case 255709986:
 					*uParam1 = *Global_262145.f_34219;
 					break;
 			
-				case -1265459763:
+				case -498042552:
 					*uParam1 = *Global_262145.f_34220;
 					break;
 			
-				case 1668512320:
+				case -1265459763:
 					*uParam1 = *Global_262145.f_34221;
 					break;
 			
-				case 1246185448:
+				case 1668512320:
 					*uParam1 = *Global_262145.f_34222;
 					break;
 			
-				case -2107721714:
+				case 1246185448:
 					*uParam1 = *Global_262145.f_34223;
 					break;
 			
-				case 1762166114:
+				case -2107721714:
 					*uParam1 = *Global_262145.f_34224;
 					break;
 			
-				case 1709801252:
+				case 1762166114:
 					*uParam1 = *Global_262145.f_34225;
 					break;
 			
-				case 1413143495:
+				case 1709801252:
 					*uParam1 = *Global_262145.f_34226;
 					break;
 			
-				case -189911432:
+				case 1413143495:
 					*uParam1 = *Global_262145.f_34227;
 					break;
 			
-				case 1132481563:
+				case -189911432:
 					*uParam1 = *Global_262145.f_34228;
 					break;
 			
-				case 642716089:
+				case 1132481563:
 					*uParam1 = *Global_262145.f_34229;
 					break;
 			
-				case 345173565:
+				case 642716089:
 					*uParam1 = *Global_262145.f_34230;
+					break;
+			
+				case 345173565:
+					*uParam1 = *Global_262145.f_34231;
 					break;
 			}
 		
 			switch (hParam0)
 			{
 				case 1295147350:
-					*uParam1 = *Global_262145.f_34237;
+					*uParam1 = *Global_262145.f_34238;
 					break;
 			
 				case 1040499451:
-					*uParam1 = *Global_262145.f_34238;
+					*uParam1 = *Global_262145.f_34239;
 					break;
 			
 				case 996064687:
-					*uParam1 = *Global_262145.f_34239;
+					*uParam1 = *Global_262145.f_34240;
 					break;
 			
 				case 690493762:
-					*uParam1 = *Global_262145.f_34240;
+					*uParam1 = *Global_262145.f_34241;
 					break;
 			
 				case -1761348360:
-					*uParam1 = *Global_262145.f_34241;
+					*uParam1 = *Global_262145.f_34242;
 					break;
 			
 				case -2042997915:
-					*uParam1 = *Global_262145.f_34242;
+					*uParam1 = *Global_262145.f_34243;
 					break;
 			
 				case -1961009873:
-					*uParam1 = *Global_262145.f_34243;
+					*uParam1 = *Global_262145.f_34244;
 					break;
 			
 				case 2035464602:
-					*uParam1 = *Global_262145.f_34244;
+					*uParam1 = *Global_262145.f_34245;
 					break;
 			
 				case 1722651728:
-					*uParam1 = *Global_262145.f_34245;
+					*uParam1 = *Global_262145.f_34246;
 					break;
 			
 				case -723455819:
-					*uParam1 = *Global_262145.f_34246;
+					*uParam1 = *Global_262145.f_34247;
 					break;
 			
 				case -1608946104:
-					*uParam1 = *Global_262145.f_34247;
+					*uParam1 = *Global_262145.f_34248;
 					break;
 			
 				case 1985714893:
-					*uParam1 = *Global_262145.f_34248;
+					*uParam1 = *Global_262145.f_34249;
 					break;
 			
 				case -2120371887:
-					*uParam1 = *Global_262145.f_34249;
+					*uParam1 = *Global_262145.f_34250;
 					break;
 			
 				case -1455456120:
-					*uParam1 = *Global_262145.f_34250;
+					*uParam1 = *Global_262145.f_34251;
 					break;
 			
 				case -686236614:
-					*uParam1 = *Global_262145.f_34251;
+					*uParam1 = *Global_262145.f_34252;
 					break;
 			
 				case -1915958877:
-					*uParam1 = *Global_262145.f_34252;
+					*uParam1 = *Global_262145.f_34253;
 					break;
 			
 				case -1684347585:
-					*uParam1 = *Global_262145.f_34253;
+					*uParam1 = *Global_262145.f_34254;
 					break;
 			
 				case 83048434:
-					*uParam1 = *Global_262145.f_34254;
+					*uParam1 = *Global_262145.f_34255;
 					break;
 			
 				case 306565783:
-					*uParam1 = *Global_262145.f_34255;
+					*uParam1 = *Global_262145.f_34256;
 					break;
 			
 				case -445089543:
-					*uParam1 = *Global_262145.f_34256;
+					*uParam1 = *Global_262145.f_34257;
 					break;
 			
 				case 259905295:
-					*uParam1 = *Global_262145.f_34257;
+					*uParam1 = *Global_262145.f_34258;
 					break;
 			
 				case 540539011:
-					*uParam1 = *Global_262145.f_34258;
+					*uParam1 = *Global_262145.f_34259;
 					break;
 			
 				case 1126612580:
-					*uParam1 = *Global_262145.f_34259;
+					*uParam1 = *Global_262145.f_34260;
 					break;
 			
 				case 1441260518:
-					*uParam1 = *Global_262145.f_34260;
+					*uParam1 = *Global_262145.f_34261;
 					break;
 			
 				case -456883807:
-					*uParam1 = *Global_262145.f_34261;
+					*uParam1 = *Global_262145.f_34262;
 					break;
 			
 				case -158718676:
-					*uParam1 = *Global_262145.f_34262;
+					*uParam1 = *Global_262145.f_34263;
 					break;
 			
 				case -35395570:
-					*uParam1 = *Global_262145.f_34263;
+					*uParam1 = *Global_262145.f_34264;
 					break;
 			
 				case -265335643:
-					*uParam1 = *Global_262145.f_34264;
+					*uParam1 = *Global_262145.f_34265;
 					break;
 			
 				case 677867399:
-					*uParam1 = *Global_262145.f_34237;
-					break;
-			
-				case 377146282:
 					*uParam1 = *Global_262145.f_34238;
 					break;
 			
-				case 957812970:
+				case 377146282:
 					*uParam1 = *Global_262145.f_34239;
 					break;
 			
-				case 1332034950:
+				case 957812970:
 					*uParam1 = *Global_262145.f_34240;
 					break;
 			
-				case 1556666445:
+				case 1332034950:
 					*uParam1 = *Global_262145.f_34241;
 					break;
 			
-				case 1679550195:
+				case 1556666445:
 					*uParam1 = *Global_262145.f_34242;
 					break;
 			
-				case 1901363556:
+				case 1679550195:
 					*uParam1 = *Global_262145.f_34243;
 					break;
 			
-				case -2009157832:
+				case 1901363556:
 					*uParam1 = *Global_262145.f_34244;
 					break;
 			
-				case -1780462981:
+				case -2009157832:
 					*uParam1 = *Global_262145.f_34245;
 					break;
 			
-				case -2079578417:
+				case -1780462981:
 					*uParam1 = *Global_262145.f_34246;
 					break;
 			
-				case 2025536276:
+				case -2079578417:
 					*uParam1 = *Global_262145.f_34247;
 					break;
 			
-				case -844897052:
+				case 2025536276:
 					*uParam1 = *Global_262145.f_34248;
 					break;
 			
-				case -1150402439:
+				case -844897052:
 					*uParam1 = *Global_262145.f_34249;
 					break;
 			
-				case 1062094903:
+				case -1150402439:
 					*uParam1 = *Global_262145.f_34250;
 					break;
 			
-				case 903034177:
+				case 1062094903:
 					*uParam1 = *Global_262145.f_34251;
 					break;
 			
-				case 648648430:
+				case 903034177:
 					*uParam1 = *Global_262145.f_34252;
 					break;
 			
-				case -1808338421:
+				case 648648430:
 					*uParam1 = *Global_262145.f_34253;
 					break;
 			
-				case -196693459:
+				case -1808338421:
 					*uParam1 = *Global_262145.f_34254;
 					break;
 			
-				case -360669535:
+				case -196693459:
 					*uParam1 = *Global_262145.f_34255;
 					break;
 			
-				case 1036076321:
+				case -360669535:
 					*uParam1 = *Global_262145.f_34256;
 					break;
 			
-				case -951691447:
+				case 1036076321:
 					*uParam1 = *Global_262145.f_34257;
 					break;
 			
-				case 1193989904:
+				case -951691447:
 					*uParam1 = *Global_262145.f_34258;
 					break;
 			
-				case 896283539:
+				case 1193989904:
 					*uParam1 = *Global_262145.f_34259;
 					break;
 			
-				case 715791887:
+				case 896283539:
 					*uParam1 = *Global_262145.f_34260;
 					break;
 			
-				case -1726121224:
+				case 715791887:
 					*uParam1 = *Global_262145.f_34261;
 					break;
 			
-				case -1833144894:
+				case -1726121224:
 					*uParam1 = *Global_262145.f_34262;
 					break;
 			
-				case -1258113321:
+				case -1833144894:
 					*uParam1 = *Global_262145.f_34263;
 					break;
 			
-				case -1540090566:
+				case -1258113321:
 					*uParam1 = *Global_262145.f_34264;
 					break;
 			
+				case -1540090566:
+					*uParam1 = *Global_262145.f_34265;
+					break;
+			
 				case -1506474333:
-					*uParam1 = *Global_262145.f_34231;
+					*uParam1 = *Global_262145.f_34232;
 					break;
 			
 				case -124310774:
-					*uParam1 = *Global_262145.f_34232;
+					*uParam1 = *Global_262145.f_34233;
 					break;
 			
 				case 106514062:
-					*uParam1 = *Global_262145.f_34233;
+					*uParam1 = *Global_262145.f_34234;
 					break;
 			
 				case 325640365:
-					*uParam1 = *Global_262145.f_34234;
+					*uParam1 = *Global_262145.f_34235;
 					break;
 			
 				case -1053213617:
-					*uParam1 = *Global_262145.f_34235;
+					*uParam1 = *Global_262145.f_34236;
 					break;
 			
 				case 1070905732:
-					*uParam1 = *Global_262145.f_34236;
+					*uParam1 = *Global_262145.f_34237;
 					break;
 			
 				case 1518268120:
-					*uParam1 = *Global_262145.f_34265;
+					*uParam1 = *Global_262145.f_34266;
 					break;
 			
 				case -2116529336:
-					*uParam1 = *Global_262145.f_34231;
-					break;
-			
-				case 1949480957:
 					*uParam1 = *Global_262145.f_34232;
 					break;
 			
-				case 1678972862:
+				case 1949480957:
 					*uParam1 = *Global_262145.f_34233;
 					break;
 			
-				case 1312418824:
+				case 1678972862:
 					*uParam1 = *Global_262145.f_34234;
 					break;
 			
-				case 947962006:
+				case 1312418824:
 					*uParam1 = *Global_262145.f_34235;
 					break;
 			
-				case 717169939:
+				case 947962006:
 					*uParam1 = *Global_262145.f_34236;
 					break;
 			
+				case 717169939:
+					*uParam1 = *Global_262145.f_34237;
+					break;
+			
 				case 89283130:
-					*uParam1 = *Global_262145.f_34265;
+					*uParam1 = *Global_262145.f_34266;
 					break;
 			}
 			break;
@@ -9284,495 +9284,495 @@ void func_108(Hash hParam0, var uParam1, int iParam2) // Position - 0x3B9D
 			switch (hParam0)
 			{
 				case -554716743:
-					*uParam1 = *Global_262145.f_34542;
-					break;
-			
-				case 2126868838:
 					*uParam1 = *Global_262145.f_34543;
 					break;
 			
-				case 1838042872:
+				case 2126868838:
 					*uParam1 = *Global_262145.f_34544;
 					break;
 			
-				case -1689638289:
+				case 1838042872:
 					*uParam1 = *Global_262145.f_34545;
 					break;
 			
-				case -1979971629:
+				case -1689638289:
 					*uParam1 = *Global_262145.f_34546;
 					break;
 			
-				case 168921084:
+				case -1979971629:
 					*uParam1 = *Global_262145.f_34547;
 					break;
 			
-				case 935879529:
+				case 168921084:
 					*uParam1 = *Global_262145.f_34548;
 					break;
 			
-				case 1652472025:
+				case 935879529:
 					*uParam1 = *Global_262145.f_34549;
 					break;
 			
-				case 1357157797:
+				case 1652472025:
 					*uParam1 = *Global_262145.f_34550;
 					break;
 			
-				case -261958493:
+				case 1357157797:
 					*uParam1 = *Global_262145.f_34551;
 					break;
 			
-				case -180096181:
+				case -261958493:
 					*uParam1 = *Global_262145.f_34552;
 					break;
 			
-				case 40177037:
+				case -180096181:
 					*uParam1 = *Global_262145.f_34553;
 					break;
 			
-				case 262121474:
+				case 40177037:
 					*uParam1 = *Global_262145.f_34554;
 					break;
 			
-				case 486130358:
+				case 262121474:
 					*uParam1 = *Global_262145.f_34555;
 					break;
 			
-				case 744317309:
+				case 486130358:
 					*uParam1 = *Global_262145.f_34556;
 					break;
 			
-				case 1500429215:
+				case 744317309:
 					*uParam1 = *Global_262145.f_34557;
 					break;
 			
-				case 1722537497:
+				case 1500429215:
 					*uParam1 = *Global_262145.f_34558;
 					break;
 			
-				case 1943105636:
+				case 1722537497:
 					*uParam1 = *Global_262145.f_34559;
 					break;
 			
-				case 318025416:
+				case 1943105636:
 					*uParam1 = *Global_262145.f_34560;
 					break;
 			
-				case -1873794719:
+				case 318025416:
 					*uParam1 = *Global_262145.f_34561;
 					break;
 			
-				case 2092567133:
+				case -1873794719:
 					*uParam1 = *Global_262145.f_34562;
 					break;
 			
-				case -135003945:
+				case 2092567133:
 					*uParam1 = *Global_262145.f_34563;
 					break;
 			
-				case 372063561:
+				case -135003945:
 					*uParam1 = *Global_262145.f_34564;
 					break;
 			
-				case 660463530:
+				case 372063561:
 					*uParam1 = *Global_262145.f_34565;
 					break;
 			
-				case 831779862:
+				case 660463530:
 					*uParam1 = *Global_262145.f_34566;
 					break;
 			
-				case -784551067:
+				case 831779862:
 					*uParam1 = *Global_262145.f_34567;
 					break;
 			
-				case 763819346:
+				case -784551067:
 					*uParam1 = *Global_262145.f_34568;
 					break;
 			
-				case -129332518:
+				case 763819346:
 					*uParam1 = *Global_262145.f_34569;
 					break;
 			
-				case -770195851:
+				case -129332518:
 					*uParam1 = *Global_262145.f_34570;
 					break;
 			
-				case 1079745283:
+				case -770195851:
 					*uParam1 = *Global_262145.f_34571;
 					break;
 			
-				case 1386102664:
+				case 1079745283:
 					*uParam1 = *Global_262145.f_34572;
 					break;
 			
-				case 148843523:
+				case 1386102664:
 					*uParam1 = *Global_262145.f_34573;
 					break;
 			
-				case 1402257781:
+				case 148843523:
 					*uParam1 = *Global_262145.f_34574;
 					break;
 			
-				case 936413669:
+				case 1402257781:
 					*uParam1 = *Global_262145.f_34575;
 					break;
 			
-				case 1143859305:
+				case 936413669:
 					*uParam1 = *Global_262145.f_34576;
 					break;
 			
-				case -910036077:
+				case 1143859305:
 					*uParam1 = *Global_262145.f_34577;
 					break;
 			
-				case -314262888:
+				case -910036077:
 					*uParam1 = *Global_262145.f_34578;
 					break;
 			
-				case 1265171559:
+				case -314262888:
 					*uParam1 = *Global_262145.f_34579;
 					break;
 			
-				case 967465194:
+				case 1265171559:
 					*uParam1 = *Global_262145.f_34580;
 					break;
 			
-				case 680736444:
+				case 967465194:
 					*uParam1 = *Global_262145.f_34581;
 					break;
 			
-				case -2063700079:
+				case 680736444:
 					*uParam1 = *Global_262145.f_34582;
 					break;
 			
-				case 1917045276:
+				case -2063700079:
 					*uParam1 = *Global_262145.f_34583;
 					break;
 			
-				case 1570414794:
+				case 1917045276:
 					*uParam1 = *Global_262145.f_34584;
 					break;
 			
-				case 1322844999:
+				case 1570414794:
 					*uParam1 = *Global_262145.f_34585;
 					break;
 			
-				case -1175332485:
+				case 1322844999:
 					*uParam1 = *Global_262145.f_34586;
 					break;
 			
-				case 134339768:
+				case -1175332485:
 					*uParam1 = *Global_262145.f_34587;
 					break;
 			
-				case 355006214:
+				case 134339768:
 					*uParam1 = *Global_262145.f_34588;
 					break;
 			
-				case 944782680:
+				case 355006214:
 					*uParam1 = *Global_262145.f_34589;
 					break;
 			
-				case 1868762973:
+				case 944782680:
 					*uParam1 = *Global_262145.f_34590;
 					break;
 			
-				case -1539704566:
+				case 1868762973:
 					*uParam1 = *Global_262145.f_34591;
 					break;
 			
-				case -1978022710:
+				case -1539704566:
 					*uParam1 = *Global_262145.f_34592;
 					break;
 			
-				case 1448238416:
+				case -1978022710:
 					*uParam1 = *Global_262145.f_34593;
 					break;
 			
-				case 1615229240:
+				case 1448238416:
 					*uParam1 = *Global_262145.f_34594;
 					break;
 			
-				case 256823110:
+				case 1615229240:
 					*uParam1 = *Global_262145.f_34595;
 					break;
 			
-				case -39572495:
+				case 256823110:
 					*uParam1 = *Global_262145.f_34596;
 					break;
 			
-				case 716211725:
+				case -39572495:
 					*uParam1 = *Global_262145.f_34597;
 					break;
 			
-				case -1982280669:
+				case 716211725:
 					*uParam1 = *Global_262145.f_34598;
 					break;
 			
-				case 743575719:
+				case -1982280669:
 					*uParam1 = *Global_262145.f_34599;
 					break;
 			
-				case 1055110602:
+				case 743575719:
 					*uParam1 = *Global_262145.f_34600;
 					break;
 			
-				case 1405935516:
+				case 1055110602:
 					*uParam1 = *Global_262145.f_34601;
 					break;
 			
-				case 1645706289:
+				case 1405935516:
 					*uParam1 = *Global_262145.f_34602;
 					break;
 			
-				case 1706787705:
+				case 1645706289:
 					*uParam1 = *Global_262145.f_34603;
 					break;
 			
-				case 2011244484:
+				case 1706787705:
 					*uParam1 = *Global_262145.f_34604;
 					break;
 			
-				case -2000664190:
+				case 2011244484:
 					*uParam1 = *Global_262145.f_34605;
 					break;
 			
-				case -1693520353:
+				case -2000664190:
 					*uParam1 = *Global_262145.f_34606;
 					break;
 			
-				case -1107086325:
+				case -1693520353:
 					*uParam1 = *Global_262145.f_34607;
 					break;
 			
-				case 1171801351:
+				case -1107086325:
 					*uParam1 = *Global_262145.f_34608;
 					break;
 			
-				case -1655540742:
+				case 1171801351:
 					*uParam1 = *Global_262145.f_34609;
 					break;
 			
-				case 2012752198:
+				case -1655540742:
 					*uParam1 = *Global_262145.f_34610;
 					break;
 			
-				case 1094925277:
+				case 2012752198:
 					*uParam1 = *Global_262145.f_34611;
 					break;
 			
-				case -1937453179:
+				case 1094925277:
 					*uParam1 = *Global_262145.f_34612;
 					break;
 			
-				case 2052729648:
+				case -1937453179:
 					*uParam1 = *Global_262145.f_34613;
 					break;
 			
-				case 1865290968:
+				case 2052729648:
 					*uParam1 = *Global_262145.f_34614;
 					break;
 			
-				case 675601220:
+				case 1865290968:
 					*uParam1 = *Global_262145.f_34615;
 					break;
 			
-				case -1515923698:
+				case 675601220:
 					*uParam1 = *Global_262145.f_34616;
 					break;
 			
-				case -1233782608:
+				case -1515923698:
 					*uParam1 = *Global_262145.f_34617;
 					break;
 			
-				case -2010637291:
+				case -1233782608:
 					*uParam1 = *Global_262145.f_34618;
 					break;
 			
-				case -625950423:
+				case -2010637291:
 					*uParam1 = *Global_262145.f_34619;
 					break;
 			
-				case -343514412:
+				case -625950423:
 					*uParam1 = *Global_262145.f_34620;
 					break;
 			
-				case -1119517101:
+				case -343514412:
 					*uParam1 = *Global_262145.f_34621;
 					break;
 			
-				case -805065777:
+				case -1119517101:
 					*uParam1 = *Global_262145.f_34622;
 					break;
 			
-				case 566939484:
+				case -805065777:
 					*uParam1 = *Global_262145.f_34623;
 					break;
 			
-				case -153659991:
+				case 566939484:
 					*uParam1 = *Global_262145.f_34624;
 					break;
 			
-				case 146700663:
+				case -153659991:
 					*uParam1 = *Global_262145.f_34625;
 					break;
 			
-				case -1703731998:
+				case 146700663:
 					*uParam1 = *Global_262145.f_34626;
 					break;
 			
-				case -64462829:
+				case -1703731998:
 					*uParam1 = *Global_262145.f_34627;
 					break;
 			
-				case -1881602186:
+				case -64462829:
 					*uParam1 = *Global_262145.f_34628;
 					break;
 			
-				case -1583731976:
+				case -1881602186:
 					*uParam1 = *Global_262145.f_34629;
 					break;
 			
-				case -1286287763:
+				case -1583731976:
 					*uParam1 = *Global_262145.f_34630;
 					break;
 			
-				case -1018073498:
+				case -1286287763:
 					*uParam1 = *Global_262145.f_34631;
 					break;
 			
-				case 1460770336:
+				case -1018073498:
 					*uParam1 = *Global_262145.f_34632;
 					break;
 			
-				case 1767422638:
+				case 1460770336:
 					*uParam1 = *Global_262145.f_34633;
 					break;
 			
-				case 128175323:
+				case 1767422638:
 					*uParam1 = *Global_262145.f_34634;
 					break;
 			
-				case 317317991:
+				case 128175323:
 					*uParam1 = *Global_262145.f_34635;
 					break;
 			
-				case 1907106026:
+				case 317317991:
 					*uParam1 = *Global_262145.f_34636;
 					break;
 			
-				case -1579229438:
+				case 1907106026:
 					*uParam1 = *Global_262145.f_34637;
 					break;
 			
-				case -1950960970:
+				case -1579229438:
 					*uParam1 = *Global_262145.f_34638;
 					break;
 			
-				case -578234783:
+				case -1950960970:
 					*uParam1 = *Global_262145.f_34639;
 					break;
 			
-				case 71836615:
+				case -578234783:
 					*uParam1 = *Global_262145.f_34640;
 					break;
 			
-				case 1647632287:
+				case 71836615:
 					*uParam1 = *Global_262145.f_34641;
 					break;
 			
-				case 661449232:
+				case 1647632287:
 					*uParam1 = *Global_262145.f_34642;
 					break;
 			
-				case -171997514:
+				case 661449232:
 					*uParam1 = *Global_262145.f_34643;
 					break;
 			
-				case -1121806979:
+				case -171997514:
 					*uParam1 = *Global_262145.f_34644;
 					break;
 			
-				case -884002346:
+				case -1121806979:
 					*uParam1 = *Global_262145.f_34645;
 					break;
 			
-				case -1130916757:
+				case -884002346:
 					*uParam1 = *Global_262145.f_34646;
 					break;
 			
-				case -891014908:
+				case -1130916757:
 					*uParam1 = *Global_262145.f_34647;
 					break;
 			
-				case -502636720:
+				case -891014908:
 					*uParam1 = *Global_262145.f_34648;
 					break;
 			
-				case -289670989:
+				case -502636720:
 					*uParam1 = *Global_262145.f_34649;
 					break;
 			
-				case -2104793921:
+				case -289670989:
 					*uParam1 = *Global_262145.f_34650;
 					break;
 			
-				case -1870397256:
+				case -2104793921:
 					*uParam1 = *Global_262145.f_34651;
 					break;
 			
-				case 1576836002:
+				case -1870397256:
 					*uParam1 = *Global_262145.f_34652;
 					break;
 			
-				case 1934280254:
+				case 1576836002:
 					*uParam1 = *Global_262145.f_34653;
 					break;
 			
-				case 965071541:
+				case 1934280254:
 					*uParam1 = *Global_262145.f_34654;
 					break;
 			
-				case 1321794875:
+				case 965071541:
 					*uParam1 = *Global_262145.f_34655;
 					break;
 			
-				case 1363018269:
+				case 1321794875:
 					*uParam1 = *Global_262145.f_34656;
 					break;
 			
-				case 1727737239:
+				case 1363018269:
 					*uParam1 = *Global_262145.f_34657;
 					break;
 			
-				case 750598428:
+				case 1727737239:
 					*uParam1 = *Global_262145.f_34658;
 					break;
 			
-				case 1115514012:
+				case 750598428:
 					*uParam1 = *Global_262145.f_34659;
 					break;
 			
-				case 1210379435:
+				case 1115514012:
 					*uParam1 = *Global_262145.f_34660;
 					break;
 			
-				case -245350621:
+				case 1210379435:
 					*uParam1 = *Global_262145.f_34661;
 					break;
 			
-				case 215021060:
+				case -245350621:
 					*uParam1 = *Global_262145.f_34662;
 					break;
 			
-				case -619244911:
+				case 215021060:
 					*uParam1 = *Global_262145.f_34663;
 					break;
 			
-				case 1805219664:
+				case -619244911:
 					*uParam1 = *Global_262145.f_34664;
+					break;
+			
+				case 1805219664:
+					*uParam1 = *Global_262145.f_34665;
 					break;
 			}
 			break;
@@ -9781,103 +9781,103 @@ void func_108(Hash hParam0, var uParam1, int iParam2) // Position - 0x3B9D
 			switch (hParam0)
 			{
 				case -346108938:
-					*uParam1 = *Global_262145.f_34517;
-					break;
-			
-				case -107911077:
 					*uParam1 = *Global_262145.f_34518;
 					break;
 			
-				case -187244822:
+				case -107911077:
 					*uParam1 = *Global_262145.f_34519;
 					break;
 			
-				case -149167244:
+				case -187244822:
 					*uParam1 = *Global_262145.f_34520;
 					break;
 			
-				case -1876847231:
+				case -149167244:
 					*uParam1 = *Global_262145.f_34521;
 					break;
 			
-				case -1566590339:
+				case -1876847231:
 					*uParam1 = *Global_262145.f_34522;
 					break;
 			
-				case 1504880800:
+				case -1566590339:
 					*uParam1 = *Global_262145.f_34523;
 					break;
 			
-				case -1409036987:
+				case 1504880800:
 					*uParam1 = *Global_262145.f_34524;
 					break;
 			
-				case 2033215387:
+				case -1409036987:
 					*uParam1 = *Global_262145.f_34525;
 					break;
 			
-				case 1199146030:
+				case 2033215387:
 					*uParam1 = *Global_262145.f_34526;
 					break;
 			
-				case -1819574199:
+				case 1199146030:
 					*uParam1 = *Global_262145.f_34527;
 					break;
 			
-				case -1507056246:
+				case -1819574199:
 					*uParam1 = *Global_262145.f_34528;
 					break;
 			
-				case -1216460754:
+				case -1507056246:
 					*uParam1 = *Global_262145.f_34529;
 					break;
 			
-				case 1562219374:
+				case -1216460754:
 					*uParam1 = *Global_262145.f_34530;
 					break;
 			
-				case 1867003843:
+				case 1562219374:
 					*uParam1 = *Global_262145.f_34531;
 					break;
 			
-				case 1643051959:
+				case 1867003843:
 					*uParam1 = *Global_262145.f_34532;
 					break;
 			
-				case -208822558:
+				case 1643051959:
 					*uParam1 = *Global_262145.f_34533;
 					break;
 			
-				case 114673010:
+				case -208822558:
 					*uParam1 = *Global_262145.f_34534;
 					break;
 			
-				case 405530654:
+				case 114673010:
 					*uParam1 = *Global_262145.f_34535;
 					break;
 			
-				case -1433498395:
+				case 405530654:
 					*uParam1 = *Global_262145.f_34536;
 					break;
 			
-				case -504716024:
+				case -1433498395:
 					*uParam1 = *Global_262145.f_34537;
 					break;
 			
-				case -801570395:
+				case -504716024:
 					*uParam1 = *Global_262145.f_34538;
 					break;
 			
-				case -849937439:
+				case -801570395:
 					*uParam1 = *Global_262145.f_34539;
 					break;
 			
-				case -1163078003:
+				case -849937439:
 					*uParam1 = *Global_262145.f_34540;
 					break;
 			
-				case -1248015247:
+				case -1163078003:
 					*uParam1 = *Global_262145.f_34541;
+					break;
+			
+				case -1248015247:
+					*uParam1 = *Global_262145.f_34542;
 					break;
 			}
 			break;
@@ -9886,842 +9886,842 @@ void func_108(Hash hParam0, var uParam1, int iParam2) // Position - 0x3B9D
 			switch (hParam0)
 			{
 				case 795198581:
-					*uParam1 = *Global_262145.f_34361;
+					*uParam1 = *Global_262145.f_34362;
 					break;
 			
 				case 34630091:
-					*uParam1 = *Global_262145.f_34362;
+					*uParam1 = *Global_262145.f_34363;
 					break;
 			
 				case -739668610:
-					*uParam1 = *Global_262145.f_34363;
+					*uParam1 = *Global_262145.f_34364;
 					break;
 			
 				case 2077842779:
-					*uParam1 = *Global_262145.f_34364;
+					*uParam1 = *Global_262145.f_34365;
 					break;
 			
 				case -2037419321:
-					*uParam1 = *Global_262145.f_34365;
+					*uParam1 = *Global_262145.f_34366;
 					break;
 			
 				case 1079666270:
-					*uParam1 = *Global_262145.f_34366;
+					*uParam1 = *Global_262145.f_34367;
 					break;
 			
 				case 717306668:
-					*uParam1 = *Global_262145.f_34367;
+					*uParam1 = *Global_262145.f_34368;
 					break;
 			
 				case 1395395581:
-					*uParam1 = *Global_262145.f_34368;
+					*uParam1 = *Global_262145.f_34369;
 					break;
 			
 				case 1566974065:
-					*uParam1 = *Global_262145.f_34369;
+					*uParam1 = *Global_262145.f_34370;
 					break;
 			
 				case 2006963428:
-					*uParam1 = *Global_262145.f_34370;
+					*uParam1 = *Global_262145.f_34371;
 					break;
 			
 				case -1796887733:
-					*uParam1 = *Global_262145.f_34371;
+					*uParam1 = *Global_262145.f_34372;
 					break;
 			
 				case 1644119359:
-					*uParam1 = *Global_262145.f_34372;
+					*uParam1 = *Global_262145.f_34373;
 					break;
 			
 				case 1884414436:
-					*uParam1 = *Global_262145.f_34373;
+					*uParam1 = *Global_262145.f_34374;
 					break;
 			
 				case 1280350690:
-					*uParam1 = *Global_262145.f_34374;
+					*uParam1 = *Global_262145.f_34375;
 					break;
 			
 				case 1554922141:
-					*uParam1 = *Global_262145.f_34375;
+					*uParam1 = *Global_262145.f_34376;
 					break;
 			
 				case 719574793:
-					*uParam1 = *Global_262145.f_34376;
+					*uParam1 = *Global_262145.f_34377;
 					break;
 			
 				case 955544362:
-					*uParam1 = *Global_262145.f_34377;
+					*uParam1 = *Global_262145.f_34378;
 					break;
 			
 				case 1193906124:
-					*uParam1 = *Global_262145.f_34378;
+					*uParam1 = *Global_262145.f_34379;
 					break;
 			
 				case 1425353571:
-					*uParam1 = *Global_262145.f_34379;
+					*uParam1 = *Global_262145.f_34380;
 					break;
 			
 				case 582403815:
-					*uParam1 = *Global_262145.f_34380;
+					*uParam1 = *Global_262145.f_34381;
 					break;
 			
 				case -1230344204:
-					*uParam1 = *Global_262145.f_34381;
+					*uParam1 = *Global_262145.f_34382;
 					break;
 			
 				case 2089548664:
-					*uParam1 = *Global_262145.f_34382;
+					*uParam1 = *Global_262145.f_34383;
 					break;
 			
 				case -1825232630:
-					*uParam1 = *Global_262145.f_34383;
+					*uParam1 = *Global_262145.f_34384;
 					break;
 			
 				case 1514223331:
-					*uParam1 = *Global_262145.f_34384;
+					*uParam1 = *Global_262145.f_34385;
 					break;
 			
 				case 1208390254:
-					*uParam1 = *Global_262145.f_34385;
+					*uParam1 = *Global_262145.f_34386;
 					break;
 			
 				case 896691526:
-					*uParam1 = *Global_262145.f_34386;
-					break;
-			
-				case -234930580:
-					*uParam1 = *Global_262145.f_34361;
-					break;
-			
-				case -534078781:
-					*uParam1 = *Global_262145.f_34362;
-					break;
-			
-				case 1315796807:
-					*uParam1 = *Global_262145.f_34363;
-					break;
-			
-				case 1022612564:
-					*uParam1 = *Global_262145.f_34364;
-					break;
-			
-				case 1163486491:
-					*uParam1 = *Global_262145.f_34365;
-					break;
-			
-				case 868073956:
-					*uParam1 = *Global_262145.f_34366;
-					break;
-			
-				case -2116592098:
-					*uParam1 = *Global_262145.f_34367;
-					break;
-			
-				case 810171133:
-					*uParam1 = *Global_262145.f_34368;
-					break;
-			
-				case 1544065665:
-					*uParam1 = *Global_262145.f_34369;
-					break;
-			
-				case -1838940361:
-					*uParam1 = *Global_262145.f_34370;
-					break;
-			
-				case 1889632247:
-					*uParam1 = *Global_262145.f_34371;
-					break;
-			
-				case 1007163077:
-					*uParam1 = *Global_262145.f_34372;
-					break;
-			
-				case 1330265417:
-					*uParam1 = *Global_262145.f_34373;
-					break;
-			
-				case 90515840:
-					*uParam1 = *Global_262145.f_34374;
-					break;
-			
-				case 715551746:
-					*uParam1 = *Global_262145.f_34375;
-					break;
-			
-				case -489659305:
-					*uParam1 = *Global_262145.f_34376;
-					break;
-			
-				case -249691918:
-					*uParam1 = *Global_262145.f_34377;
-					break;
-			
-				case -799293586:
-					*uParam1 = *Global_262145.f_34378;
-					break;
-			
-				case -562930789:
-					*uParam1 = *Global_262145.f_34379;
-					break;
-			
-				case -1443564895:
-					*uParam1 = *Global_262145.f_34380;
-					break;
-			
-				case 1624036354:
-					*uParam1 = *Global_262145.f_34381;
-					break;
-			
-				case -1875529001:
-					*uParam1 = *Global_262145.f_34382;
-					break;
-			
-				case -2056217267:
-					*uParam1 = *Global_262145.f_34383;
-					break;
-			
-				case -1711159697:
-					*uParam1 = *Global_262145.f_34384;
-					break;
-			
-				case -942759416:
-					*uParam1 = *Global_262145.f_34385;
-					break;
-			
-				case -1222836059:
-					*uParam1 = *Global_262145.f_34386;
-					break;
-			
-				case -1461497927:
 					*uParam1 = *Global_262145.f_34387;
 					break;
 			
-				case -1813174835:
+				case -234930580:
+					*uParam1 = *Global_262145.f_34362;
+					break;
+			
+				case -534078781:
+					*uParam1 = *Global_262145.f_34363;
+					break;
+			
+				case 1315796807:
+					*uParam1 = *Global_262145.f_34364;
+					break;
+			
+				case 1022612564:
+					*uParam1 = *Global_262145.f_34365;
+					break;
+			
+				case 1163486491:
+					*uParam1 = *Global_262145.f_34366;
+					break;
+			
+				case 868073956:
+					*uParam1 = *Global_262145.f_34367;
+					break;
+			
+				case -2116592098:
+					*uParam1 = *Global_262145.f_34368;
+					break;
+			
+				case 810171133:
+					*uParam1 = *Global_262145.f_34369;
+					break;
+			
+				case 1544065665:
+					*uParam1 = *Global_262145.f_34370;
+					break;
+			
+				case -1838940361:
+					*uParam1 = *Global_262145.f_34371;
+					break;
+			
+				case 1889632247:
+					*uParam1 = *Global_262145.f_34372;
+					break;
+			
+				case 1007163077:
+					*uParam1 = *Global_262145.f_34373;
+					break;
+			
+				case 1330265417:
+					*uParam1 = *Global_262145.f_34374;
+					break;
+			
+				case 90515840:
+					*uParam1 = *Global_262145.f_34375;
+					break;
+			
+				case 715551746:
+					*uParam1 = *Global_262145.f_34376;
+					break;
+			
+				case -489659305:
+					*uParam1 = *Global_262145.f_34377;
+					break;
+			
+				case -249691918:
+					*uParam1 = *Global_262145.f_34378;
+					break;
+			
+				case -799293586:
+					*uParam1 = *Global_262145.f_34379;
+					break;
+			
+				case -562930789:
+					*uParam1 = *Global_262145.f_34380;
+					break;
+			
+				case -1443564895:
+					*uParam1 = *Global_262145.f_34381;
+					break;
+			
+				case 1624036354:
+					*uParam1 = *Global_262145.f_34382;
+					break;
+			
+				case -1875529001:
+					*uParam1 = *Global_262145.f_34383;
+					break;
+			
+				case -2056217267:
+					*uParam1 = *Global_262145.f_34384;
+					break;
+			
+				case -1711159697:
+					*uParam1 = *Global_262145.f_34385;
+					break;
+			
+				case -942759416:
+					*uParam1 = *Global_262145.f_34386;
+					break;
+			
+				case -1222836059:
+					*uParam1 = *Global_262145.f_34387;
+					break;
+			
+				case -1461497927:
 					*uParam1 = *Global_262145.f_34388;
 					break;
 			
-				case -2077784510:
+				case -1813174835:
 					*uParam1 = *Global_262145.f_34389;
 					break;
 			
-				case 1891131200:
+				case -2077784510:
 					*uParam1 = *Global_262145.f_34390;
 					break;
 			
-				case -2105113892:
+				case 1891131200:
 					*uParam1 = *Global_262145.f_34391;
 					break;
 			
-				case 1264292999:
+				case -2105113892:
 					*uParam1 = *Global_262145.f_34392;
 					break;
 			
-				case 2131819505:
+				case 1264292999:
 					*uParam1 = *Global_262145.f_34393;
 					break;
 			
-				case 674156110:
+				case 2131819505:
 					*uParam1 = *Global_262145.f_34394;
 					break;
 			
-				case 1504653614:
+				case 674156110:
 					*uParam1 = *Global_262145.f_34395;
 					break;
 			
-				case 93292816:
+				case 1504653614:
 					*uParam1 = *Global_262145.f_34396;
 					break;
 			
-				case 1672655282:
+				case 93292816:
 					*uParam1 = *Global_262145.f_34397;
 					break;
 			
-				case -1866527794:
+				case 1672655282:
 					*uParam1 = *Global_262145.f_34398;
 					break;
 			
-				case -972786088:
+				case -1866527794:
 					*uParam1 = *Global_262145.f_34399;
 					break;
 			
-				case 554904692:
+				case -972786088:
 					*uParam1 = *Global_262145.f_34400;
 					break;
 			
-				case 275090201:
+				case 554904692:
 					*uParam1 = *Global_262145.f_34401;
 					break;
 			
-				case 2106156383:
+				case 275090201:
 					*uParam1 = *Global_262145.f_34402;
 					break;
 			
-				case 1808974322:
+				case 2106156383:
 					*uParam1 = *Global_262145.f_34403;
 					break;
 			
-				case -362299614:
+				case 1808974322:
 					*uParam1 = *Global_262145.f_34404;
 					break;
 			
-				case -652338033:
+				case -362299614:
 					*uParam1 = *Global_262145.f_34405;
 					break;
 			
-				case 1185806249:
+				case -652338033:
 					*uParam1 = *Global_262145.f_34406;
 					break;
 			
-				case 1625175081:
+				case 1185806249:
 					*uParam1 = *Global_262145.f_34407;
 					break;
 			
-				case -551505744:
+				case 1625175081:
 					*uParam1 = *Global_262145.f_34408;
 					break;
 			
-				case -1326590901:
+				case -551505744:
 					*uParam1 = *Global_262145.f_34409;
 					break;
 			
-				case -1110774267:
+				case -1326590901:
 					*uParam1 = *Global_262145.f_34410;
 					break;
 			
-				case -2004778125:
+				case -1110774267:
 					*uParam1 = *Global_262145.f_34411;
 					break;
 			
-				case 154404058:
+				case -2004778125:
 					*uParam1 = *Global_262145.f_34412;
 					break;
 			
-				case -1325599402:
+				case 154404058:
 					*uParam1 = *Global_262145.f_34413;
+					break;
+			
+				case -1325599402:
+					*uParam1 = *Global_262145.f_34414;
 					break;
 			
 				case -1624747603:
-					*uParam1 = *Global_262145.f_34414;
+					*uParam1 = *Global_262145.f_34415;
 					break;
 			
 				case -732120039:
-					*uParam1 = *Global_262145.f_34415;
+					*uParam1 = *Global_262145.f_34416;
 					break;
 			
 				case -522595057:
-					*uParam1 = *Global_262145.f_34416;
+					*uParam1 = *Global_262145.f_34417;
 					break;
 			
 				case 253735322:
-					*uParam1 = *Global_262145.f_34417;
+					*uParam1 = *Global_262145.f_34418;
 					break;
 			
 				case 93003377:
-					*uParam1 = *Global_262145.f_34418;
+					*uParam1 = *Global_262145.f_34419;
 					break;
 			
 				case 869595908:
-					*uParam1 = *Global_262145.f_34419;
+					*uParam1 = *Global_262145.f_34420;
 					break;
 			
 				case 399950600:
-					*uParam1 = *Global_262145.f_34420;
+					*uParam1 = *Global_262145.f_34421;
 					break;
 			
 				case 1183555693:
-					*uParam1 = *Global_262145.f_34421;
+					*uParam1 = *Global_262145.f_34422;
 					break;
 			
 				case -1952197187:
-					*uParam1 = *Global_262145.f_34422;
+					*uParam1 = *Global_262145.f_34423;
 					break;
 			
 				case -783359726:
-					*uParam1 = *Global_262145.f_34423;
+					*uParam1 = *Global_262145.f_34424;
 					break;
 			
 				case -481131239:
-					*uParam1 = *Global_262145.f_34424;
+					*uParam1 = *Global_262145.f_34425;
 					break;
 			
 				case -957428654:
-					*uParam1 = *Global_262145.f_34425;
+					*uParam1 = *Global_262145.f_34426;
 					break;
 			
 				case 738104944:
-					*uParam1 = *Global_262145.f_34426;
+					*uParam1 = *Global_262145.f_34427;
 					break;
 			
 				case 918203368:
-					*uParam1 = *Global_262145.f_34427;
+					*uParam1 = *Global_262145.f_34428;
 					break;
 			
 				case 258334015:
-					*uParam1 = *Global_262145.f_34428;
+					*uParam1 = *Global_262145.f_34429;
 					break;
 			
 				case 436662913:
-					*uParam1 = *Global_262145.f_34429;
+					*uParam1 = *Global_262145.f_34430;
 					break;
 			
 				case 2058826720:
-					*uParam1 = *Global_262145.f_34430;
+					*uParam1 = *Global_262145.f_34431;
 					break;
 			
 				case -1539536454:
-					*uParam1 = *Global_262145.f_34431;
+					*uParam1 = *Global_262145.f_34432;
 					break;
 			
 				case 1916839363:
-					*uParam1 = *Global_262145.f_34432;
+					*uParam1 = *Global_262145.f_34433;
 					break;
 			
 				case -2146287258:
-					*uParam1 = *Global_262145.f_34433;
+					*uParam1 = *Global_262145.f_34434;
 					break;
 			
 				case 1589903050:
-					*uParam1 = *Global_262145.f_34434;
+					*uParam1 = *Global_262145.f_34435;
 					break;
 			
 				case 1831771039:
-					*uParam1 = *Global_262145.f_34435;
+					*uParam1 = *Global_262145.f_34436;
 					break;
 			
 				case 988362517:
-					*uParam1 = *Global_262145.f_34436;
+					*uParam1 = *Global_262145.f_34437;
 					break;
 			
 				case -833720305:
-					*uParam1 = *Global_262145.f_34437;
+					*uParam1 = *Global_262145.f_34438;
 					break;
 			
 				case -969842731:
-					*uParam1 = *Global_262145.f_34438;
+					*uParam1 = *Global_262145.f_34439;
 					break;
 			
 				case -200197216:
-					*uParam1 = *Global_262145.f_34439;
+					*uParam1 = *Global_262145.f_34440;
 					break;
 			
 				case 1809273775:
-					*uParam1 = *Global_262145.f_34413;
-					break;
-			
-				case 1627667977:
 					*uParam1 = *Global_262145.f_34414;
 					break;
 			
-				case 1330223764:
+				case 1627667977:
 					*uParam1 = *Global_262145.f_34415;
 					break;
 			
-				case -1253939516:
+				case 1330223764:
 					*uParam1 = *Global_262145.f_34416;
 					break;
 			
-				case -1560493511:
+				case -1253939516:
 					*uParam1 = *Global_262145.f_34417;
 					break;
 			
-				case -1714442273:
+				case -1560493511:
 					*uParam1 = *Global_262145.f_34418;
 					break;
 			
-				case -2021586110:
+				case -1714442273:
 					*uParam1 = *Global_262145.f_34419;
 					break;
 			
-				case 91555620:
+				case -2021586110:
 					*uParam1 = *Global_262145.f_34420;
 					break;
 			
-				case 867427233:
+				case 91555620:
 					*uParam1 = *Global_262145.f_34421;
 					break;
 			
-				case 5977632:
+				case 867427233:
 					*uParam1 = *Global_262145.f_34422;
 					break;
 			
-				case 440166882:
+				case 5977632:
 					*uParam1 = *Global_262145.f_34423;
 					break;
 			
-				case 199740729:
+				case 440166882:
 					*uParam1 = *Global_262145.f_34424;
 					break;
 			
-				case -1474460238:
+				case 199740729:
 					*uParam1 = *Global_262145.f_34425;
 					break;
 			
-				case -650090505:
+				case -1474460238:
 					*uParam1 = *Global_262145.f_34426;
 					break;
 			
-				case -754427001:
+				case -650090505:
 					*uParam1 = *Global_262145.f_34427;
 					break;
 			
-				case -1065208205:
+				case -754427001:
 					*uParam1 = *Global_262145.f_34428;
 					break;
 			
-				case -624792845:
+				case -1065208205:
 					*uParam1 = *Global_262145.f_34429;
 					break;
 			
-				case -872428178:
+				case -624792845:
 					*uParam1 = *Global_262145.f_34430;
 					break;
 			
-				case 1061524484:
+				case -872428178:
 					*uParam1 = *Global_262145.f_34431;
 					break;
 			
-				case 1331901503:
+				case 1061524484:
 					*uParam1 = *Global_262145.f_34432;
 					break;
 			
-				case -1652076406:
+				case 1331901503:
 					*uParam1 = *Global_262145.f_34433;
 					break;
 			
-				case -1278444268:
+				case -1652076406:
 					*uParam1 = *Global_262145.f_34434;
 					break;
 			
-				case -2113234543:
+				case -1278444268:
 					*uParam1 = *Global_262145.f_34435;
 					break;
 			
-				case -2041699816:
+				case -2113234543:
 					*uParam1 = *Global_262145.f_34436;
 					break;
 			
-				case -1897227683:
+				case -2041699816:
 					*uParam1 = *Global_262145.f_34437;
 					break;
 			
-				case -1592049986:
+				case -1897227683:
 					*uParam1 = *Global_262145.f_34438;
 					break;
 			
-				case -1469002391:
+				case -1592049986:
 					*uParam1 = *Global_262145.f_34439;
+					break;
+			
+				case -1469002391:
+					*uParam1 = *Global_262145.f_34440;
 					break;
 			}
 		
 			switch (hParam0)
 			{
 				case 829472475:
-					*uParam1 = *Global_262145.f_34440;
-					break;
-			
-				case -1982304343:
 					*uParam1 = *Global_262145.f_34441;
 					break;
 			
-				case 1510674447:
+				case -1982304343:
 					*uParam1 = *Global_262145.f_34442;
 					break;
 			
-				case 1820046576:
+				case 1510674447:
 					*uParam1 = *Global_262145.f_34443;
 					break;
 			
-				case -1097705180:
+				case 1820046576:
 					*uParam1 = *Global_262145.f_34444;
 					break;
 			
-				case -788529665:
+				case -1097705180:
 					*uParam1 = *Global_262145.f_34445;
 					break;
 			
-				case -1710387173:
+				case -788529665:
 					*uParam1 = *Global_262145.f_34446;
 					break;
 			
-				case -1403898716:
+				case -1710387173:
 					*uParam1 = *Global_262145.f_34447;
 					break;
 			
-				case -18294320:
+				case -1403898716:
 					*uParam1 = *Global_262145.f_34448;
 					break;
 			
-				case 281181571:
+				case -18294320:
 					*uParam1 = *Global_262145.f_34449;
 					break;
 			
-				case 1062509510:
+				case 281181571:
 					*uParam1 = *Global_262145.f_34450;
 					break;
 			
-				case 596534322:
+				case 1062509510:
 					*uParam1 = *Global_262145.f_34451;
 					break;
 			
-				case 297582735:
+				case 596534322:
 					*uParam1 = *Global_262145.f_34452;
 					break;
 			
-				case 1317091863:
+				case 297582735:
 					*uParam1 = *Global_262145.f_34453;
 					break;
 			
-				case 1028855739:
+				case 1317091863:
 					*uParam1 = *Global_262145.f_34454;
 					break;
 			
-				case 1814820204:
+				case 1028855739:
 					*uParam1 = *Global_262145.f_34455;
 					break;
 			
-				case 1744885305:
+				case 1814820204:
 					*uParam1 = *Global_262145.f_34456;
 					break;
 			
-				case 1984000698:
+				case 1744885305:
 					*uParam1 = *Global_262145.f_34457;
 					break;
 			
-				case 1223890974:
+				case 1984000698:
 					*uParam1 = *Global_262145.f_34458;
 					break;
 			
-				case 1521793953:
+				case 1223890974:
 					*uParam1 = *Global_262145.f_34459;
 					break;
 			
-				case 522142839:
+				case 1521793953:
 					*uParam1 = *Global_262145.f_34460;
 					break;
 			
-				case 760865004:
+				case 522142839:
 					*uParam1 = *Global_262145.f_34461;
 					break;
 			
-				case 69701256:
+				case 760865004:
 					*uParam1 = *Global_262145.f_34462;
 					break;
 			
-				case 299837943:
+				case 69701256:
 					*uParam1 = *Global_262145.f_34463;
 					break;
 			
-				case 2008085925:
+				case 299837943:
 					*uParam1 = *Global_262145.f_34464;
 					break;
 			
-				case 1715557062:
+				case 2008085925:
 					*uParam1 = *Global_262145.f_34465;
 					break;
 			
-				case 1191044482:
+				case 1715557062:
 					*uParam1 = *Global_262145.f_34466;
 					break;
 			
-				case 914474122:
+				case 1191044482:
 					*uParam1 = *Global_262145.f_34467;
 					break;
 			
-				case -398252018:
+				case 914474122:
 					*uParam1 = *Global_262145.f_34468;
 					break;
 			
-				case -620982911:
+				case -398252018:
 					*uParam1 = *Global_262145.f_34469;
 					break;
 			
-				case 215478583:
+				case -620982911:
 					*uParam1 = *Global_262145.f_34470;
 					break;
 			
-				case -8759684:
+				case 215478583:
 					*uParam1 = *Global_262145.f_34471;
 					break;
 			
-				case 227472033:
+				case -8759684:
 					*uParam1 = *Global_262145.f_34472;
 					break;
 			
-				case -11184594:
+				case 227472033:
 					*uParam1 = *Global_262145.f_34473;
 					break;
 			
-				case -1305166870:
+				case -11184594:
 					*uParam1 = *Global_262145.f_34474;
 					break;
 			
-				case -1600907095:
+				case -1305166870:
 					*uParam1 = *Global_262145.f_34475;
 					break;
 			
-				case -1423791474:
+				case -1600907095:
 					*uParam1 = *Global_262145.f_34476;
 					break;
 			
-				case -1651699869:
+				case -1423791474:
 					*uParam1 = *Global_262145.f_34477;
 					break;
 			
-				case 499158980:
+				case -1651699869:
 					*uParam1 = *Global_262145.f_34478;
 					break;
 			
-				case 1190584880:
+				case 499158980:
 					*uParam1 = *Global_262145.f_34479;
 					break;
 			
-				case -2129668499:
+				case 1190584880:
 					*uParam1 = *Global_262145.f_34480;
 					break;
 			
-				case 711207179:
+				case -2129668499:
 					*uParam1 = *Global_262145.f_34481;
 					break;
 			
-				case 527806271:
+				case 711207179:
 					*uParam1 = *Global_262145.f_34482;
 					break;
 			
-				case 768363500:
+				case 527806271:
 					*uParam1 = *Global_262145.f_34483;
 					break;
 			
-				case -1300240245:
-					*uParam1 = *Global_262145.f_34508;
-					break;
-			
-				case -1536340890:
-					*uParam1 = *Global_262145.f_34509;
-					break;
-			
-				case 155588118:
-					*uParam1 = *Global_262145.f_34510;
-					break;
-			
-				case 873687984:
-					*uParam1 = *Global_262145.f_34511;
-					break;
-			
-				case -418197072:
-					*uParam1 = *Global_262145.f_34512;
-					break;
-			
-				case 713511386:
-					*uParam1 = *Global_262145.f_34513;
-					break;
-			
-				case -76319817:
-					*uParam1 = *Global_262145.f_34514;
-					break;
-			
-				case -1510979406:
-					*uParam1 = *Global_262145.f_34515;
-					break;
-			
-				case -1256233200:
-					*uParam1 = *Global_262145.f_34516;
-					break;
-			
-				case 648113607:
+				case 768363500:
 					*uParam1 = *Global_262145.f_34484;
 					break;
 			
-				case 814514613:
+				case -1300240245:
+					*uParam1 = *Global_262145.f_34509;
+					break;
+			
+				case -1536340890:
+					*uParam1 = *Global_262145.f_34510;
+					break;
+			
+				case 155588118:
+					*uParam1 = *Global_262145.f_34511;
+					break;
+			
+				case 873687984:
+					*uParam1 = *Global_262145.f_34512;
+					break;
+			
+				case -418197072:
+					*uParam1 = *Global_262145.f_34513;
+					break;
+			
+				case 713511386:
+					*uParam1 = *Global_262145.f_34514;
+					break;
+			
+				case -76319817:
+					*uParam1 = *Global_262145.f_34515;
+					break;
+			
+				case -1510979406:
+					*uParam1 = *Global_262145.f_34516;
+					break;
+			
+				case -1256233200:
+					*uParam1 = *Global_262145.f_34517;
+					break;
+			
+				case 648113607:
 					*uParam1 = *Global_262145.f_34485;
 					break;
 			
-				case -1802679883:
+				case 814514613:
 					*uParam1 = *Global_262145.f_34486;
 					break;
 			
-				case -1504711366:
+				case -1802679883:
 					*uParam1 = *Global_262145.f_34487;
 					break;
 			
-				case 1861942929:
+				case -1504711366:
 					*uParam1 = *Global_262145.f_34488;
 					break;
 			
-				case -2114008705:
+				case 1861942929:
 					*uParam1 = *Global_262145.f_34489;
 					break;
 			
-				case 1554448080:
+				case -2114008705:
 					*uParam1 = *Global_262145.f_34490;
 					break;
 			
-				case 658215930:
+				case 1554448080:
 					*uParam1 = *Global_262145.f_34491;
 					break;
 			
-				case -522287295:
+				case 658215930:
 					*uParam1 = *Global_262145.f_34492;
 					break;
 			
-				case -279108546:
+				case -522287295:
 					*uParam1 = *Global_262145.f_34493;
 					break;
 			
-				case 1966818131:
+				case -279108546:
 					*uParam1 = *Global_262145.f_34494;
 					break;
 			
-				case -1842905813:
+				case 1966818131:
 					*uParam1 = *Global_262145.f_34495;
 					break;
 			
-				case 543168926:
+				case -1842905813:
 					*uParam1 = *Global_262145.f_34496;
 					break;
 			
-				case -1616340955:
+				case 543168926:
 					*uParam1 = *Global_262145.f_34497;
 					break;
 			
-				case -1367689783:
+				case -1616340955:
 					*uParam1 = *Global_262145.f_34498;
 					break;
 			
-				case -1143517054:
+				case -1367689783:
 					*uParam1 = *Global_262145.f_34499;
 					break;
 			
-				case 1494321920:
+				case -1143517054:
 					*uParam1 = *Global_262145.f_34500;
 					break;
 			
-				case -1799421350:
+				case 1494321920:
 					*uParam1 = *Global_262145.f_34501;
 					break;
 			
-				case -1301004860:
+				case -1799421350:
 					*uParam1 = *Global_262145.f_34502;
 					break;
 			
-				case -1071261401:
+				case -1301004860:
 					*uParam1 = *Global_262145.f_34503;
 					break;
 			
-				case 88865850:
+				case -1071261401:
 					*uParam1 = *Global_262145.f_34504;
 					break;
 			
-				case -209561433:
+				case 88865850:
 					*uParam1 = *Global_262145.f_34505;
 					break;
 			
-				case 567653713:
+				case -209561433:
 					*uParam1 = *Global_262145.f_34506;
 					break;
 			
-				case 270733804:
+				case 567653713:
 					*uParam1 = *Global_262145.f_34507;
+					break;
+			
+				case 270733804:
+					*uParam1 = *Global_262145.f_34508;
 					break;
 			}
 			break;
@@ -80787,7 +80787,7 @@ void func_164(int iParam0, Hash hParam1) // Position - 0x71285
 			if (num7 > 8)
 				num7 = num7 - 1;
 		
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_2054[num7] * Global_296940.f_26);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_2054[num7] * Global_296941.f_26);
 		}
 	}
 	else if (num6 == 2)
@@ -80795,21 +80795,21 @@ void func_164(int iParam0, Hash hParam1) // Position - 0x71285
 		num8 = iParam0 - 131;
 	
 		if (num8 >= 0 && num8 < 24)
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_2175[num8] * Global_296940.f_27);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_2175[num8] * Global_296941.f_27);
 	}
 	else if (num6 == 3)
 	{
 		num9 = iParam0 - 155;
 	
 		if (num9 >= 0 && num9 < 128)
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_2200[num9] * Global_296940.f_56);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_2200[num9] * Global_296941.f_56);
 	}
 	else if (num6 == 4)
 	{
 		num10 = iParam0 - 319;
 	
 		if (num10 >= 0 && num10 < 10)
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_2329[num10] * Global_296940.f_28);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_2329[num10] * Global_296941.f_28);
 	}
 
 	if (iParam0 >= 327)
@@ -80819,11 +80819,11 @@ void func_164(int iParam0, Hash hParam1) // Position - 0x71285
 	
 		if (Global_78341[0 /*14*/].f_7 > 0)
 			if (FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(Global_2883588, joaat("HAT"), 1))
-				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296940.f_26);
+				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296941.f_26);
 			else if (FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(Global_2883588, joaat("GLASSES"), 1))
-				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296940.f_56);
+				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296941.f_56);
 			else if (FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(Global_2883588, joaat("WATCH"), 1))
-				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296940.f_28);
+				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296941.f_28);
 	}
 	else
 	{
@@ -81409,12 +81409,12 @@ void func_166(int iParam0, Hash hParam1) // Position - 0x74160
 			func_161(num5, iParam0, 55, hParam1);
 		
 			if (Global_78341[0 /*14*/].f_7 > 0)
-				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296940.f_58);
+				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296941.f_58);
 		
 			return;
 	}
 
-	value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_296940.f_58);
+	value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_296941.f_58);
 	TEXT_LABEL_ASSIGN_STRING(&unk, "T_FMF_", 16);
 	TEXT_LABEL_APPEND_INT(&unk, num, 16);
 	TEXT_LABEL_APPEND_STRING(&unk, "_", 16);
@@ -81606,7 +81606,7 @@ void func_167(int iParam0, Hash hParam1) // Position - 0x7493B
 			func_161(num5, iParam0, 26, hParam1);
 		
 			if (Global_78341[0 /*14*/].f_7 > 0)
-				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296940.f_29);
+				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296941.f_29);
 		
 			return;
 	}
@@ -81618,7 +81618,7 @@ void func_167(int iParam0, Hash hParam1) // Position - 0x7493B
 	num6 = iParam0 - 1;
 
 	if (num6 >= 0 && num6 < 26)
-		value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_2027[num6] * Global_296940.f_29);
+		value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_2027[num6] * Global_296941.f_29);
 
 	func_149(&Global_78341[0 /*14*/], num5, iParam0, &unk, num, num2, value, flag, num3, num4, false);
 	return;
@@ -83306,7 +83306,7 @@ void func_168(int iParam0, Hash hParam1) // Position - 0x74C1F
 	num6 = iParam0;
 
 	if (num6 >= 0 && num6 < 256)
-		value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_1770[num6] * Global_296940.f_25);
+		value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_1770[num6] * Global_296941.f_25);
 
 	if (iParam0 >= 256)
 	{
@@ -83314,7 +83314,7 @@ void func_168(int iParam0, Hash hParam1) // Position - 0x74C1F
 		func_161(num5, iParam0, 256, hParam1);
 	
 		if (Global_78341[0 /*14*/].f_7 > 0)
-			Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296940.f_25);
+			Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296941.f_25);
 	}
 	else
 	{
@@ -85032,7 +85032,7 @@ void func_169(int iParam0, Hash hParam1) // Position - 0x76245
 	num6 = iParam0;
 
 	if (num6 >= 0 && num6 < 256)
-		value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_1256[num6] * Global_296940.f_23);
+		value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_1256[num6] * Global_296941.f_23);
 
 	if (iParam0 >= 256)
 	{
@@ -85040,7 +85040,7 @@ void func_169(int iParam0, Hash hParam1) // Position - 0x76245
 		func_161(num5, iParam0, 256, hParam1);
 	
 		if (Global_78341[0 /*14*/].f_7 > 0)
-			Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296940.f_23);
+			Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296941.f_23);
 	}
 	else
 	{
@@ -86375,7 +86375,7 @@ void func_172(int iParam0, Hash hParam1) // Position - 0x77C7E
 			func_161(num5, iParam0, 136, hParam1);
 		
 			if (Global_78341[0 /*14*/].f_7 > 0)
-				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296940.f_24);
+				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296941.f_24);
 		
 			return;
 	}
@@ -86424,7 +86424,7 @@ void func_172(int iParam0, Hash hParam1) // Position - 0x77C7E
 			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_1513[num7]);
 	}
 
-	value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_296940.f_24);
+	value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_296941.f_24);
 	func_149(&Global_78341[0 /*14*/], num5, iParam0, &unk, num, num2, value, flag, num3, num4, false);
 	return;
 }
@@ -88376,28 +88376,28 @@ void func_180(int iParam0, Hash hParam1) // Position - 0x793F6
 		if (func_173(89, -1))
 		{
 			TEXT_LABEL_ASSIGN_STRING(&unk, "REW_RS" /*Rockstar V Neck*/, 16);
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(1250) * Global_262145.f_2990 * Global_296940.f_24);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(1250) * Global_262145.f_2990 * Global_296941.f_24);
 		}
 		else
 		{
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(40) * Global_262145.f_1513[4] * Global_296940.f_24);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(40) * Global_262145.f_1513[4] * Global_296941.f_24);
 		}
 	}
 	else if (iParam0 == 7)
 	{
 		TEXT_LABEL_ASSIGN_STRING(&unk, "REW_LSB" /*Los Santos Belle V Neck*/, 16);
-		value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(450) * Global_262145.f_2989 * Global_296940.f_24);
+		value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(450) * Global_262145.f_2989 * Global_296941.f_24);
 	}
 	else if (iParam0 == 9)
 	{
 		if (func_173(87, -1))
 		{
 			TEXT_LABEL_ASSIGN_STRING(&unk, "REW_REDSK" /*Red Skull V Neck*/, 16);
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(500) * Global_262145.f_2988 * Global_296940.f_24);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(500) * Global_262145.f_2988 * Global_296941.f_24);
 		}
 		else
 		{
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(40) * Global_262145.f_1513[9] * Global_296940.f_24);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(40) * Global_262145.f_1513[9] * Global_296941.f_24);
 		}
 	}
 	else
@@ -88405,7 +88405,7 @@ void func_180(int iParam0, Hash hParam1) // Position - 0x793F6
 		num6 = iParam0;
 	
 		if (num6 >= 0 && num6 < 256)
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_1513[num6] * Global_296940.f_24);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_1513[num6] * Global_296941.f_24);
 	}
 
 	if (iParam0 >= 256)
@@ -88414,7 +88414,7 @@ void func_180(int iParam0, Hash hParam1) // Position - 0x793F6
 		func_161(num5, iParam0, 256, hParam1);
 	
 		if (Global_78341[0 /*14*/].f_7 > 0)
-			Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296940.f_24);
+			Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296941.f_24);
 	}
 	else
 	{
@@ -92640,7 +92640,7 @@ void func_187(int iParam0, Hash hParam1) // Position - 0x7C0D5
 			if (num7 > 8)
 				num7 = num7 - 1;
 		
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_965[num7] * Global_296940.f_18);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_965[num7] * Global_296941.f_18);
 		}
 	}
 	else if (num6 == 2)
@@ -92648,21 +92648,21 @@ void func_187(int iParam0, Hash hParam1) // Position - 0x7C0D5
 		num8 = iParam0 - 131;
 	
 		if (num8 >= 0 && num8 < 24)
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_1086[num8] * Global_296940.f_19);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_1086[num8] * Global_296941.f_19);
 	}
 	else if (num6 == 3)
 	{
 		num9 = iParam0 - 155;
 	
 		if (num9 >= 0 && num9 < 128)
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_1111[num9] * Global_296940.f_20);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_1111[num9] * Global_296941.f_20);
 	}
 	else if (num6 == 4)
 	{
 		num10 = iParam0 - 319;
 	
 		if (num10 >= 0 && num10 < 15)
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_1240[num10] * Global_296940.f_21);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_1240[num10] * Global_296941.f_21);
 	}
 
 	if (iParam0 >= 327)
@@ -92672,11 +92672,11 @@ void func_187(int iParam0, Hash hParam1) // Position - 0x7C0D5
 	
 		if (Global_78341[0 /*14*/].f_7 > 0)
 			if (FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(Global_2883588, joaat("HAT"), 1))
-				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296940.f_18);
+				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296941.f_18);
 			else if (FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(Global_2883588, joaat("GLASSES"), 1))
-				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296940.f_20);
+				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296941.f_20);
 			else if (FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(Global_2883588, joaat("WATCH"), 1))
-				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296940.f_21);
+				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296941.f_21);
 	}
 	else
 	{
@@ -93438,12 +93438,12 @@ void func_189(int iParam0, Hash hParam1) // Position - 0x7EFB5
 			func_161(num5, iParam0, 92, hParam1);
 		
 			if (Global_78341[0 /*14*/].f_7 > 0)
-				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296940.f_57);
+				Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296941.f_57);
 		
 			return;
 	}
 
-	value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_296940.f_57);
+	value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_296941.f_57);
 	TEXT_LABEL_ASSIGN_STRING(&unk, "T_FMM_", 16);
 	TEXT_LABEL_APPEND_INT(&unk, num, 16);
 	TEXT_LABEL_APPEND_STRING(&unk, "_", 16);
@@ -93643,7 +93643,7 @@ void func_190(int iParam0, Hash hParam1) // Position - 0x7F8AC
 	num6 = iParam0 - 1;
 
 	if (num6 >= 0 && num6 < 26)
-		value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_938[num6] * Global_296940.f_22);
+		value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_938[num6] * Global_296941.f_22);
 
 	func_149(&Global_78341[0 /*14*/], num5, iParam0, &unk, num, num2, value, flag, num3, num4, false);
 	return;
@@ -95339,7 +95339,7 @@ void func_191(int iParam0, Hash hParam1) // Position - 0x7FB62
 	num6 = iParam0;
 
 	if (num6 >= 0 && num6 < 256)
-		value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_681[num6] * Global_296940.f_17);
+		value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_681[num6] * Global_296941.f_17);
 
 	TEXT_LABEL_ASSIGN_STRING(&unk, "F_FMM_", 16);
 	TEXT_LABEL_APPEND_INT(&unk, num, 16);
@@ -95352,7 +95352,7 @@ void func_191(int iParam0, Hash hParam1) // Position - 0x7FB62
 		func_161(num5, iParam0, 256, hParam1);
 	
 		if (Global_78341[0 /*14*/].f_7 > 0)
-			Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296940.f_17);
+			Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296941.f_17);
 	}
 	else
 	{
@@ -97065,7 +97065,7 @@ void func_192(int iParam0, Hash hParam1) // Position - 0x8119F
 	num6 = iParam0;
 
 	if (num6 >= 0 && num6 < 256)
-		value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_186[num6] * Global_296940.f_15);
+		value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_186[num6] * Global_296941.f_15);
 
 	if (iParam0 >= 256)
 	{
@@ -97073,7 +97073,7 @@ void func_192(int iParam0, Hash hParam1) // Position - 0x8119F
 		func_161(num5, iParam0, 256, hParam1);
 	
 		if (Global_78341[0 /*14*/].f_7 > 0)
-			Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296940.f_15);
+			Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296941.f_15);
 	}
 	else
 	{
@@ -99543,7 +99543,7 @@ void func_195(int iParam0, Hash hParam1) // Position - 0x82C44
 			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_443[num9]);
 	}
 
-	value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_296940.f_16);
+	value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_296941.f_16);
 
 	if (iParam0 >= 241)
 	{
@@ -99551,7 +99551,7 @@ void func_195(int iParam0, Hash hParam1) // Position - 0x82C44
 		func_161(num5, iParam0, 241, hParam1);
 	
 		if (Global_78341[0 /*14*/].f_7 > 0)
-			Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296940.f_16);
+			Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296941.f_16);
 	}
 	else
 	{
@@ -101142,28 +101142,28 @@ void func_196(int iParam0, Hash hParam1) // Position - 0x85136
 		if (func_173(89, -1))
 		{
 			TEXT_LABEL_ASSIGN_STRING(&unk, "REW_RS" /*Rockstar V Neck*/, 16);
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(1250) * Global_262145.f_2990 * Global_296940.f_16);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(1250) * Global_262145.f_2990 * Global_296941.f_16);
 		}
 		else
 		{
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(45) * Global_262145.f_443[23] * Global_296940.f_16);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(45) * Global_262145.f_443[23] * Global_296941.f_16);
 		}
 	}
 	else if (iParam0 == 17)
 	{
 		TEXT_LABEL_ASSIGN_STRING(&unk, "REW_LSB" /*Los Santos Belle V Neck*/, 16);
-		value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(450) * Global_262145.f_2989 * Global_296940.f_16);
+		value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(450) * Global_262145.f_2989 * Global_296941.f_16);
 	}
 	else if (iParam0 == 28)
 	{
 		if (func_173(87, -1))
 		{
 			TEXT_LABEL_ASSIGN_STRING(&unk, "REW_REDSK" /*Red Skull V Neck*/, 16);
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(500) * Global_262145.f_2988 * Global_296940.f_16);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(500) * Global_262145.f_2988 * Global_296941.f_16);
 		}
 		else
 		{
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(55) * Global_262145.f_443[28] * Global_296940.f_16);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(55) * Global_262145.f_443[28] * Global_296941.f_16);
 		}
 	}
 	else
@@ -101171,7 +101171,7 @@ void func_196(int iParam0, Hash hParam1) // Position - 0x85136
 		num6 = iParam0;
 	
 		if (num6 >= 0 && num6 < 237)
-			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_443[num6] * Global_296940.f_16);
+			value = SYSTEM::ROUND(SYSTEM::TO_FLOAT(value) * Global_262145.f_443[num6] * Global_296941.f_16);
 	}
 
 	if (iParam0 >= 237)
@@ -101180,7 +101180,7 @@ void func_196(int iParam0, Hash hParam1) // Position - 0x85136
 		func_161(num5, iParam0, 237, hParam1);
 	
 		if (Global_78341[0 /*14*/].f_7 > 0)
-			Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296940.f_16);
+			Global_78341[0 /*14*/].f_7 = SYSTEM::ROUND(SYSTEM::TO_FLOAT(Global_78341[0 /*14*/].f_7) * Global_296941.f_16);
 	}
 	else
 	{
@@ -105852,12 +105852,12 @@ int func_272(int iParam0, int iParam1) // Position - 0x8D7FF
 			return num;
 		}
 	
-		if (Global_297010[num] == iParam0)
+		if (Global_297011[num] == iParam0)
 		{
 			value = num;
 			value2 = num;
 		}
-		else if (Global_297010[num] < iParam0)
+		else if (Global_297011[num] < iParam0)
 		{
 			if (value2 == num)
 				value2 = value2 + 1;
@@ -106243,7 +106243,7 @@ int func_285(int iParam0, BOOL bParam1, int iParam2) // Position - 0x8DFAB
 	if (iParam0 >= 8000)
 		iParam0 = 8000;
 
-	return Global_297010[iParam0];
+	return Global_297011[iParam0];
 }
 
 BOOL func_286() // Position - 0x8DFD3
@@ -110207,16 +110207,16 @@ BOOL func_430(var uParam0, Hash hParam1, BOOL bParam2, int iParam3) // Position 
 			{
 				value = 650000;
 			
-				if (flag && *Global_262145.f_33932 >= 0)
-					value = *Global_262145.f_33932;
+				if (flag && *Global_262145.f_33933 >= 0)
+					value = *Global_262145.f_33933;
 			
 				if (bParam2)
 				{
 					num = value;
 					value = 487500;
 				
-					if (flag && *Global_262145.f_33937 >= 0)
-						value = *Global_262145.f_33937;
+					if (flag && *Global_262145.f_33938 >= 0)
+						value = *Global_262145.f_33938;
 				}
 			}
 			break;
@@ -112705,8 +112705,8 @@ BOOL func_430(var uParam0, Hash hParam1, BOOL bParam2, int iParam3) // Position 
 						num = value;
 						value = 622500;
 					
-						if (flag && *Global_262145.f_33938 >= 0)
-							value = *Global_262145.f_33938;
+						if (flag && *Global_262145.f_33939 >= 0)
+							value = *Global_262145.f_33939;
 					}
 				}
 				break;
@@ -114842,8 +114842,8 @@ BOOL func_430(var uParam0, Hash hParam1, BOOL bParam2, int iParam3) // Position 
 			case -1576586413:
 				value = 1450000;
 			
-				if (flag && *Global_262145.f_33917 >= 0)
-					value = *Global_262145.f_33917;
+				if (flag && *Global_262145.f_33918 >= 0)
+					value = *Global_262145.f_33918;
 			
 				if (bParam2)
 				{
@@ -114858,135 +114858,135 @@ BOOL func_430(var uParam0, Hash hParam1, BOOL bParam2, int iParam3) // Position 
 			case -1627077503:
 				value = 790000;
 			
-				if (flag && *Global_262145.f_33918 >= 0)
-					value = *Global_262145.f_33918;
-			
-				if (bParam2)
-				{
-					num = value;
-					value = 592500;
-				
-					if (flag && *Global_262145.f_33933 >= 0)
-						value = *Global_262145.f_33933;
-				}
-				break;
-		
-			case -1035489563:
-				value = 590000;
-			
 				if (flag && *Global_262145.f_33919 >= 0)
 					value = *Global_262145.f_33919;
 			
 				if (bParam2)
 				{
 					num = value;
-					value = 442500;
+					value = 592500;
 				
 					if (flag && *Global_262145.f_33934 >= 0)
 						value = *Global_262145.f_33934;
 				}
 				break;
 		
-			case 2100457220:
-				value = 2170000;
+			case -1035489563:
+				value = 590000;
 			
-				if (flag && *Global_262145.f_33921 >= 0)
-					value = *Global_262145.f_33921;
-				break;
-		
-			case 268758436:
-				value = 1658000;
-			
-				if (flag && *Global_262145.f_33923 >= 0)
-					value = *Global_262145.f_33923;
-				break;
-		
-			case -131348178:
-				value = 1790000;
-			
-				if (flag && *Global_262145.f_33924 >= 0)
-					value = *Global_262145.f_33924;
+				if (flag && *Global_262145.f_33920 >= 0)
+					value = *Global_262145.f_33920;
 			
 				if (bParam2)
 				{
 					num = value;
-					value = 1342500;
+					value = 442500;
 				
 					if (flag && *Global_262145.f_33935 >= 0)
 						value = *Global_262145.f_33935;
 				}
 				break;
 		
-			case -1933242328:
-				value = 925000;
+			case 2100457220:
+				value = 2170000;
 			
-				if (flag && *Global_262145.f_33926 >= 0)
-					value = *Global_262145.f_33926;
+				if (flag && *Global_262145.f_33922 >= 0)
+					value = *Global_262145.f_33922;
 				break;
 		
-			case 996383885:
-				value = 1280000;
+			case 268758436:
+				value = 1658000;
 			
-				if (flag && *Global_262145.f_33928 >= 0)
-					value = *Global_262145.f_33928;
+				if (flag && *Global_262145.f_33924 >= 0)
+					value = *Global_262145.f_33924;
 				break;
 		
-			case 669204833:
-				value = 2980000;
+			case -131348178:
+				value = 1790000;
 			
-				if (flag && *Global_262145.f_33930 >= 0)
-					value = *Global_262145.f_33930;
+				if (flag && *Global_262145.f_33925 >= 0)
+					value = *Global_262145.f_33925;
 			
 				if (bParam2)
 				{
 					num = value;
-					value = 2235000;
+					value = 1342500;
 				
 					if (flag && *Global_262145.f_33936 >= 0)
 						value = *Global_262145.f_33936;
 				}
 				break;
 		
-			case 1076201208:
-				value = 2075000;
-			
-				if (flag && *Global_262145.f_33931 >= 0)
-					value = *Global_262145.f_33931;
-				break;
-		
-			case -1386336041:
-				value = 1605000;
-			
-				if (flag && *Global_262145.f_33929 >= 0)
-					value = *Global_262145.f_33929;
-				break;
-		
-			case 1550581940:
-				value = 1835000;
+			case -1933242328:
+				value = 925000;
 			
 				if (flag && *Global_262145.f_33927 >= 0)
 					value = *Global_262145.f_33927;
 				break;
 		
+			case 996383885:
+				value = 1280000;
+			
+				if (flag && *Global_262145.f_33929 >= 0)
+					value = *Global_262145.f_33929;
+				break;
+		
+			case 669204833:
+				value = 2980000;
+			
+				if (flag && *Global_262145.f_33931 >= 0)
+					value = *Global_262145.f_33931;
+			
+				if (bParam2)
+				{
+					num = value;
+					value = 2235000;
+				
+					if (flag && *Global_262145.f_33937 >= 0)
+						value = *Global_262145.f_33937;
+				}
+				break;
+		
+			case 1076201208:
+				value = 2075000;
+			
+				if (flag && *Global_262145.f_33932 >= 0)
+					value = *Global_262145.f_33932;
+				break;
+		
+			case -1386336041:
+				value = 1605000;
+			
+				if (flag && *Global_262145.f_33930 >= 0)
+					value = *Global_262145.f_33930;
+				break;
+		
+			case 1550581940:
+				value = 1835000;
+			
+				if (flag && *Global_262145.f_33928 >= 0)
+					value = *Global_262145.f_33928;
+				break;
+		
 			case -1249788006:
 				value = 1250000;
 			
-				if (flag && *Global_262145.f_33925 >= 0)
-					value = *Global_262145.f_33925;
+				if (flag && *Global_262145.f_33926 >= 0)
+					value = *Global_262145.f_33926;
 				break;
 		
 			case -461850249:
 				value = 1500000;
 			
-				if (flag && *Global_262145.f_33922 >= 0)
-					value = *Global_262145.f_33922;
+				if (flag && *Global_262145.f_33923 >= 0)
+					value = *Global_262145.f_33923;
 				break;
 		
 			case 1748565021:
 				value = 2355000;
 			
-				if (flag && *Global_262145.f_33920 >= 0)
-					value = *Global_262145.f_33920;
+				if (flag && *Global_262145.f_33921 >= 0)
+					value = *Global_262145.f_33921;
 				break;
 		}
 	

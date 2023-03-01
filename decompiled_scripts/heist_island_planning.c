@@ -15921,7 +15921,7 @@ void func_550(var uParam0, int iParam1, int iParam2) // Position - 0x11BF3
 
 BOOL func_551(int iParam0) // Position - 0x11E2B
 {
-	if (*Global_262145.f_33902 == -1)
+	if (*Global_262145.f_33903 == -1)
 		return false;
 
 	if (IS_BIT_SET(Global_1983551, 4))

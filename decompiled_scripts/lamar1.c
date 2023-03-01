@@ -47326,87 +47326,87 @@ BOOL func_335(Hash hParam0, int iParam1) // Position - 0x3AB9F
 	}
 	else if (hParam0 == 1384502824)
 	{
-		if (!*Global_262145.f_33962 && cloudTimeAsInt < *Global_262145.f_33946)
+		if (!*Global_262145.f_33963 && cloudTimeAsInt < *Global_262145.f_33947)
 			num = 0;
 	}
 	else if (hParam0 == -1576586413)
 	{
-		if (!*Global_262145.f_33962 && cloudTimeAsInt < *Global_262145.f_33946)
+		if (!*Global_262145.f_33963 && cloudTimeAsInt < *Global_262145.f_33947)
 			num = 0;
 	}
 	else if (hParam0 == -1249788006)
 	{
-		if (!*Global_262145.f_33971 && cloudTimeAsInt < *Global_262145.f_33954)
+		if (!*Global_262145.f_33972 && cloudTimeAsInt < *Global_262145.f_33955)
 			num = 0;
 	}
 	else if (hParam0 == -1386336041)
 	{
-		if (!*Global_262145.f_33965 && cloudTimeAsInt < *Global_262145.f_33949)
+		if (!*Global_262145.f_33966 && cloudTimeAsInt < *Global_262145.f_33950)
 			num = 0;
 	}
 	else if (hParam0 == -1627077503)
 	{
-		if (!*Global_262145.f_33959 && cloudTimeAsInt < *Global_262145.f_33943)
+		if (!*Global_262145.f_33960 && cloudTimeAsInt < *Global_262145.f_33944)
 			num = 0;
 	}
 	else if (hParam0 == -1035489563)
 	{
-		if (!*Global_262145.f_33960 && cloudTimeAsInt < *Global_262145.f_33944)
+		if (!*Global_262145.f_33961 && cloudTimeAsInt < *Global_262145.f_33945)
 			num = 0;
 	}
 	else if (hParam0 == 1748565021)
 	{
-		if (!*Global_262145.f_33957 && cloudTimeAsInt < *Global_262145.f_33941)
+		if (!*Global_262145.f_33958 && cloudTimeAsInt < *Global_262145.f_33942)
 			num = 0;
 	}
 	else if (hParam0 == 2100457220)
 	{
-		if (!*Global_262145.f_33968 && cloudTimeAsInt < *Global_262145.f_33952)
+		if (!*Global_262145.f_33969 && cloudTimeAsInt < *Global_262145.f_33953)
 			num = 0;
 	}
 	else if (hParam0 == 996383885)
 	{
-		if (!*Global_262145.f_33972 && cloudTimeAsInt < *Global_262145.f_33956)
+		if (!*Global_262145.f_33973 && cloudTimeAsInt < *Global_262145.f_33957)
 			num = 0;
 	}
 	else if (hParam0 == -131348178)
 	{
-		if (!*Global_262145.f_33969 && cloudTimeAsInt < *Global_262145.f_33953)
+		if (!*Global_262145.f_33970 && cloudTimeAsInt < *Global_262145.f_33954)
 			num = 0;
 	}
 	else if (hParam0 == 268758436)
 	{
-		if (!*Global_262145.f_33958 && cloudTimeAsInt < *Global_262145.f_33942)
+		if (!*Global_262145.f_33959 && cloudTimeAsInt < *Global_262145.f_33943)
 			num = 0;
 	}
 	else if (hParam0 == 1076201208)
 	{
-		if (!*Global_262145.f_33961 && cloudTimeAsInt < *Global_262145.f_33945)
+		if (!*Global_262145.f_33962 && cloudTimeAsInt < *Global_262145.f_33946)
 			num = 0;
 	}
 	else if (hParam0 == 669204833)
 	{
-		if (!*Global_262145.f_33970 && cloudTimeAsInt < *Global_262145.f_33955)
+		if (!*Global_262145.f_33971 && cloudTimeAsInt < *Global_262145.f_33956)
 			num = 0;
 	}
 	else if (hParam0 == 1550581940)
 	{
-		if (!*Global_262145.f_33966 && cloudTimeAsInt < *Global_262145.f_33950)
+		if (!*Global_262145.f_33967 && cloudTimeAsInt < *Global_262145.f_33951)
 			num = 0;
 	}
 	else if (hParam0 == -1933242328)
 	{
-		if (!*Global_262145.f_33967 && cloudTimeAsInt < *Global_262145.f_33951)
+		if (!*Global_262145.f_33968 && cloudTimeAsInt < *Global_262145.f_33952)
 			num = 0;
 	}
 	else if (hParam0 == -461850249)
 	{
-		if (!*Global_262145.f_33964 && cloudTimeAsInt < *Global_262145.f_33948)
+		if (!*Global_262145.f_33965 && cloudTimeAsInt < *Global_262145.f_33949)
 			num = 0;
 	}
 	else if (hParam0 == joaat("taxi"))
 	{
-		if (!*Global_262145.f_33963 && cloudTimeAsInt < *Global_262145.f_33947)
+		if (!*Global_262145.f_33964 && cloudTimeAsInt < *Global_262145.f_33948)
 			num = 0;
 	}
 
@@ -56648,43 +56648,43 @@ int func_477(Hash hParam0, int iParam1) // Position - 0x46C99
 				switch (iParam1)
 				{
 					case 370527443:
-						price = *Global_262145.f_34096;
-						break;
-				
-					case 1109907117:
-						price = *Global_262145.f_34100;
-						break;
-				
-					case 2055456612:
 						price = *Global_262145.f_34097;
 						break;
 				
-					case 1690606566:
-						price = *Global_262145.f_34098;
-						break;
-				
-					case -1633316949:
+					case 1109907117:
 						price = *Global_262145.f_34101;
 						break;
 				
-					case -1461476313:
+					case 2055456612:
+						price = *Global_262145.f_34098;
+						break;
+				
+					case 1690606566:
 						price = *Global_262145.f_34099;
 						break;
 				
-					case -1770422457:
-						price = *Global_262145.f_34103;
-						break;
-				
-					case -2059739958:
+					case -1633316949:
 						price = *Global_262145.f_34102;
 						break;
 				
-					case -1280001599:
+					case -1461476313:
+						price = *Global_262145.f_34100;
+						break;
+				
+					case -1770422457:
 						price = *Global_262145.f_34104;
 						break;
 				
-					case -922885037:
+					case -2059739958:
+						price = *Global_262145.f_34103;
+						break;
+				
+					case -1280001599:
 						price = *Global_262145.f_34105;
+						break;
+				
+					case -922885037:
+						price = *Global_262145.f_34106;
 						break;
 				}
 				break;
@@ -56693,43 +56693,43 @@ int func_477(Hash hParam0, int iParam1) // Position - 0x46C99
 				switch (iParam1)
 				{
 					case 716207715:
-						price = *Global_262145.f_34086;
-						break;
-				
-					case 446271089:
 						price = *Global_262145.f_34087;
 						break;
 				
-					case 1045616099:
-						price = *Global_262145.f_34089;
+					case 446271089:
+						price = *Global_262145.f_34088;
 						break;
 				
-					case 1336277129:
+					case 1045616099:
 						price = *Global_262145.f_34090;
 						break;
 				
-					case -513369076:
+					case 1336277129:
 						price = *Global_262145.f_34091;
 						break;
 				
-					case -447700000:
+					case -513369076:
 						price = *Global_262145.f_34092;
 						break;
 				
-					case -149207179:
+					case -447700000:
 						price = *Global_262145.f_34093;
 						break;
 				
-					case 166784288:
+					case -149207179:
 						price = *Global_262145.f_34094;
 						break;
 				
-					case 2068729789:
+					case 166784288:
 						price = *Global_262145.f_34095;
 						break;
 				
+					case 2068729789:
+						price = *Global_262145.f_34096;
+						break;
+				
 					case 1761389338:
-						price = *Global_262145.f_34088;
+						price = *Global_262145.f_34089;
 						break;
 				}
 				break;
@@ -56742,7 +56742,7 @@ int func_477(Hash hParam0, int iParam1) // Position - 0x46C99
 						break;
 				
 					case 503494624:
-						price = *Global_262145.f_34069;
+						price = *Global_262145.f_34070;
 						break;
 				}
 				break;
@@ -60277,30 +60277,30 @@ BOOL func_520(Hash hParam0, var uParam1, var uParam2, var uParam3, int iParam4) 
 				break;
 		
 			case -22923932:
-				*uParam1 = *Global_262145.f_34067;
-				*uParam2 = *Global_262145.f_34107;
+				*uParam1 = *Global_262145.f_34068;
+				*uParam2 = *Global_262145.f_34108;
 				num2 = 6;
 				break;
 		
 			case 465894841:
-				*uParam1 = *Global_262145.f_34066;
-				*uParam2 = *Global_262145.f_34106;
+				*uParam1 = *Global_262145.f_34067;
+				*uParam2 = *Global_262145.f_34107;
 				num2 = 8;
 				break;
 		
 			case 1703483498:
-				*uParam1 = *Global_262145.f_34068;
+				*uParam1 = *Global_262145.f_34069;
 				num2 = 7;
 				break;
 		
 			case joaat("WEAPON_MOLOTOV"):
-				*uParam1 = *Global_262145.f_34124;
-				*uParam2 = *Global_262145.f_34124;
+				*uParam1 = *Global_262145.f_34125;
+				*uParam2 = *Global_262145.f_34125;
 				num2 = 9;
 				break;
 		
 			case joaat("WEAPON_CROWBAR"):
-				*uParam1 = *Global_262145.f_34743;
+				*uParam1 = *Global_262145.f_34744;
 				num2 = 7;
 				break;
 		
@@ -60319,53 +60319,53 @@ BOOL func_520(Hash hParam0, var uParam1, var uParam2, var uParam3, int iParam4) 
 				break;
 		
 			case 1:
-				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_2);
-				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296940.f_2);
+				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_2);
+				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296941.f_2);
 				break;
 		
 			case 2:
-				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_2);
-				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296940.f_2);
+				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_2);
+				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296941.f_2);
 				break;
 		
 			case 3:
-				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_2);
-				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296940.f_2);
+				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_2);
+				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296941.f_2);
 				break;
 		
 			case 4:
-				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_2);
-				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296940.f_2);
+				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_2);
+				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296941.f_2);
 				break;
 		
 			case 5:
-				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_2);
-				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296940.f_2);
+				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_2);
+				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296941.f_2);
 				break;
 		
 			case 6:
-				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_2);
-				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296940.f_2);
+				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_2);
+				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296941.f_2);
 				break;
 		
 			case 7:
-				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_6);
-				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296940.f_6);
+				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_6);
+				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296941.f_6);
 				break;
 		
 			case 8:
-				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_4);
-				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296940.f_4);
+				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_4);
+				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296941.f_4);
 				break;
 		
 			case 9:
-				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_2);
-				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296940.f_2);
+				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_2);
+				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296941.f_2);
 				break;
 		
 			case 10:
-				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_2);
-				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296940.f_2);
+				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_2);
+				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296941.f_2);
 				break;
 		
 			case 11:
@@ -60384,25 +60384,25 @@ BOOL func_520(Hash hParam0, var uParam1, var uParam2, var uParam3, int iParam4) 
 				break;
 		
 			case 16:
-				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296940);
-				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296940);
+				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296941);
+				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296941);
 				break;
 		
 			case 17:
 			case 21:
-				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_6);
-				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296940.f_6);
+				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_6);
+				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296941.f_6);
 				break;
 		
 			case 18:
 			case 20:
-				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_4);
-				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296940.f_4);
+				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_4);
+				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296941.f_4);
 				break;
 		
 			case 99:
-				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296940.f_7);
-				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296940.f_7);
+				*uParam1 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam1) * Global_296941.f_7);
+				*uParam2 = SYSTEM::FLOOR(SYSTEM::TO_FLOAT(*uParam2) * Global_296941.f_7);
 				break;
 		}
 	}

@@ -51445,16 +51445,24 @@ BOOL func_554(Player plParam0) // Position - 0x3FC0C
 
 BOOL func_555(Hash hParam0) // Position - 0x3FC52
 {
+	BOOL flag;
+
 	if (hParam0 == joaat("oppressor2"))
 		return false;
 
-	if (!func_556(PLAYER::PLAYER_ID()) && hParam0 != joaat("thruster") && hParam0 != joaat("avenger"))
+	flag = false;
+
+	if (hParam0 == joaat("riot2") || hParam0 == joaat("chernobog") || hParam0 == joaat("khanjali"))
+		if (!*Global_262145.f_33899)
+			flag = true;
+
+	if (!func_556(PLAYER::PLAYER_ID()) && hParam0 != joaat("thruster") && hParam0 != joaat("avenger") && !flag)
 		return false;
 
 	return true;
 }
 
-BOOL func_556(Player plParam0) // Position - 0x3FC93
+BOOL func_556(Player plParam0) // Position - 0x3FCD6
 {
 	if (plParam0 != _INVALID_PLAYER_INDEX())
 		return IS_BIT_SET(Global_1853910[plParam0 /*862*/].f_267.f_307, 2);
@@ -51462,7 +51470,7 @@ BOOL func_556(Player plParam0) // Position - 0x3FC93
 	return false;
 }
 
-BOOL func_557(Vehicle veParam0) // Position - 0x3FCB9
+BOOL func_557(Vehicle veParam0) // Position - 0x3FCFC
 {
 	if (func_575(PLAYER::PLAYER_ID()) || func_574(PLAYER::PLAYER_ID()))
 		if (func_558(veParam0))
@@ -51471,7 +51479,7 @@ BOOL func_557(Vehicle veParam0) // Position - 0x3FCB9
 	return false;
 }
 
-BOOL func_558(Vehicle veParam0) // Position - 0x3FCE8
+BOOL func_558(Vehicle veParam0) // Position - 0x3FD2B
 {
 	if (!ENTITY::DOES_ENTITY_EXIST(veParam0) || !VEHICLE::IS_VEHICLE_DRIVEABLE(veParam0, false) || ENTITY::IS_ENTITY_DEAD(veParam0, false))
 		return false;
@@ -51493,7 +51501,7 @@ BOOL func_558(Vehicle veParam0) // Position - 0x3FCE8
 	return false;
 }
 
-BOOL func_559(Vehicle veParam0) // Position - 0x3FD9B
+BOOL func_559(Vehicle veParam0) // Position - 0x3FDDE
 {
 	Hash entityModel;
 
@@ -51518,7 +51526,7 @@ BOOL func_559(Vehicle veParam0) // Position - 0x3FD9B
 	return false;
 }
 
-BOOL func_560(Hash hParam0) // Position - 0x3FE12
+BOOL func_560(Hash hParam0) // Position - 0x3FE55
 {
 	switch (hParam0)
 	{
@@ -51541,7 +51549,7 @@ BOOL func_560(Hash hParam0) // Position - 0x3FE12
 	return false;
 }
 
-BOOL func_561(Player plParam0) // Position - 0x3FE62
+BOOL func_561(Player plParam0) // Position - 0x3FEA5
 {
 	if (plParam0 == _INVALID_PLAYER_INDEX())
 		return false;
@@ -51552,7 +51560,7 @@ BOOL func_561(Player plParam0) // Position - 0x3FE62
 	return false;
 }
 
-BOOL func_562(Vehicle veParam0, BOOL bParam1) // Position - 0x3FE9B
+BOOL func_562(Vehicle veParam0, BOOL bParam1) // Position - 0x3FEDE
 {
 	switch (ENTITY::GET_ENTITY_MODEL(veParam0))
 	{
@@ -51569,7 +51577,7 @@ BOOL func_562(Vehicle veParam0, BOOL bParam1) // Position - 0x3FE9B
 	return false;
 }
 
-int func_563(Vehicle veParam0) // Position - 0x3FEF6
+int func_563(Vehicle veParam0) // Position - 0x3FF39
 {
 	int i;
 
@@ -51585,7 +51593,7 @@ int func_563(Vehicle veParam0) // Position - 0x3FEF6
 	return -1;
 }
 
-BOOL func_564(Hash hParam0, int iParam1) // Position - 0x3FF2F
+BOOL func_564(Hash hParam0, int iParam1) // Position - 0x3FF72
 {
 	if (iParam1 == 0)
 		if (func_573(hParam0, 0))
@@ -53745,87 +53753,87 @@ BOOL func_585(Hash hParam0, int iParam1) // Position - 0x41544
 	}
 	else if (hParam0 == 1384502824)
 	{
-		if (!*Global_262145.f_33962 && cloudTimeAsInt < *Global_262145.f_33946)
+		if (!*Global_262145.f_33963 && cloudTimeAsInt < *Global_262145.f_33947)
 			num = 0;
 	}
 	else if (hParam0 == -1576586413)
 	{
-		if (!*Global_262145.f_33962 && cloudTimeAsInt < *Global_262145.f_33946)
+		if (!*Global_262145.f_33963 && cloudTimeAsInt < *Global_262145.f_33947)
 			num = 0;
 	}
 	else if (hParam0 == -1249788006)
 	{
-		if (!*Global_262145.f_33971 && cloudTimeAsInt < *Global_262145.f_33954)
+		if (!*Global_262145.f_33972 && cloudTimeAsInt < *Global_262145.f_33955)
 			num = 0;
 	}
 	else if (hParam0 == -1386336041)
 	{
-		if (!*Global_262145.f_33965 && cloudTimeAsInt < *Global_262145.f_33949)
+		if (!*Global_262145.f_33966 && cloudTimeAsInt < *Global_262145.f_33950)
 			num = 0;
 	}
 	else if (hParam0 == -1627077503)
 	{
-		if (!*Global_262145.f_33959 && cloudTimeAsInt < *Global_262145.f_33943)
+		if (!*Global_262145.f_33960 && cloudTimeAsInt < *Global_262145.f_33944)
 			num = 0;
 	}
 	else if (hParam0 == -1035489563)
 	{
-		if (!*Global_262145.f_33960 && cloudTimeAsInt < *Global_262145.f_33944)
+		if (!*Global_262145.f_33961 && cloudTimeAsInt < *Global_262145.f_33945)
 			num = 0;
 	}
 	else if (hParam0 == 1748565021)
 	{
-		if (!*Global_262145.f_33957 && cloudTimeAsInt < *Global_262145.f_33941)
+		if (!*Global_262145.f_33958 && cloudTimeAsInt < *Global_262145.f_33942)
 			num = 0;
 	}
 	else if (hParam0 == 2100457220)
 	{
-		if (!*Global_262145.f_33968 && cloudTimeAsInt < *Global_262145.f_33952)
+		if (!*Global_262145.f_33969 && cloudTimeAsInt < *Global_262145.f_33953)
 			num = 0;
 	}
 	else if (hParam0 == 996383885)
 	{
-		if (!*Global_262145.f_33972 && cloudTimeAsInt < *Global_262145.f_33956)
+		if (!*Global_262145.f_33973 && cloudTimeAsInt < *Global_262145.f_33957)
 			num = 0;
 	}
 	else if (hParam0 == -131348178)
 	{
-		if (!*Global_262145.f_33969 && cloudTimeAsInt < *Global_262145.f_33953)
+		if (!*Global_262145.f_33970 && cloudTimeAsInt < *Global_262145.f_33954)
 			num = 0;
 	}
 	else if (hParam0 == 268758436)
 	{
-		if (!*Global_262145.f_33958 && cloudTimeAsInt < *Global_262145.f_33942)
+		if (!*Global_262145.f_33959 && cloudTimeAsInt < *Global_262145.f_33943)
 			num = 0;
 	}
 	else if (hParam0 == 1076201208)
 	{
-		if (!*Global_262145.f_33961 && cloudTimeAsInt < *Global_262145.f_33945)
+		if (!*Global_262145.f_33962 && cloudTimeAsInt < *Global_262145.f_33946)
 			num = 0;
 	}
 	else if (hParam0 == 669204833)
 	{
-		if (!*Global_262145.f_33970 && cloudTimeAsInt < *Global_262145.f_33955)
+		if (!*Global_262145.f_33971 && cloudTimeAsInt < *Global_262145.f_33956)
 			num = 0;
 	}
 	else if (hParam0 == 1550581940)
 	{
-		if (!*Global_262145.f_33966 && cloudTimeAsInt < *Global_262145.f_33950)
+		if (!*Global_262145.f_33967 && cloudTimeAsInt < *Global_262145.f_33951)
 			num = 0;
 	}
 	else if (hParam0 == -1933242328)
 	{
-		if (!*Global_262145.f_33967 && cloudTimeAsInt < *Global_262145.f_33951)
+		if (!*Global_262145.f_33968 && cloudTimeAsInt < *Global_262145.f_33952)
 			num = 0;
 	}
 	else if (hParam0 == -461850249)
 	{
-		if (!*Global_262145.f_33964 && cloudTimeAsInt < *Global_262145.f_33948)
+		if (!*Global_262145.f_33965 && cloudTimeAsInt < *Global_262145.f_33949)
 			num = 0;
 	}
 	else if (hParam0 == joaat("taxi"))
 	{
-		if (!*Global_262145.f_33963 && cloudTimeAsInt < *Global_262145.f_33947)
+		if (!*Global_262145.f_33964 && cloudTimeAsInt < *Global_262145.f_33948)
 			num = 0;
 	}
 

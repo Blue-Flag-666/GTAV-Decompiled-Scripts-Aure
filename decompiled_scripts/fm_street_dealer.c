@@ -10213,7 +10213,7 @@ float func_277() // Position - 0xCD61
 
 BOOL func_278(BOOL bParam0) // Position - 0xCD6E
 {
-	if (!*Global_262145.f_34062)
+	if (!*Global_262145.f_34063)
 		return false;
 
 	if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())

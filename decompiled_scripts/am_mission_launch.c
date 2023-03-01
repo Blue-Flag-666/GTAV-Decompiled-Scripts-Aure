@@ -5520,7 +5520,7 @@ int func_172(int iParam0, BOOL bParam1, int iParam2) // Position - 0x63E0
 	if (iParam0 >= 8000)
 		iParam0 = 8000;
 
-	return Global_297010[iParam0];
+	return Global_297011[iParam0];
 }
 
 BOOL func_173() // Position - 0x6408
@@ -5660,12 +5660,12 @@ int func_185(int iParam0, int iParam1) // Position - 0x6607
 			return num;
 		}
 	
-		if (Global_297010[num] == iParam0)
+		if (Global_297011[num] == iParam0)
 		{
 			value = num;
 			value2 = num;
 		}
-		else if (Global_297010[num] < iParam0)
+		else if (Global_297011[num] < iParam0)
 		{
 			if (value2 == num)
 				value2 = value2 + 1;

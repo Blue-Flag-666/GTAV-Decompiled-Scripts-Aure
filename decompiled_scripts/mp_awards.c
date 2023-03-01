@@ -949,9 +949,6 @@ void func_15(var uParam0) // Position - 0xED6
 					if (Global_262145.f_24717)
 						num2 = num2 + 1;
 				
-					if (!*Global_262145.f_33910)
-						num2 = num2 + 1;
-				
 					if (!*Global_262145.f_33911)
 						num2 = num2 + 1;
 				
@@ -959,9 +956,12 @@ void func_15(var uParam0) // Position - 0xED6
 						num2 = num2 + 1;
 				
 					if (!*Global_262145.f_33913)
-						num2 = num2 + 6;
+						num2 = num2 + 1;
 				
 					if (!*Global_262145.f_33914)
+						num2 = num2 + 6;
+				
+					if (!*Global_262145.f_33915)
 						num2 = num2 + 2;
 				
 					if (!func_123())
@@ -1127,9 +1127,6 @@ void func_15(var uParam0) // Position - 0xED6
 					iLocal_110 = 1;
 					iLocal_111 = 12;
 				
-					if (!*Global_262145.f_33910)
-						iLocal_111 = iLocal_111 - 1;
-				
 					if (!*Global_262145.f_33911)
 						iLocal_111 = iLocal_111 - 1;
 				
@@ -1137,9 +1134,12 @@ void func_15(var uParam0) // Position - 0xED6
 						iLocal_111 = iLocal_111 - 1;
 				
 					if (!*Global_262145.f_33913)
-						iLocal_111 = iLocal_111 - 6;
+						iLocal_111 = iLocal_111 - 1;
 				
 					if (!*Global_262145.f_33914)
+						iLocal_111 = iLocal_111 - 6;
+				
+					if (!*Global_262145.f_33915)
 						iLocal_111 = iLocal_111 - 2;
 				
 					if (!func_123())
@@ -1648,16 +1648,16 @@ void func_15(var uParam0) // Position - 0xED6
 						case 16:
 							if (!Global_1652549.f_1[0])
 							{
-								if (*Global_262145.f_33910)
+								if (*Global_262145.f_33911)
 									func_114(123, 8, num3, &Global_1652549);
 							
-								if (*Global_262145.f_33911)
+								if (*Global_262145.f_33912)
 									func_114(124, 8, num3, &Global_1652549);
 							
-								if (*Global_262145.f_33912)
+								if (*Global_262145.f_33913)
 									func_114(125, 8, num3, &Global_1652549);
 							
-								if (*Global_262145.f_33913)
+								if (*Global_262145.f_33914)
 								{
 									func_101(152, 8, num3, &Global_1652549);
 									func_101(153, 8, num3, &Global_1652549);
@@ -1668,13 +1668,13 @@ void func_15(var uParam0) // Position - 0xED6
 								if (func_123())
 									func_114(126, 8, num3, &Global_1652549);
 							
-								if (*Global_262145.f_33913)
+								if (*Global_262145.f_33914)
 								{
 									func_101(156, 8, num3, &Global_1652549);
 									func_101(157, 8, num3, &Global_1652549);
 								}
 							
-								if (*Global_262145.f_33914)
+								if (*Global_262145.f_33915)
 								{
 									func_114(127, 8, num3, &Global_1652549);
 									func_101(158, 8, num3, &Global_1652549);
@@ -2438,16 +2438,16 @@ void func_15(var uParam0) // Position - 0xED6
 								func_114(122, 8, num3, &Global_1652549);
 								func_101(151, 8, num3, &Global_1652549);
 							
-								if (*Global_262145.f_33910)
+								if (*Global_262145.f_33911)
 									func_114(123, 8, num3, &Global_1652549);
 							
-								if (*Global_262145.f_33911)
+								if (*Global_262145.f_33912)
 									func_114(124, 8, num3, &Global_1652549);
 							
-								if (*Global_262145.f_33912)
+								if (*Global_262145.f_33913)
 									func_114(125, 8, num3, &Global_1652549);
 							
-								if (*Global_262145.f_33913)
+								if (*Global_262145.f_33914)
 								{
 									func_101(152, 8, num3, &Global_1652549);
 									func_101(153, 8, num3, &Global_1652549);
@@ -2458,7 +2458,7 @@ void func_15(var uParam0) // Position - 0xED6
 								if (func_123())
 									func_114(126, 8, num3, &Global_1652549);
 							
-								if (*Global_262145.f_33913)
+								if (*Global_262145.f_33914)
 								{
 									func_101(156, 8, num3, &Global_1652549);
 									func_101(157, 8, num3, &Global_1652549);
@@ -2474,7 +2474,7 @@ void func_15(var uParam0) // Position - 0xED6
 						case 0:
 							if (!Global_1652549.f_1[0])
 							{
-								if (*Global_262145.f_33914)
+								if (*Global_262145.f_33915)
 								{
 									func_114(127, 8, num3, &Global_1652549);
 									func_101(158, 8, num3, &Global_1652549);
